@@ -1,0 +1,15 @@
+# 系统临时文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+
+# 缓存与临时
+*.tmp
+*.log
+__pycache__/
