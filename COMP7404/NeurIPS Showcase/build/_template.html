@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NeurIPS 2025 Oral &amp; Spotlight 论文分类检索</title>
+<style>
+  :root{
+    --bg:#f3f4f8;
+    --card:#ffffff;
+    --ink:#17203a;
+    --muted:#667085;
+    --line:#e6e8f0;
+    --brand:#4f46e5;
+    --brand-strong:#4338ca;
+    --brand-soft:#eef2ff;
+    --mark:#fde68a;
+    --radius:16px;
+    --shadow:0 1px 2px rgba(16,24,40,.06),0 4px 16px rgba(16,24,40,.06);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Hiragino Sans GB","Noto Sans CJK SC",sans-serif;
+    font-size:14px;line-height:1.55;
+  }
+  button,input,select{font:inherit;color:inherit}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:
+      radial-gradient(1100px 320px at 18% -40%, rgba(99,102,241,.55), transparent 62%),
+      radial-gradient(900px 300px at 86% -30%, rgba(217,70,239,.30), transparent 60%),
+      linear-gradient(135deg,#0f172a,#1e1b4b 55%,#312e81);
+    color:#fff;text-align:center;padding:44px 20px 76px;
+  }
+  .hero h1{margin:0 0 10px;font-size:26px;font-weight:800;letter-spacing:.5px}
+  .hero .sub{margin:0;color:#c7d2fe;font-size:13.5px}
+  .hero .sub b{color:#fff;font-weight:700}
+
+  /* ---------- Layout ---------- */
+  main{max-width:1120px;margin:-44px auto 48px;padding:0 20px;position:relative}
+  .panel{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px;margin-bottom:16px}
+  .panel-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+  .panel-head h2{margin:0;font-size:15px;font-weight:800}
+  .hint{color:var(--muted);font-size:12px}
+  .lg{display:inline-flex;align-items:center;gap:5px;color:var(--muted);font-size:12px;margin-left:auto}
+  .sw{width:10px;height:10px;border-radius:3px;display:inline-block}
+  .sw.gold{background:linear-gradient(135deg,#fbbf24,#f59e0b)}
+  .sw.purple{background:linear-gradient(135deg,#a5b4fc,#6366f1)}
+
+  /* ---------- Stats cards ---------- */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+  .stat{
+    position:relative;background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:16px 18px 14px 22px;border:1.5px solid transparent;overflow:hidden;
+  }
+  .stat[data-g]{cursor:pointer;transition:transform .12s,box-shadow .12s,border-color .12s}
+  .stat[data-g]:hover{transform:translateY(-2px);box-shadow:0 6px 22px rgba(79,70,229,.16)}
+  .stat[data-g].on{border-color:#c7d2fe;box-shadow:0 0 0 3px #eef2ff,var(--shadow)}
+  .stat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:#e2e5f0}
+  .stat[data-g="all"]::before{background:linear-gradient(#818cf8,#4f46e5)}
+  .stat[data-g="oral"]::before{background:linear-gradient(#fbbf24,#d97706)}
+  .stat[data-g="spotlight"]::before{background:linear-gradient(#a5b4fc,#6366f1)}
+  .stat .num{font-size:30px;font-weight:800;line-height:1.15;font-variant-numeric:tabular-nums}
+  .stat .lab{color:var(--muted);font-size:12.5px;margin-top:2px}
+  .stat .pct{color:#98a2b3;font-size:11.5px;margin-top:1px;font-variant-numeric:tabular-nums}
+  .stat[data-g] .lab::after{content:" · 点击筛选";color:#c3c9d6;font-size:11px}
+
+  /* ---------- Topic bars ---------- */
+  .bars{display:grid;grid-template-columns:1fr 1fr;column-gap:26px;row-gap:2px}
+  .barrow{
+    display:grid;grid-template-columns:122px 1fr 46px;gap:10px;align-items:center;
+    width:100%;background:none;border:0;padding:5px 8px;border-radius:10px;
+    cursor:pointer;text-align:left;transition:background .12s;
+  }
+  .barrow:hover{background:#f6f7fe}
+  .barrow.on{background:var(--brand-soft);box-shadow:inset 0 0 0 1.5px #c7d2fe}
+  .bname{font-size:12.5px;color:#344054;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .barrow.on .bname{color:var(--brand-strong);font-weight:700}
+  .btrack{height:14px;background:#eef0f6;border-radius:999px;overflow:hidden}
+  .bfill{
+    display:block;height:100%;border-radius:999px;min-width:8px;
+    background:linear-gradient(90deg,#c7d2fe,#6366f1);
+    transition:width .25s ease;display:flex;overflow:hidden;
+  }
+  .boral{display:block;height:100%;background:linear-gradient(90deg,#fbbf24,#f59e0b);max-width:100%}
+  .bnum{font-size:12.5px;color:#475467;text-align:right;font-variant-numeric:tabular-nums}
+
+  /* ---------- Toolbar ---------- */
+  .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+  #q{
+    flex:1 1 260px;min-width:220px;padding:10px 14px;border:1.5px solid var(--line);
+    border-radius:11px;outline:none;background:#fafbfe;transition:border-color .12s,box-shadow .12s;
+  }
+  #q:focus{border-color:#a5b4fc;box-shadow:0 0 0 3px var(--brand-soft);background:#fff}
+  .seg{display:inline-flex;background:#eef0f6;border-radius:11px;padding:3px;gap:2px}
+  .seg button{
+    border:0;background:transparent;padding:7px 15px;border-radius:9px;cursor:pointer;
+    font-size:13px;color:#475467;transition:all .12s;white-space:nowrap;
+  }
+  .seg button:hover{color:var(--brand-strong)}
+  .seg button.on{background:#fff;color:var(--brand-strong);font-weight:700;box-shadow:0 1px 3px rgba(16,24,40,.14)}
+  .seg .cnt{color:#98a2b3;font-size:11px;margin-left:3px;font-variant-numeric:tabular-nums}
+  .seg button.on .cnt{color:var(--brand)}
+  select{
+    padding:9px 10px;border:1.5px solid var(--line);border-radius:11px;background:#fafbfe;
+    outline:none;cursor:pointer;color:#344054;
+  }
+  .btn{
+    border:1.5px solid var(--line);background:#fff;padding:9px 16px;border-radius:11px;
+    cursor:pointer;color:#475467;transition:all .12s;
+  }
+  .btn:hover{border-color:#c7d2fe;color:var(--brand-strong);background:var(--brand-soft)}
+
+  /* ---------- List ---------- */
+  .list-panel{padding:0;overflow:hidden}
+  .list-head{
+    display:flex;align-items:center;gap:10px;padding:13px 20px;border-bottom:1px solid var(--line);
+    font-size:13px;color:var(--muted);position:sticky;top:0;background:#fff;z-index:5;
+  }
+  #count b{color:var(--ink);font-variant-numeric:tabular-nums}
+  .active-tags{display:flex;flex-wrap:wrap;gap:6px}
+  .active-tags .tag.on{background:#eef2ff}
+  .list{max-height:72vh;overflow:auto}
+  .item{
+    display:grid;grid-template-columns:50px 82px 1fr;gap:12px;align-items:start;
+    padding:12px 20px;border-bottom:1px solid #f0f1f6;transition:background .1s;
+  }
+  .item:last-child{border-bottom:0}
+  .item:hover{background:#fafbff}
+  .idx{color:#98a2b3;font-size:12px;text-align:right;padding-top:4px;font-variant-numeric:tabular-nums}
+  .badge{
+    display:block;text-align:center;font-size:11px;font-weight:700;letter-spacing:.4px;
+    color:#fff;padding:3px 0;border-radius:999px;margin-top:2px;
+  }
+  .badge.oral{background:linear-gradient(135deg,#f59e0b,#d97706)}
+  .badge.spot{background:linear-gradient(135deg,#6366f1,#8b5cf6)}
+  .title{margin:0 0 6px;font-size:14.5px;font-weight:600;line-height:1.45;overflow-wrap:anywhere}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{
+    border:1px solid #e0e7ff;background:#f4f6ff;color:#4338ca;border-radius:999px;
+    padding:1.5px 11px;font-size:11.5px;cursor:pointer;transition:all .12s;line-height:1.5;
+  }
+  .tag:hover{background:#e0e7ff}
+  .tag.on{background:var(--brand);border-color:var(--brand);color:#fff}
+  mark{background:var(--mark);border-radius:3px;padding:0 2px}
+  .empty{padding:56px 20px;text-align:center;color:var(--muted)}
+  .empty .btn{margin-top:14px}
+
+  @media (max-width:860px){
+    .bars{grid-template-columns:1fr}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .hero h1{font-size:21px}
+  }
+  @media (max-width:560px){
+    .barrow{grid-template-columns:96px 1fr 40px}
+    .item{grid-template-columns:34px 1fr;grid-template-rows:auto auto}
+    .badge{grid-row:1;grid-column:1}
+    .ibody{grid-column:2;grid-row:1 / span 2}
+    .idx{grid-row:1;grid-column:1}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>NeurIPS 2025 · Oral &amp; Spotlight 论文分类检索</h1>
+  <p class="sub">共 <b id="hTotal">–</b> 篇论文 ｜ <b id="hOral">–</b> Oral ｜ <b id="hSpot">–</b> Spotlight ｜ <b id="hTags">–</b> 个主题</p>
+</header>
+
+<main>
+  <section class="stats">
+    <div class="stat" data-g="all" title="点击查看全部">
+      <div class="num" id="sTotal">–</div>
+      <div class="lab">论文总数</div>
+    </div>
+    <div class="stat" data-g="oral" title="点击只看 Oral">
+      <div class="num" id="sOral">–</div>
+      <div class="lab">Oral</div>
+      <div class="pct" id="pOral"></div>
+    </div>
+    <div class="stat" data-g="spotlight" title="点击只看 Spotlight">
+      <div class="num" id="sSpot">–</div>
+      <div class="lab">Spotlight</div>
+      <div class="pct" id="pSpot"></div>
+    </div>
+    <div class="stat">
+      <div class="num" id="sTags">–</div>
+      <div class="lab">主题标签</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>主题分布</h2>
+      <span class="hint">点击条形图筛选主题（可多选）；金色段为 Oral 占比</span>
+      <span class="lg"><i class="sw gold"></i>Oral</span>
+      <span class="lg" style="margin-left:0"><i class="sw purple"></i>Spotlight</span>
+    </div>
+    <div class="bars" id="bars"></div>
+  </section>
+
+  <section class="panel toolbar">
+    <input id="q" type="search" placeholder="搜索标题或主题，空格分隔多个关键词（需全部命中）…" autocomplete="off" spellcheck="false">
+    <div class="seg" id="groupSeg">
+      <button data-g="all" class="on">全部</button>
+      <button data-g="oral">Oral</button>
+      <button data-g="spotlight">Spotlight</button>
+    </div>
+    <select id="sort" title="排序方式">
+      <option value="title">标题 A→Z</option>
+      <option value="title-desc">标题 Z→A</option>
+      <option value="group">Oral 优先</option>
+    </select>
+    <button class="btn" id="clear">清空筛选</button>
+  </section>
+
+  <section class="panel list-panel">
+    <div class="list-head">
+      <span id="count"></span>
+      <span class="active-tags" id="activeTags"></span>
+    </div>
+    <div class="list" id="list"></div>
+  </section>
+</main>
+
+<script>
+"use strict";
+const DATA = [];
+
+const state = { q: "", group: "all", tags: new Set(), sort: "title" };
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+function hl(text, ws){
+  if(!ws.length) return esc(text);
+  const re = new RegExp("(" + ws.map(escapeRe).join("|") + ")", "gi");
+  return text.split(re).map((seg, i) => i % 2 ? "<mark>" + esc(seg) + "</mark>" : esc(seg)).join("");
+}
+function words(){ return state.q.toLowerCase().split(/\s+/).filter(Boolean); }
+function cmpTitle(a, b){ return a.n.localeCompare(b.n, "en", { sensitivity: "base" }); }
+
+function tagStats(){
+  const m = new Map();
+  for(const d of DATA){
+    if(state.group !== "all" && d.g !== state.group) continue;
+    for(const t of d.t){
+      let o = m.get(t);
+      if(!o){ o = { total: 0, oral: 0 }; m.set(t, o); }
+      o.total++;
+      if(d.g === "oral") o.oral++;
+    }
+  }
+  return m;
+}
+
+function renderBars(){
+  const stats = tagStats();
+  const arr = [...stats.entries()].sort((a, b) => b[1].total - a[1].total || a[0].localeCompare(b[0], "zh"));
+  const max = arr.length ? arr[0][1].total : 1;
+  $("#bars").innerHTML = arr.map(([tag, s]) => {
+    const on = state.tags.has(tag) ? " on" : "";
+    const oralW = s.oral / s.total * 100;
+    return '<button class="barrow' + on + '" data-tag="' + esc(tag) + '" title="筛选主题：' + esc(tag) + '">'
+      + '<span class="bname">' + esc(tag) + '</span>'
+      + '<span class="btrack"><span class="bfill" style="width:' + (s.total / max * 100).toFixed(1) + '%">'
+      + '<span class="boral" style="width:' + oralW.toFixed(1) + '%"></span></span></span>'
+      + '<span class="bnum">' + s.total + '</span>'
+      + '</button>';
+  }).join("");
+}
+
+function renderList(){
+  const ws = words();
+  let arr = DATA.filter(d => {
+    if(state.group !== "all" && d.g !== state.group) return false;
+    if(state.tags.size && !d.t.some(t => state.tags.has(t))) return false;
+    if(ws.length){
+      const hay = (d.n + " " + d.t.join(" ")).toLowerCase();
+      if(!ws.every(w => hay.includes(w))) return false;
+    }
+    return true;
+  });
+  if(state.sort === "title") arr.sort(cmpTitle);
+  else if(state.sort === "title-desc") arr.sort((a, b) => cmpTitle(b, a));
+  else if(state.sort === "group") arr.sort((a, b) => (a.g === b.g ? 0 : a.g === "oral" ? -1 : 1) || cmpTitle(a, b));
+
+  $("#count").innerHTML = "显示 <b>" + arr.length + "</b> / " + DATA.length + " 篇";
+  $("#activeTags").innerHTML = [...state.tags].map(t =>
+    '<button class="tag on" data-tag="' + esc(t) + '" title="取消筛选">' + esc(t) + ' ✕</button>').join("");
+
+  if(!arr.length){
+    $("#list").innerHTML = '<div class="empty">没有匹配的论文<br><button class="btn empty-clear">清空全部筛选</button></div>';
+    return;
+  }
+  $("#list").innerHTML = arr.map((d, i) =>
+    '<article class="item">'
+    + '<span class="idx">' + (i + 1) + '</span>'
+    + '<span class="badge ' + (d.g === "oral" ? "oral" : "spot") + '">' + (d.g === "oral" ? "Oral" : "Spotlight") + '</span>'
+    + '<div class="ibody"><h3 class="title">' + hl(d.n, ws) + '</h3>'
+    + '<div class="tags">' + d.t.map(t =>
+        '<button class="tag' + (state.tags.has(t) ? " on" : "") + '" data-tag="' + esc(t) + '">' + esc(t) + '</button>'
+      ).join("") + '</div></div>'
+    + '</article>').join("");
+}
+
+function syncControls(){
+  document.querySelectorAll("#groupSeg button").forEach(b => b.classList.toggle("on", b.dataset.g === state.group));
+  document.querySelectorAll(".stat[data-g]").forEach(el => el.classList.toggle("on", el.dataset.g === state.group));
+}
+
+function renderAll(){ syncControls(); renderBars(); renderList(); }
+
+function toggleTag(tag){
+  if(state.tags.has(tag)) state.tags.delete(tag);
+  else state.tags.add(tag);
+  renderAll();
+}
+
+function clearAll(){
+  state.q = ""; $("#q").value = "";
+  state.group = "all";
+  state.tags.clear();
+  state.sort = "title"; $("#sort").value = "title";
+  renderAll();
+}
+
+(function init(){
+  const total = DATA.length;
+  const nOral = DATA.filter(d => d.g === "oral").length;
+  const nSpot = total - nOral;
+  const tags = new Set();
+  DATA.forEach(d => d.t.forEach(t => tags.add(t)));
+  $("#hTotal").textContent = total;
+  $("#hOral").textContent = nOral;
+  $("#hSpot").textContent = nSpot;
+  $("#hTags").textContent = tags.size;
+  $("#sTotal").textContent = total;
+  $("#sOral").textContent = nOral;
+  $("#sSpot").textContent = nSpot;
+  $("#sTags").textContent = tags.size;
+  $("#pOral").textContent = "占 " + (total ? (nOral / total * 100).toFixed(1) : "0.0") + "%";
+  $("#pSpot").textContent = "占 " + (total ? (nSpot / total * 100).toFixed(1) : "0.0") + "%";
+  const cntOf = g => DATA.filter(d => g === "all" || d.g === g).length;
+  document.querySelectorAll("#groupSeg button").forEach(b => {
+    const s = document.createElement("span");
+    s.className = "cnt"; s.textContent = cntOf(b.dataset.g);
+    b.appendChild(s);
+  });
+  renderAll();
+
+  $("#q").addEventListener("input", e => { state.q = e.target.value.trim(); renderList(); });
+  $("#q").addEventListener("keydown", e => { if(e.key === "Escape"){ e.target.value = ""; state.q = ""; renderList(); } });
+  $("#groupSeg").addEventListener("click", e => {
+    const b = e.target.closest("button[data-g]"); if(!b) return;
+    state.group = b.dataset.g; renderAll();
+  });
+  document.querySelectorAll(".stat[data-g]").forEach(el =>
+    el.addEventListener("click", () => { state.group = el.dataset.g; renderAll(); }));
+  $("#bars").addEventListener("click", e => {
+    const b = e.target.closest(".barrow"); if(!b) return;
+    toggleTag(b.dataset.tag);
+  });
+  $("#list").addEventListener("click", e => {
+    if(e.target.closest(".empty-clear")){ clearAll(); return; }
+    const t = e.target.closest(".tag[data-tag]"); if(!t) return;
+    toggleTag(t.dataset.tag);
+  });
+  $("#activeTags").addEventListener("click", e => {
+    const t = e.target.closest(".tag[data-tag]"); if(!t) return;
+    toggleTag(t.dataset.tag);
+  });
+  $("#sort").addEventListener("change", e => { state.sort = e.target.value; renderList(); });
+  $("#clear").addEventListener("click", clearAll);
+})();
+</script>
+</body>
+</html>

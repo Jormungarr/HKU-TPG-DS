@@ -13,3 +13,11 @@ Desktop.ini
 *.tmp
 *.log
 __pycache__/
+
+# COMP7404 local-only large files (not tracked)
+COMP7404/NeurIPS Showcase/oral/
+COMP7404/NeurIPS Showcase/spotlight/
+COMP7404/A1/
+
+# local verification screenshots
+COMP7404/NeurIPS Showcase/_verify_*.png
