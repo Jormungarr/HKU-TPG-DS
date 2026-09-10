@@ -5,7 +5,7 @@ const path = require("path");
 const dir = __dirname;
 const CSV_FILE = path.join(dir, "NeurIPS2025_oral_spotlight_论文分类清单.csv");
 const TPL_FILE = path.join(dir, "_template.html");
-const OUT_FILE = path.join(dir, "..", "index.html");
+const OUT_FILE = path.join(dir, "..", "neurips2025-oral-spotlight", "index.html");
 
 function parseCSV(text) {
   const rows = [];

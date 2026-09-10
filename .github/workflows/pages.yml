@@ -28,10 +28,16 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      # 只发布分类检索页：仅拷贝 neurips2025-oral-spotlight 子目录，其余文件不进网站
+      - name: Stage site (paper explorer only)
+        run: |
+          mkdir -p _site
+          cp -R "COMP7404/NeurIPS Showcase/neurips2025-oral-spotlight" "_site/neurips2025-oral-spotlight"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "COMP7404/NeurIPS Showcase"
+          path: _site
 
   deploy:
     needs: build
