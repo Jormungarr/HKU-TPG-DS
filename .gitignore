@@ -21,3 +21,8 @@ COMP7404/A1/
 
 # local verification screenshots
 COMP7404/NeurIPS Showcase/_verify_*.png
+
+# local-large-data-and-temp (auto)
+COMP7404/NeurIPS Showcase/abstracts/*.jsonl
+COMP7404/NeurIPS Showcase/build/*.bak.csv
+COMP7404/_verify_*.png

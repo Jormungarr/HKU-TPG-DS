@@ -137,7 +137,26 @@
   }
   .badge.oral{background:linear-gradient(135deg,#f59e0b,#d97706)}
   .badge.spot{background:linear-gradient(135deg,#6366f1,#8b5cf6)}
-  .title{margin:0 0 6px;font-size:14.5px;font-weight:600;line-height:1.45;overflow-wrap:anywhere}
+  .title{margin:0 0 6px}
+  .tbtn{
+    display:block;width:100%;background:none;border:0;padding:0;text-align:left;
+    font-size:14.5px;font-weight:600;line-height:1.45;overflow-wrap:anywhere;color:var(--ink);
+    cursor:pointer;border-radius:6px;transition:color .12s;
+  }
+  .tbtn:hover{color:var(--brand-strong)}
+  .tbtn:focus-visible{outline:2px solid #a5b4fc;outline-offset:2px}
+  .tbtn .chev{color:#98a2b3;font-size:11px;margin-left:5px;display:inline-block;transition:transform .15s}
+  .tbtn.open .chev{transform:rotate(90deg)}
+  .abstract{
+    margin:10px 0 2px;padding:12px 14px;background:#f7f8fc;border:1px solid var(--line);
+    border-radius:12px;font-size:13px;line-height:1.68;color:#3f4756;
+  }
+  .abstract[hidden]{display:none}
+  .abstract p{margin:0 0 9px;white-space:pre-wrap;overflow-wrap:anywhere}
+  .abstract .src{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:12px;color:var(--muted)}
+  .abstract .src a{color:var(--brand-strong);font-weight:600;text-decoration:none}
+  .abstract .src a:hover{text-decoration:underline}
+  .abstract .none{color:var(--muted)}
   .tags{display:flex;flex-wrap:wrap;gap:6px}
   .tag{
     border:1px solid #e0e7ff;background:#f4f6ff;color:#4338ca;border-radius:999px;
@@ -243,6 +262,29 @@ function hl(text, ws){
 function words(){ return state.q.toLowerCase().split(/\s+/).filter(Boolean); }
 function cmpTitle(a, b){ return a.n.localeCompare(b.n, "en", { sensitivity: "base" }); }
 
+function abstractHtml(d){
+  if(!d.a){
+    return '<div class="abstract" hidden><p class="none">暂无摘要（未在 arXiv / OpenReview 匹配到）</p></div>';
+  }
+  const parts = [];
+  if(d.u){
+    parts.push('<a href="' + esc(d.u) + '" target="_blank" rel="noopener">arXiv'
+      + (d.id ? ' · ' + esc(d.id) : '') + ' ↗</a>');
+  }
+  if(d.s === "openreview") parts.push('<span>来源：OpenReview</span>');
+  return '<div class="abstract" hidden><p>' + esc(d.a) + '</p>'
+    + '<div class="src">' + parts.join('') + '</div></div>';
+}
+
+function toggleAbstract(btn){
+  const panel = btn.closest(".item").querySelector(".abstract");
+  if(!panel) return;
+  const open = panel.hasAttribute("hidden");
+  panel.toggleAttribute("hidden", !open);
+  btn.classList.toggle("open", open);
+  btn.setAttribute("aria-expanded", open ? "true" : "false");
+}
+
 function tagStats(){
   const m = new Map();
   for(const d of DATA){
@@ -300,11 +342,14 @@ function renderList(){
     '<article class="item">'
     + '<span class="idx">' + (i + 1) + '</span>'
     + '<span class="badge ' + (d.g === "oral" ? "oral" : "spot") + '">' + (d.g === "oral" ? "Oral" : "Spotlight") + '</span>'
-    + '<div class="ibody"><h3 class="title">' + hl(d.n, ws) + '</h3>'
+    + '<div class="ibody"><h3 class="title">'
+    + '<button class="tbtn" type="button" aria-expanded="false" title="点击展开摘要">'
+    + hl(d.n, ws) + '<span class="chev">▸</span></button></h3>'
     + '<div class="tags">' + d.t.map(t =>
         '<button class="tag' + (state.tags.has(t) ? " on" : "") + '" data-tag="' + esc(t) + '">' + esc(t) + '</button>'
-      ).join("") + '</div></div>'
-    + '</article>').join("");
+      ).join("") + '</div>'
+    + abstractHtml(d)
+    + '</div></article>').join("");
 }
 
 function syncControls(){
@@ -366,6 +411,8 @@ function clearAll(){
   });
   $("#list").addEventListener("click", e => {
     if(e.target.closest(".empty-clear")){ clearAll(); return; }
+    const tb = e.target.closest(".tbtn");
+    if(tb){ toggleAbstract(tb); return; }
     const t = e.target.closest(".tag[data-tag]"); if(!t) return;
     toggleTag(t.dataset.tag);
   });

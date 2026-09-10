@@ -1,0 +1,91 @@
+total=808  changed_tag1=331 (41.0%)  missing_abstract=0
+--- tag1 distribution ---
+ 102  LLM与语言模型
+ 100  计算机视觉
+  79  机器学习理论
+  60  生成模型扩散
+  58  安全对齐隐私
+  54  强化学习
+  50  优化与数学
+  34  高效推理加速
+  34  多模态视觉语言
+  32  AI4Science
+  27  概率因果贝叶斯
+  24  图与关系学习
+  22  训练数据方法
+  21  神经科学与认知
+  20  可解释性
+  18  Agent智能体
+  16  医疗健康
+  15  评测与基准
+  14  机器人具身
+   8  语音音频
+   7  世界模型与模拟
+   6  检索知识与记忆
+   4  领域应用
+   3  其他跨领域
+--- tag2 distribution ---
+  81  LLM与语言模型
+  49  机器学习理论
+  45  计算机视觉
+  39  生成模型扩散
+  35  优化与数学
+  32  强化学习
+  26  高效推理加速
+  20  评测与基准
+  19  多模态视觉语言
+  19  安全对齐隐私
+  17  训练数据方法
+  14  Agent智能体
+  13  概率因果贝叶斯
+  13  图与关系学习
+  11  机器人具身
+  11  AI4Science
+   8  可解释性
+   7  世界模型与模拟
+   7  领域应用
+   6  医疗健康
+   6  神经科学与认知
+   2  检索知识与记忆
+   1  语音音频
+--- changed samples (first 40) ---
+训练数据方法  [Advancing Expert Specialization for Better MoE]  ->  LLM与语言模型 (tag2=)
+机器学习理论  [Agnostic Active Learning Is Always Better Than Passive Learning]  ->  训练数据方法 (tag2=)
+高效推理加速  [Analog In-memory Training on General Non-ideal Resistive Elements_ The]  ->  优化与数学 (tag2=)
+多模态视觉语言  [Boosting Knowledge Utilization in Multimodal Large Language Models via]  ->  LLM与语言模型 (tag2=多模态视觉语言)
+训练数据方法  [Class-wise Balancing Data Replay for Federated Class-Incremental Learn]  ->  安全对齐隐私 (tag2=)
+评测与基准  [CoralVQA_ A Large-Scale Visual Question Answering Dataset for Coral Re]  ->  多模态视觉语言 (tag2=计算机视觉)
+LLM与语言模型  [Does Reinforcement Learning Really Incentivize Reasoning Capacity in L]  ->  强化学习 (tag2=评测与基准)
+机器学习理论  [Does Stochastic Gradient really succeed for bandits_]  ->  强化学习 (tag2=优化与数学)
+多模态视觉语言  [Dynam3D_ Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language]  ->  计算机视觉 (tag2=多模态视觉语言)
+评测与基准  [Envisioning Beyond the Pixels_ Benchmarking Reasoning-Informed Visual ]  ->  计算机视觉 (tag2=)
+机器学习理论  [From Condensation to Rank Collapse_ A Two-Stage Analysis of Transforme]  ->  LLM与语言模型 (tag2=优化与数学)
+可解释性  [GnnXemplar_ Exemplars to Explanations - Natural Language Rules for Glo]  ->  图与关系学习 (tag2=)
+可解释性  [ImageNet-trained CNNs are not biased towards texture_ Revisiting featu]  ->  计算机视觉 (tag2=医疗健康)
+优化与数学  [Improved Regret Bounds for Gaussian Process Upper Confidence Bound in ]  ->  机器学习理论 (tag2=概率因果贝叶斯)
+多模态视觉语言  [Interactive Cross-modal Learning for Text-3D Scene Retrieval]  ->  检索知识与记忆 (tag2=计算机视觉)
+机器学习理论  [Learning (Approximately) Equivariant Networks via Constrained Optimiza]  ->  优化与数学 (tag2=)
+机器学习理论  [Learning long range dependencies through time reversal symmetry breaki]  ->  AI4Science (tag2=机器人具身)
+训练数据方法  [Learning to Learn with Contrastive Meta-Objective]  ->  强化学习 (tag2=LLM与语言模型)
+训练数据方法  [MaxSup_ Overcoming Representation Collapse in Label Smoothing]  ->  计算机视觉 (tag2=优化与数学)
+机器学习理论  [On Linear Mode Connectivity of Mixture-of-Experts Architectures]  ->  优化与数学 (tag2=)
+计算机视觉  [OpenHOI_ Open-World Hand-Object Interaction Synthesis with Multimodal ]  ->  多模态视觉语言 (tag2=机器人具身)
+计算机视觉  [OrthoLoC_ UAV 6-DoF Localization and Calibration Using Orthographic Ge]  ->  机器人具身 (tag2=概率因果贝叶斯)
+计算机视觉  [Pan-LUT_ Efficient Pan-sharpening via Learnable Look-Up Tables]  ->  高效推理加速 (tag2=)
+世界模型与模拟  [PlayerOne_ Egocentric World Simulator]  ->  计算机视觉 (tag2=世界模型与模拟)
+图与关系学习  [RAG4GFM_ Bridging Knowledge Gaps in Graph Foundation Models through Gr]  ->  检索知识与记忆 (tag2=)
+计算机视觉  [Rethinking Joint Maximum Mean Discrepancy for Visual Domain Adaptation]  ->  机器学习理论 (tag2=)
+机器人具身  [SAGE_ A Unified Framework for Generalizable Object State Recognition w]  ->  计算机视觉 (tag2=)
+多模态视觉语言  [SAVVY_ Spatial Awareness via Audio-Visual LLMs through Seeing and Hear]  ->  语音音频 (tag2=)
+机器学习理论  [Spectral Perturbation Bounds for Low-Rank Approximation with Applicati]  ->  优化与数学 (tag2=安全对齐隐私)
+机器学习理论  [The emergence of sparse attention_ impact of data distribution and ben]  ->  优化与数学 (tag2=高效推理加速)
+领域应用  [TransferTraj_ A Vehicle Trajectory Learning Model for Region and Task ]  ->  强化学习 (tag2=LLM与语言模型)
+高效推理加速  [Understanding and Mitigating Numerical Sources of Nondeterminism in LL]  ->  LLM与语言模型 (tag2=高效推理加速)
+机器人具身  [3D Equivariant Visuomotor Policy Learning via Spherical Projection]  ->  计算机视觉 (tag2=)
+评测与基准  [A Controllable Examination for Long-Context Language Models]  ->  安全对齐隐私 (tag2=LLM与语言模型)
+机器学习理论  [A Principled Approach to Randomized Selection under Uncertainty_ Appli]  ->  概率因果贝叶斯 (tag2=优化与数学)
+评测与基准  [Absence Bench_ Language Models Can’t See What’s Missing]  ->  LLM与语言模型 (tag2=)
+领域应用  [Abstain Mask Retain Core_ Time Series Prediction by Adaptive Masking L]  ->  机器学习理论 (tag2=优化与数学)
+优化与数学  [Accelerating data-driven algorithm selection for combinatorial partiti]  ->  多模态视觉语言 (tag2=机器学习理论)
+高效推理加速  [Accelerating Diffusion LLMs via Adaptive Parallel Decoding]  ->  LLM与语言模型 (tag2=生成模型扩散)
+机器人具身  [Accelerating Visual-Policy Learning through Parallel Differentiable Si]  ->  计算机视觉 (tag2=评测与基准)

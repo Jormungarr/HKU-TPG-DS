@@ -1,809 +1,809 @@
 ﻿分组,主题标签1,主题标签2,论文标题
-oral,强化学习,,1000 Layer Networks for Self-Supervised RL_ Scaling Depth Can Enable New Goal-Reaching Capabilities
+oral,强化学习,训练数据方法,1000 Layer Networks for Self-Supervised RL_ Scaling Depth Can Enable New Goal-Reaching Capabilities
 oral,强化学习,,A Clean Slate for Offline Reinforcement Learning
-oral,可解释性,,A is for Absorption_ Studying Feature Splitting and Absorption in Sparse Autoencoders
-oral,机器学习理论,,A multiscale analysis of mean-field transformers in the moderate interaction regime
-oral,强化学习,训练数据方法,A Snapshot of Influence_ A Local Data Attribution Framework for Online Reinforcement Learning
-oral,神经科学与认知,强化学习,Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks
-oral,生成模型扩散,概率因果贝叶斯,Adjoint Schrödinger Bridge Sampler
-oral,训练数据方法,,Advancing Expert Specialization for Better MoE
-oral,机器学习理论,,Agnostic Active Learning Is Always Better Than Passive Learning
-oral,机器学习理论,,An Optimized Franz-Parisi Criterion and its Equivalence with SQ Lower Bounds
-oral,高效推理加速,,Analog In-memory Training on General Non-ideal Resistive Elements_ The Impact of Response Functions
-oral,LLM与语言模型,,Artificial Hivemind_ The Open-Ended Homogeneity of Language Models (and Beyond)
-oral,高效推理加速,,Auto-Compressing Networks
-oral,计算机视觉,训练数据方法,BEDLAM2.0_ Synthetic humans and cameras in motion
-oral,多模态视觉语言,,Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation
-oral,强化学习,,Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies
-oral,训练数据方法,,Class-wise Balancing Data Replay for Federated Class-Incremental Learning
-oral,计算机视觉,多模态视觉语言,ControlFusion_ A Controllable Image Fusion Network with Language-Vision Degradation Prompts
-oral,评测与基准,多模态视觉语言,CoralVQA_ A Large-Scale Visual Question Answering Dataset for Coral Reef Image Understanding
-oral,生成模型扩散,计算机视觉,Deep Compositional Phase Diffusion for Long Motion Sequence Generation
+oral,可解释性,优化与数学,A is for Absorption_ Studying Feature Splitting and Absorption in Sparse Autoencoders
+oral,机器学习理论,LLM与语言模型,A multiscale analysis of mean-field transformers in the moderate interaction regime
+oral,强化学习,可解释性,A Snapshot of Influence_ A Local Data Attribution Framework for Online Reinforcement Learning
+oral,神经科学与认知,机器人具身,Adaptive Surrogate Gradients for Sequential Reinforcement Learning in Spiking Neural Networks
+oral,生成模型扩散,,Adjoint Schrödinger Bridge Sampler
+oral,LLM与语言模型,,Advancing Expert Specialization for Better MoE
+oral,训练数据方法,,Agnostic Active Learning Is Always Better Than Passive Learning
+oral,机器学习理论,计算机视觉,An Optimized Franz-Parisi Criterion and its Equivalence with SQ Lower Bounds
+oral,优化与数学,,Analog In-memory Training on General Non-ideal Resistive Elements_ The Impact of Response Functions
+oral,LLM与语言模型,概率因果贝叶斯,Artificial Hivemind_ The Open-Ended Homogeneity of Language Models (and Beyond)
+oral,高效推理加速,机器学习理论,Auto-Compressing Networks
+oral,计算机视觉,,BEDLAM2.0_ Synthetic humans and cameras in motion
+oral,LLM与语言模型,多模态视觉语言,Boosting Knowledge Utilization in Multimodal Large Language Models via Adaptive Logits Fusion and Attention Reallocation
+oral,强化学习,Agent智能体,Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies
+oral,安全对齐隐私,,Class-wise Balancing Data Replay for Federated Class-Incremental Learning
+oral,计算机视觉,LLM与语言模型,ControlFusion_ A Controllable Image Fusion Network with Language-Vision Degradation Prompts
+oral,多模态视觉语言,计算机视觉,CoralVQA_ A Large-Scale Visual Question Answering Dataset for Coral Reef Image Understanding
+oral,生成模型扩散,概率因果贝叶斯,Deep Compositional Phase Diffusion for Long Motion Sequence Generation
 oral,机器学习理论,,Depth-Bounds for Neural Networks via the Braid Arrangement
 oral,图与关系学习,,Discovering Opinion Intervals from Conflicts in Signed Graphs
-oral,LLM与语言模型,强化学习,Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model_
-oral,机器学习理论,,Does Stochastic Gradient really succeed for bandits_
-oral,多模态视觉语言,机器人具身,Dynam3D_ Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation
+oral,强化学习,评测与基准,Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model_
+oral,强化学习,优化与数学,Does Stochastic Gradient really succeed for bandits_
+oral,计算机视觉,多模态视觉语言,Dynam3D_ Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation
 oral,机器学习理论,,Dynamical Decoupling of Generalization and Overfitting in Large Two-Layer Networks
 oral,高效推理加速,安全对齐隐私,Dynamical Low-Rank Compression of Neural Networks with Robustness under Adversarial Attacks
-oral,高效推理加速,多模态视觉语言,ElasticMM_ Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism
-oral,评测与基准,计算机视觉,Envisioning Beyond the Pixels_ Benchmarking Reasoning-Informed Visual Editing
-oral,LLM与语言模型,训练数据方法,EvoLM_ In Search of Lost Training Dynamics for Language Model Reasoning
-oral,生成模型扩散,训练数据方法,Exploring Diffusion Transformer Designs via Grafting
-oral,机器学习理论,,From Condensation to Rank Collapse_ A Two-Stage Analysis of Transformer Training Dynamics
-oral,AI4Science,领域应用,FuXi-Ocean_ A Global Ocean Forecasting System with Sub-Daily Resolution
-oral,LLM与语言模型,,"Gated Attention for Large Language Models_ Non-linearity, Sparsity, and Attention-Sink-Free"
+oral,高效推理加速,,ElasticMM_ Efficient Multimodal LLMs Serving with Elastic Multimodal Parallelism
+oral,计算机视觉,,Envisioning Beyond the Pixels_ Benchmarking Reasoning-Informed Visual Editing
+oral,LLM与语言模型,评测与基准,EvoLM_ In Search of Lost Training Dynamics for Language Model Reasoning
+oral,生成模型扩散,LLM与语言模型,Exploring Diffusion Transformer Designs via Grafting
+oral,LLM与语言模型,优化与数学,From Condensation to Rank Collapse_ A Two-Stage Analysis of Transformer Training Dynamics
+oral,AI4Science,,FuXi-Ocean_ A Global Ocean Forecasting System with Sub-Daily Resolution
+oral,LLM与语言模型,优化与数学,"Gated Attention for Large Language Models_ Non-linearity, Sparsity, and Attention-Sink-Free"
 oral,优化与数学,,"Generalized Gradient Norm Clipping & Non-Euclidean $(L_0,L_1)$-Smoothness"
-oral,机器学习理论,,Generalized Linear Mode Connectivity for Transformers
-oral,可解释性,图与关系学习,GnnXemplar_ Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability
+oral,机器学习理论,计算机视觉,Generalized Linear Mode Connectivity for Transformers
+oral,图与关系学习,,GnnXemplar_ Exemplars to Explanations - Natural Language Rules for Global GNN Interpretability
 oral,机器学习理论,,High-Dimensional Calibration from Swap Regret
 oral,神经科学与认知,,High-dimensional neuronal activity from low-dimensional latent dynamics_ a solvable model
-oral,多模态视觉语言,高效推理加速,HyperET_ Efficient Training in Hyperbolic Space for Multi-modal Large Language Models
+oral,多模态视觉语言,,HyperET_ Efficient Training in Hyperbolic Space for Multi-modal Large Language Models
 oral,机器学习理论,,Identifiability of Deep Polynomial Neural Networks
-oral,可解释性,计算机视觉,ImageNet-trained CNNs are not biased towards texture_ Revisiting feature reliance through controlled suppression
-oral,优化与数学,概率因果贝叶斯,Improved Regret Bounds for Gaussian Process Upper Confidence Bound in Bayesian Optimization
+oral,计算机视觉,医疗健康,ImageNet-trained CNNs are not biased towards texture_ Revisiting feature reliance through controlled suppression
+oral,机器学习理论,概率因果贝叶斯,Improved Regret Bounds for Gaussian Process Upper Confidence Bound in Bayesian Optimization
 oral,优化与数学,,In Search of Adam’s Secret Sauce
-oral,生成模型扩散,计算机视觉,InfinityStar_ Uniﬁed Spacetime AutoRegressive Modeling for Visual Generation
-oral,多模态视觉语言,计算机视觉,Interactive Cross-modal Learning for Text-3D Scene Retrieval
+oral,生成模型扩散,,InfinityStar_ Uniﬁed Spacetime AutoRegressive Modeling for Visual Generation
+oral,检索知识与记忆,计算机视觉,Interactive Cross-modal Learning for Text-3D Scene Retrieval
 oral,高效推理加速,LLM与语言模型,KVzip_ Query-Agnostic KV Cache Compression with Context Reconstruction
 oral,LLM与语言模型,生成模型扩散,Large Language Diffusion Models
-oral,机器学习理论,,Learning (Approximately) Equivariant Networks via Constrained Optimization
-oral,机器学习理论,,Learning Linear Attention in Polynomial Time
-oral,机器学习理论,,Learning long range dependencies through time reversal symmetry breaking
-oral,训练数据方法,,Learning to Learn with Contrastive Meta-Objective
-oral,训练数据方法,,MaxSup_ Overcoming Representation Collapse in Label Smoothing
+oral,优化与数学,,Learning (Approximately) Equivariant Networks via Constrained Optimization
+oral,机器学习理论,LLM与语言模型,Learning Linear Attention in Polynomial Time
+oral,AI4Science,机器人具身,Learning long range dependencies through time reversal symmetry breaking
+oral,强化学习,LLM与语言模型,Learning to Learn with Contrastive Meta-Objective
+oral,计算机视觉,优化与数学,MaxSup_ Overcoming Representation Collapse in Label Smoothing
 oral,生成模型扩散,,Mean Flows for One-step Generative Modeling
-oral,LLM与语言模型,检索知识与记忆,Memory Mosaics at scale
-oral,多模态视觉语言,高效推理加速,MokA_ Multimodal Low-Rank Adaptation for MLLMs
+oral,LLM与语言模型,,Memory Mosaics at scale
+oral,多模态视觉语言,,MokA_ Multimodal Low-Rank Adaptation for MLLMs
 oral,安全对齐隐私,,More effort is needed to protect pedestrian privacy in the era of AI
-oral,医疗健康,评测与基准,NOVA_ A Benchmark for Rare Anomaly Localization and Clinical Reasoning in Brain MRI
-oral,机器学习理论,训练数据方法,On Linear Mode Connectivity of Mixture-of-Experts Architectures
+oral,医疗健康,,NOVA_ A Benchmark for Rare Anomaly Localization and Clinical Reasoning in Brain MRI
+oral,优化与数学,,On Linear Mode Connectivity of Mixture-of-Experts Architectures
 oral,生成模型扩散,机器学习理论,On the Closed-Form of Flow Matching_ Generalization Does Not Arise from Target Stochasticity
-oral,计算机视觉,多模态视觉语言,OpenHOI_ Open-World Hand-Object Interaction Synthesis with Multimodal Large Language Model
+oral,多模态视觉语言,机器人具身,OpenHOI_ Open-World Hand-Object Interaction Synthesis with Multimodal Large Language Model
 oral,机器学习理论,,Optimal Mistake Bounds for Transductive Online Learning
-oral,计算机视觉,,OrthoLoC_ UAV 6-DoF Localization and Calibration Using Orthographic Geodata
-oral,计算机视觉,高效推理加速,Pan-LUT_ Efficient Pan-sharpening via Learnable Look-Up Tables
+oral,机器人具身,概率因果贝叶斯,OrthoLoC_ UAV 6-DoF Localization and Calibration Using Orthographic Geodata
+oral,高效推理加速,,Pan-LUT_ Efficient Pan-sharpening via Learnable Look-Up Tables
 oral,计算机视觉,,Perception Encoder_ The best visual embeddings are not at the output of the network
 oral,AI4Science,优化与数学,PhySense_ Sensor Placement Optimization for Accurate Physics Sensing
-oral,世界模型与模拟,计算机视觉,PlayerOne_ Egocentric World Simulator
+oral,计算机视觉,世界模型与模拟,PlayerOne_ Egocentric World Simulator
 oral,安全对齐隐私,,"Position_ If Innovation in AI systematically Violates Fundamental Rights, Is It Innovation at All_"
-oral,强化学习,多模态视觉语言,PRIMT_ Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models
-oral,医疗健康,多模态视觉语言,QoQ-Med_ Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training
-oral,图与关系学习,检索知识与记忆,RAG4GFM_ Bridging Knowledge Gaps in Graph Foundation Models through Graph Retrieval Augmented Generation
+oral,强化学习,机器人具身,PRIMT_ Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models
+oral,医疗健康,强化学习,QoQ-Med_ Building Multimodal Clinical Foundation Models with Domain-Aware GRPO Training
+oral,检索知识与记忆,,RAG4GFM_ Bridging Knowledge Gaps in Graph Foundation Models through Graph Retrieval Augmented Generation
 oral,安全对齐隐私,,Real-Time Hyper-Personalized Generative AI Should Be Regulated to Prevent the Rise of _Digital Heroin_
-oral,生成模型扩散,训练数据方法,Representation Entanglement for Generation_ Training Diffusion Transformers Is Much Easier Than You Think
-oral,计算机视觉,机器学习理论,Rethinking Joint Maximum Mean Discrepancy for Visual Domain Adaptation
+oral,生成模型扩散,高效推理加速,Representation Entanglement for Generation_ Training Diffusion Transformers Is Much Easier Than You Think
+oral,机器学习理论,,Rethinking Joint Maximum Mean Discrepancy for Visual Domain Adaptation
 oral,多模态视觉语言,,Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion
-oral,机器人具身,图与关系学习,SAGE_ A Unified Framework for Generalizable Object State Recognition with State-Action Graph Embedding
-oral,多模态视觉语言,语音音频,SAVVY_ Spatial Awareness via Audio-Visual LLMs through Seeing and Hearing
-oral,机器学习理论,安全对齐隐私,Spectral Perturbation Bounds for Low-Rank Approximation with Applications to Privacy
+oral,计算机视觉,,SAGE_ A Unified Framework for Generalizable Object State Recognition with State-Action Graph Embedding
+oral,语音音频,,SAVVY_ Spatial Awareness via Audio-Visual LLMs through Seeing and Hearing
+oral,优化与数学,安全对齐隐私,Spectral Perturbation Bounds for Low-Rank Approximation with Applications to Privacy
 oral,强化学习,,State Entropy Regularization for Robust Reinforcement Learning
-oral,机器学习理论,,Superposition Yields Robust Neural Scaling
-oral,神经科学与认知,计算机视觉,Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain
-oral,机器学习理论,LLM与语言模型,The emergence of sparse attention_ impact of data distribution and benefits of repetition
-oral,机器学习理论,,Tighter CMI-Based Generalization Bounds via Stochastic Projection and Quantization
-oral,领域应用,,TransferTraj_ A Vehicle Trajectory Learning Model for Region and Task Transferability
-oral,高效推理加速,LLM与语言模型,Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference
+oral,机器学习理论,LLM与语言模型,Superposition Yields Robust Neural Scaling
+oral,神经科学与认知,机器人具身,Task-Optimized Convolutional Recurrent Networks Align with Tactile Processing in the Rodent Brain
+oral,优化与数学,高效推理加速,The emergence of sparse attention_ impact of data distribution and benefits of repetition
+oral,机器学习理论,高效推理加速,Tighter CMI-Based Generalization Bounds via Stochastic Projection and Quantization
+oral,强化学习,LLM与语言模型,TransferTraj_ A Vehicle Trajectory Learning Model for Region and Task Transferability
+oral,LLM与语言模型,高效推理加速,Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference
 oral,评测与基准,LLM与语言模型,WebGen-Bench_ Evaluating LLMs on Generating Interactive and Functional Websites from Scratch
 oral,生成模型扩散,机器学习理论,Why Diffusion Models Don’t Memorize_  The Role of Implicit Dynamical Regularization in Training
-spotlight,生成模型扩散,安全对齐隐私,$_Psi$-Sampler_ Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models
-spotlight,机器人具身,机器学习理论,3D Equivariant Visuomotor Policy Learning via Spherical Projection
-spotlight,AI4Science,图与关系学习,3D Interaction Geometric Pre-training for Molecular Relational Learning
-spotlight,计算机视觉,生成模型扩散,4DGT_ Learning a 4D Gaussian Transformer Using Real-World Monocular Videos
-spotlight,训练数据方法,,A Closer Look at Model Collapse_ From a Generalization-to-Memorization Perspective
-spotlight,评测与基准,LLM与语言模型,A Controllable Examination for Long-Context Language Models
-spotlight,可解释性,LLM与语言模型,A Implies B_ Circuit Analysis in LLMs for Propositional Logical Reasoning
-spotlight,机器学习理论,,A learnability analysis on neuro-symbolic learning
-spotlight,优化与数学,,A Near-Optimal Algorithm for Decentralized Convex-Concave Finite-Sum Minimax Optimization
-spotlight,机器学习理论,,A Principled Approach to Randomized Selection under Uncertainty_ Applications to Peer Review and Grant Funding
-spotlight,强化学习,,A Principled Path to Fitted Distributional Evaluation
+spotlight,生成模型扩散,,$_Psi$-Sampler_ Initial Particle Sampling for SMC-Based Inference-Time Reward Alignment in Score Models
+spotlight,计算机视觉,,3D Equivariant Visuomotor Policy Learning via Spherical Projection
+spotlight,AI4Science,计算机视觉,3D Interaction Geometric Pre-training for Molecular Relational Learning
+spotlight,计算机视觉,,4DGT_ Learning a 4D Gaussian Transformer Using Real-World Monocular Videos
+spotlight,训练数据方法,概率因果贝叶斯,A Closer Look at Model Collapse_ From a Generalization-to-Memorization Perspective
+spotlight,安全对齐隐私,LLM与语言模型,A Controllable Examination for Long-Context Language Models
+spotlight,可解释性,,A Implies B_ Circuit Analysis in LLMs for Propositional Logical Reasoning
+spotlight,机器学习理论,优化与数学,A learnability analysis on neuro-symbolic learning
+spotlight,优化与数学,机器学习理论,A Near-Optimal Algorithm for Decentralized Convex-Concave Finite-Sum Minimax Optimization
+spotlight,概率因果贝叶斯,优化与数学,A Principled Approach to Randomized Selection under Uncertainty_ Applications to Peer Review and Grant Funding
+spotlight,强化学习,机器学习理论,A Principled Path to Fitted Distributional Evaluation
 spotlight,强化学习,,A Smooth Sea Never Made a Skilled SAILOR_ Robust Imitation via Learning to Search
-spotlight,高效推理加速,,"A Token is Worth over 1,000 Tokens_ Efficient Knowledge Distillation through Low-Rank Clone"
-spotlight,计算机视觉,评测与基准,A Unified Solution to Video Fusion_ From Multi-Frame Learning to Benchmarking
+spotlight,高效推理加速,LLM与语言模型,"A Token is Worth over 1,000 Tokens_ Efficient Knowledge Distillation through Low-Rank Clone"
+spotlight,计算机视觉,,A Unified Solution to Video Fusion_ From Multi-Frame Learning to Benchmarking
 spotlight,强化学习,机器学习理论,A Unifying View of Linear Function Approximation in Off-Policy RL Through Matrix Splitting and Preconditioning
-spotlight,评测与基准,LLM与语言模型,Absence Bench_ Language Models Can’t See What’s Missing
-spotlight,强化学习,LLM与语言模型,Absolute Zero_ Reinforced Self-play Reasoning with Zero Data
-spotlight,领域应用,,Abstain Mask Retain Core_ Time Series Prediction by Adaptive Masking Loss with Representation Consistency
-spotlight,计算机视觉,安全对齐隐私,Abstract Rendering_  Certified Rendering Under 3D Semantic Uncertainty
-spotlight,优化与数学,机器学习理论,Accelerating data-driven algorithm selection for combinatorial partitioning problems
-spotlight,高效推理加速,LLM与语言模型,Accelerating Diffusion LLMs via Adaptive Parallel Decoding
-spotlight,优化与数学,,Accelerating Optimization via Differentiable Stopping Time
-spotlight,机器人具身,强化学习,Accelerating Visual-Policy Learning through Parallel Differentiable Simulation
+spotlight,LLM与语言模型,,Absence Bench_ Language Models Can’t See What’s Missing
+spotlight,强化学习,,Absolute Zero_ Reinforced Self-play Reasoning with Zero Data
+spotlight,机器学习理论,优化与数学,Abstain Mask Retain Core_ Time Series Prediction by Adaptive Masking Loss with Representation Consistency
+spotlight,计算机视觉,,Abstract Rendering_  Certified Rendering Under 3D Semantic Uncertainty
+spotlight,多模态视觉语言,机器学习理论,Accelerating data-driven algorithm selection for combinatorial partitioning problems
+spotlight,LLM与语言模型,生成模型扩散,Accelerating Diffusion LLMs via Adaptive Parallel Decoding
+spotlight,优化与数学,高效推理加速,Accelerating Optimization via Differentiable Stopping Time
+spotlight,计算机视觉,评测与基准,Accelerating Visual-Policy Learning through Parallel Differentiable Simulation
 spotlight,强化学习,LLM与语言模型,AceSearcher_ Bootstrapping Reasoning and Search for LLMs via Reinforced Self-Play
-spotlight,机器学习理论,,Achieving $_tilde{_mathcal{O}}(1_N)$ Optimality Gap in Restless Bandits through Gaussian Approximation
-spotlight,LLM与语言模型,机器学习理论,Achilles' Heel of Mamba_ Essential difficulties of the Mamba architecture demonstrated by synthetic data
-spotlight,LLM与语言模型,可解释性,Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models
-spotlight,计算机视觉,生成模型扩散,Adaptive 3D Reconstruction via Diffusion Priors and Forward Curvature-Matching Likelihood Updates
-spotlight,安全对齐隐私,LLM与语言模型,Adaptive Defense against Harmful Fine-Tuning for Large Language Models via Bayesian Data Scheduler
-spotlight,强化学习,,Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning
-spotlight,评测与基准,高效推理加速,Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees
-spotlight,LLM与语言模型,,AdaReasoner_ Adaptive Reasoning Enables More Flexible Thinking
-spotlight,高效推理加速,LLM与语言模型,AdaSPEC_ Selective Knowledge Distillation for Efficient Speculative Decoders
-spotlight,生成模型扩散,计算机视觉,Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization
+spotlight,强化学习,,Achieving $_tilde{_mathcal{O}}(1_N)$ Optimality Gap in Restless Bandits through Gaussian Approximation
+spotlight,LLM与语言模型,训练数据方法,Achilles' Heel of Mamba_ Essential difficulties of the Mamba architecture demonstrated by synthetic data
+spotlight,LLM与语言模型,,Activation Control for Efficiently Eliciting Long Chain-of-thought Ability of Language Models
+spotlight,计算机视觉,,Adaptive 3D Reconstruction via Diffusion Priors and Forward Curvature-Matching Likelihood Updates
+spotlight,安全对齐隐私,概率因果贝叶斯,Adaptive Defense against Harmful Fine-Tuning for Large Language Models via Bayesian Data Scheduler
+spotlight,强化学习,优化与数学,Adaptive Neighborhood-Constrained Q Learning for Offline Reinforcement Learning
+spotlight,高效推理加速,LLM与语言模型,Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees
+spotlight,LLM与语言模型,强化学习,AdaReasoner_ Adaptive Reasoning Enables More Flexible Thinking
+spotlight,LLM与语言模型,,AdaSPEC_ Selective Knowledge Distillation for Efficient Speculative Decoders
+spotlight,LLM与语言模型,生成模型扩散,Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization
 spotlight,优化与数学,,Affine-Invariant Global Non-Asymptotic Convergence Analysis of BFGS under Self-Concordance
-spotlight,安全对齐隐私,Agent智能体,AgentBreeder_ Mitigating the AI Safety Risks of Multi-Agent Scaffolds via Self-Improvement
-spotlight,评测与基准,Agent智能体,AGENTIF_ Benchmarking Large Language Models Instruction Following Ability in Agentic Scenarios
-spotlight,评测与基准,Agent智能体,AgentRecBench_ Benchmarking LLM Agent-based Personalized Recommender Systems
-spotlight,机器学习理论,训练数据方法,Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations
+spotlight,评测与基准,Agent智能体,AgentBreeder_ Mitigating the AI Safety Risks of Multi-Agent Scaffolds via Self-Improvement
+spotlight,LLM与语言模型,评测与基准,AGENTIF_ Benchmarking Large Language Models Instruction Following Ability in Agentic Scenarios
+spotlight,Agent智能体,,AgentRecBench_ Benchmarking LLM Agent-based Personalized Recommender Systems
+spotlight,概率因果贝叶斯,,Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations
 spotlight,机器学习理论,安全对齐隐私,Agnostic Learning under Targeted Poisoning_ Optimal Rates and the Role of Randomness
-spotlight,AI4Science,Agent智能体,"AI Research Agents for Machine Learning_ Search, Exploration, and Generalization in MLE-bench"
-spotlight,AI4Science,Agent智能体,AI-Researcher_ Autonomous Scientific Innovation
+spotlight,强化学习,,"AI Research Agents for Machine Learning_ Search, Exploration, and Generalization in MLE-bench"
+spotlight,AI4Science,LLM与语言模型,AI-Researcher_ Autonomous Scientific Innovation
 spotlight,机器学习理论,,Algorithms and SQ Lower Bounds for Robustly Learning Real-valued Multi-Index Models
-spotlight,生成模型扩散,安全对齐隐私,Aligning Text-to-Image Diffusion Models to Human Preference by Classification
+spotlight,生成模型扩散,LLM与语言模型,Aligning Text-to-Image Diffusion Models to Human Preference by Classification
 spotlight,概率因果贝叶斯,,ALINE_ Joint Amortization for Bayesian Inference and Active Data Acquisition
 spotlight,计算机视觉,,Alligat0R_ Pre-Training through Covisibility Segmentation for Relative Camera Pose Regression
-spotlight,强化学习,机器学习理论,AlphaZero Neural Scaling and Zipf's Law_ a Tale of Board Games and Power Laws
-spotlight,生成模型扩散,训练数据方法,Ambient Diffusion Omni_ Training Good Models with Bad Data
-spotlight,AI4Science,生成模型扩散,Ambient Proteins - Training Diffusion Models on Noisy Structures
+spotlight,LLM与语言模型,,AlphaZero Neural Scaling and Zipf's Law_ a Tale of Board Games and Power Laws
+spotlight,生成模型扩散,,Ambient Diffusion Omni_ Training Good Models with Bad Data
+spotlight,生成模型扩散,AI4Science,Ambient Proteins - Training Diffusion Models on Noisy Structures
 spotlight,安全对齐隐私,Agent智能体,Among Us_ A Sandbox for Measuring and Detecting Agentic Deception
-spotlight,概率因果贝叶斯,,An Analysis of Causal Effect Estimation using Outcome Invariant Data Augmentation
-spotlight,生成模型扩散,机器学习理论,An Analytical Theory of Spectral Bias in the Learning Dynamics of Diffusion Models
+spotlight,训练数据方法,机器学习理论,An Analysis of Causal Effect Estimation using Outcome Invariant Data Augmentation
+spotlight,生成模型扩散,优化与数学,An Analytical Theory of Spectral Bias in the Learning Dynamics of Diffusion Models
 spotlight,优化与数学,图与关系学习,An Efficient Orlicz-Sobolev Approach for Transporting Unbalanced Measures on a Graph
-spotlight,训练数据方法,,AnaCP_ Toward Upper-Bound Continual Learning via Analytic Contrastive Projection
-spotlight,强化学习,,Angles Don’t Lie_ Unlocking Training‑Efficient RL Through the Model’s Own Signals
-spotlight,LLM与语言模型,可解释性,Angular Steering_ Behavior Control via Rotation in Activation Space
-spotlight,优化与数学,,Any-stepsize Gradient Descent for Separable Data under Fenchel–Young Losses
-spotlight,安全对齐隐私,多模态视觉语言,Approximate Domain Unlearning for Vision-Language Models
-spotlight,语音音频,评测与基准,ARECHO_ Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation
-spotlight,Agent智能体,强化学习,ARIA_ Training Language Agents with Intention-driven Reward Aggregation
-spotlight,LLM与语言模型,,ARM_ Adaptive Reasoning Model
-spotlight,机器学习理论,,Asymmetric Duos_ Sidekicks Improve Uncertainty
-spotlight,语音音频,多模态视觉语言,Audio Flamingo 3_ Advancing Audio Intelligence with Fully Open Large Audio Language Models
-spotlight,AI4Science,图与关系学习,Augmenting Biological Fitness Prediction Benchmarks with Landscapes Features from GraphFLA
-spotlight,高效推理加速,LLM与语言模型,AuroRA_ Breaking Low-Rank Bottleneck of LoRA with Nonlinear Mapping
-spotlight,Agent智能体,,AutoToM_ Scaling Model-based Mental Inference via Automated Agent Modeling
-spotlight,机器学习理论,,Axial Neural Networks for Dimension-Free Foundation Models
-spotlight,多模态视觉语言,,Balancing Multimodal Training Through Game-Theoretic Regularization
-spotlight,优化与数学,概率因果贝叶斯,BayeSQP_ Bayesian Optimization through Sequential Quadratic Programming
-spotlight,评测与基准,计算机视觉,Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents
+spotlight,机器学习理论,,AnaCP_ Toward Upper-Bound Continual Learning via Analytic Contrastive Projection
+spotlight,强化学习,LLM与语言模型,Angles Don’t Lie_ Unlocking Training‑Efficient RL Through the Model’s Own Signals
+spotlight,安全对齐隐私,,Angular Steering_ Behavior Control via Rotation in Activation Space
+spotlight,优化与数学,机器学习理论,Any-stepsize Gradient Descent for Separable Data under Fenchel–Young Losses
+spotlight,多模态视觉语言,计算机视觉,Approximate Domain Unlearning for Vision-Language Models
+spotlight,评测与基准,生成模型扩散,ARECHO_ Autoregressive Evaluation via Chain-Based Hypothesis Optimization for Speech Multi-Metric Estimation
+spotlight,强化学习,LLM与语言模型,ARIA_ Training Language Agents with Intention-driven Reward Aggregation
+spotlight,高效推理加速,LLM与语言模型,ARM_ Adaptive Reasoning Model
+spotlight,概率因果贝叶斯,计算机视觉,Asymmetric Duos_ Sidekicks Improve Uncertainty
+spotlight,语音音频,,Audio Flamingo 3_ Advancing Audio Intelligence with Fully Open Large Audio Language Models
+spotlight,AI4Science,,Augmenting Biological Fitness Prediction Benchmarks with Landscapes Features from GraphFLA
+spotlight,LLM与语言模型,,AuroRA_ Breaking Low-Rank Bottleneck of LoRA with Nonlinear Mapping
+spotlight,LLM与语言模型,世界模型与模拟,AutoToM_ Scaling Model-based Mental Inference via Automated Agent Modeling
+spotlight,LLM与语言模型,AI4Science,Axial Neural Networks for Dimension-Free Foundation Models
+spotlight,多模态视觉语言,优化与数学,Balancing Multimodal Training Through Game-Theoretic Regularization
+spotlight,概率因果贝叶斯,优化与数学,BayeSQP_ Bayesian Optimization through Sequential Quadratic Programming
+spotlight,多模态视觉语言,,Benchmarking Egocentric Multimodal Goal Inference for Assistive Wearable Agents
 spotlight,计算机视觉,,BevSplat_ Resolving Height Ambiguity via Feature-Based Gaussian Primitives for Weakly-Supervised Cross-View Localization
 spotlight,LLM与语言模型,安全对齐隐私,Beyond Expectations_ Quantile-Guided Alignment for Risk-Calibrated Language Models
-spotlight,LLM与语言模型,可解释性,Bigram Subnetworks_ Mapping to Next Tokens in Transformer Language Models
-spotlight,AI4Science,计算机视觉,BioCLIP 2_ Emergent Properties from Scaling Hierarchical Contrastive Learning
-spotlight,神经科学与认知,机器学习理论,Bipolar Self-attention for Spiking Transformers
-spotlight,安全对齐隐私,LLM与语言模型,Bits Leaked per Query_ Information-Theoretic Bounds for Adversarial Attacks on LLMs
-spotlight,安全对齐隐私,,Blackbox Model Provenance via Palimpsestic Membership Inference
-spotlight,安全对齐隐私,生成模型扩散,Blameless Users in a Clean Room_ Defining Copyright Protection for Generative Models
-spotlight,生成模型扩散,计算机视觉,Boosting Generative Image Modeling via Joint Image-Feature Synthesis
-spotlight,AI4Science,图与关系学习,Boundary-Value PDEs Meet Higher-Order Differential Topology-aware GNNs
+spotlight,LLM与语言模型,,Bigram Subnetworks_ Mapping to Next Tokens in Transformer Language Models
+spotlight,训练数据方法,计算机视觉,BioCLIP 2_ Emergent Properties from Scaling Hierarchical Contrastive Learning
+spotlight,神经科学与认知,计算机视觉,Bipolar Self-attention for Spiking Transformers
+spotlight,安全对齐隐私,,Bits Leaked per Query_ Information-Theoretic Bounds for Adversarial Attacks on LLMs
+spotlight,LLM与语言模型,安全对齐隐私,Blackbox Model Provenance via Palimpsestic Membership Inference
+spotlight,生成模型扩散,,Blameless Users in a Clean Room_ Defining Copyright Protection for Generative Models
+spotlight,生成模型扩散,,Boosting Generative Image Modeling via Joint Image-Feature Synthesis
+spotlight,图与关系学习,,Boundary-Value PDEs Meet Higher-Order Differential Topology-aware GNNs
 spotlight,神经科学与认知,LLM与语言模型,Brain-Inspired fMRI-to-Text Decoding via Incremental and Wrap-Up Language Modeling
 spotlight,训练数据方法,,Breaking the Batch Barrier (B3) of Contrastive Learning via Smart Batch Mining
-spotlight,机器学习理论,安全对齐隐私,Bridging Symmetry and Robustness_ On the Role of Equivariance in Enhancing Adversarial Robustness
-spotlight,图与关系学习,机器学习理论,Bridging Theory and Practice in Link Representation with Graph Neural Networks
-spotlight,LLM与语言模型,机器学习理论,Broken Tokens_ Your Language Model can Secretly Handle Non-Canonical Tokenizations
-spotlight,领域应用,,Bubbleformer_ Forecasting Boiling with Transformers
+spotlight,安全对齐隐私,训练数据方法,Bridging Symmetry and Robustness_ On the Role of Equivariance in Enhancing Adversarial Robustness
+spotlight,图与关系学习,,Bridging Theory and Practice in Link Representation with Graph Neural Networks
+spotlight,LLM与语言模型,,Broken Tokens_ Your Language Model can Secretly Handle Non-Canonical Tokenizations
+spotlight,AI4Science,评测与基准,Bubbleformer_ Forecasting Boiling with Transformers
 spotlight,AI4Science,,CALM-PDE_ Continuous and Adaptive Convolutions for Latent Space Modeling of Time-dependent PDEs
-spotlight,检索知识与记忆,图与关系学习,Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need_
-spotlight,安全对齐隐私,LLM与语言模型,Can We Infer Confidential Properties of Training Data from LLMs_
-spotlight,评测与基准,多模态视觉语言,"Caption This, Reason That_ VLMs Caught in the Middle"
-spotlight,生成模型扩散,计算机视觉,CAR-Flow_ Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching
+spotlight,检索知识与记忆,,Can Knowledge-Graph-based Retrieval Augmented Generation Really Retrieve What You Need_
+spotlight,医疗健康,生成模型扩散,Can We Infer Confidential Properties of Training Data from LLMs_
+spotlight,多模态视觉语言,,"Caption This, Reason That_ VLMs Caught in the Middle"
+spotlight,生成模型扩散,,CAR-Flow_ Condition-Aware Reparameterization Aligns Source and Target for Better Flow Matching
 spotlight,可解释性,LLM与语言模型,Causal Differentiating Concepts_  Interpreting LM Behavior via Causal Representation Learning
-spotlight,概率因果贝叶斯,图与关系学习,Causality Meets Locality_ Provably Generalizable and Scalable Policy Learning for Networked Systems
+spotlight,概率因果贝叶斯,强化学习,Causality Meets Locality_ Provably Generalizable and Scalable Policy Learning for Networked Systems
 spotlight,概率因果贝叶斯,,CausalPFN_ Amortized Causal Effect Estimation via In-Context Learning
-spotlight,概率因果贝叶斯,评测与基准,CausalVerse_ Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations
-spotlight,计算机视觉,,Chain-of-Zoom_ Extreme Super-Resolution via Scale Autoregression and Preference Alignment
-spotlight,机器学习理论,,Characterizing control between interacting subsystems with deep Jacobian estimation
-spotlight,LLM与语言模型,机器学习理论,Characterizing the Expressivity of Fixed-Precision Transformer Language Models
-spotlight,安全对齐隐私,LLM与语言模型,Checklists Are Better Than Reward Models For Aligning Language Models
-spotlight,计算机视觉,生成模型扩散,CLiFT_ Compressive Light-Field Tokens for Compute Efficient and Adaptive Neural Rendering
-spotlight,AI4Science,,Cloud4D_ Estimating Cloud Properties at a High Spatial and Temporal Resolution
-spotlight,机器学习理论,优化与数学,Clustering via Hedonic Games_ New Concepts and Algorithms
-spotlight,Agent智能体,LLM与语言模型,Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning
-spotlight,多模态视觉语言,,Co-Reinforcement Learning for Unified Multimodal Understanding and Generation
-spotlight,生成模型扩散,,Color Conditional Generation with Sliced Wasserstein Guidance
-spotlight,概率因果贝叶斯,,CoLT_ The conditional localization test for assessing the accuracy of neural posterior estimates
-spotlight,LLM与语言模型,高效推理加速,Communication-Efficient Language Model Training Scales Reliably and Robustly_ Scaling Laws for DiLoCo
-spotlight,机器学习理论,优化与数学,"Comparator-Adaptive $_Phi$-Regret_ Improved Bounds, Simpler Algorithms, and Applications to Games"
+spotlight,概率因果贝叶斯,计算机视觉,CausalVerse_ Benchmarking Causal Representation Learning with Configurable High-Fidelity Simulations
+spotlight,计算机视觉,多模态视觉语言,Chain-of-Zoom_ Extreme Super-Resolution via Scale Autoregression and Preference Alignment
+spotlight,机器学习理论,神经科学与认知,Characterizing control between interacting subsystems with deep Jacobian estimation
+spotlight,机器学习理论,LLM与语言模型,Characterizing the Expressivity of Fixed-Precision Transformer Language Models
+spotlight,强化学习,,Checklists Are Better Than Reward Models For Aligning Language Models
+spotlight,计算机视觉,,CLiFT_ Compressive Light-Field Tokens for Compute Efficient and Adaptive Neural Rendering
+spotlight,AI4Science,计算机视觉,Cloud4D_ Estimating Cloud Properties at a High Spatial and Temporal Resolution
+spotlight,领域应用,计算机视觉,Clustering via Hedonic Games_ New Concepts and Algorithms
+spotlight,强化学习,高效推理加速,Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning
+spotlight,强化学习,生成模型扩散,Co-Reinforcement Learning for Unified Multimodal Understanding and Generation
+spotlight,生成模型扩散,计算机视觉,Color Conditional Generation with Sliced Wasserstein Guidance
+spotlight,概率因果贝叶斯,机器学习理论,CoLT_ The conditional localization test for assessing the accuracy of neural posterior estimates
+spotlight,LLM与语言模型,机器学习理论,Communication-Efficient Language Model Training Scales Reliably and Robustly_ Scaling Laws for DiLoCo
+spotlight,机器学习理论,,"Comparator-Adaptive $_Phi$-Regret_ Improved Bounds, Simpler Algorithms, and Applications to Games"
 spotlight,计算机视觉,,Complete Structure Guided Point Cloud Completion via Cluster- and Instance-Level Contrastive Learning
-spotlight,强化学习,,Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data
-spotlight,强化学习,生成模型扩散,Compositional Monte Carlo Tree Diffusion for Extendable Planning
-spotlight,安全对齐隐私,机器学习理论,Compositional Neural Network Verification via Assume-Guarantee Reasoning
+spotlight,强化学习,生成模型扩散,Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data
+spotlight,强化学习,优化与数学,Compositional Monte Carlo Tree Diffusion for Extendable Planning
+spotlight,其他跨领域,,Compositional Neural Network Verification via Assume-Guarantee Reasoning
 spotlight,高效推理加速,LLM与语言模型,Compress to Impress_ Efficient LLM Adaptation Using a Single Gradient Step on 100 Samples
 spotlight,机器学习理论,,Computational Efficiency under Covariate Shift in Kernel Ridge Regression
-spotlight,机器学习理论,,Conditional Representation Learning for Customized Tasks
-spotlight,检索知识与记忆,图与关系学习,Conflict-Aware Knowledge Editing in the Wild_ Semantic-Augmented Graph Representation for Unstructured Text
-spotlight,概率因果贝叶斯,机器学习理论,Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees
-spotlight,神经科学与认知,评测与基准,ConnectomeBench_ Can LLMs proofread the connectome_
-spotlight,机器学习理论,,Conservative classifiers do consistently well with improving agents_ characterizing statistical and online learning
-spotlight,LLM与语言模型,机器学习理论,ConTextTab_ A Semantics-Aware Tabular In-Context Learner
-spotlight,LLM与语言模型,机器学习理论,Continuous Thought Machines
-spotlight,LLM与语言模型,,Controlling Thinking Speed in Reasoning Models
-spotlight,优化与数学,概率因果贝叶斯,Convergence Rates of Constrained Expected Improvement
-spotlight,机器人具身,训练数据方法,COOPERA_ Continual Open-Ended Human-Robot Assistance
+spotlight,多模态视觉语言,LLM与语言模型,Conditional Representation Learning for Customized Tasks
+spotlight,图与关系学习,领域应用,Conflict-Aware Knowledge Editing in the Wild_ Semantic-Augmented Graph Representation for Unstructured Text
+spotlight,概率因果贝叶斯,优化与数学,Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees
+spotlight,神经科学与认知,LLM与语言模型,ConnectomeBench_ Can LLMs proofread the connectome_
+spotlight,机器学习理论,Agent智能体,Conservative classifiers do consistently well with improving agents_ characterizing statistical and online learning
+spotlight,LLM与语言模型,,ConTextTab_ A Semantics-Aware Tabular In-Context Learner
+spotlight,神经科学与认知,,Continuous Thought Machines
+spotlight,神经科学与认知,高效推理加速,Controlling Thinking Speed in Reasoning Models
+spotlight,机器学习理论,优化与数学,Convergence Rates of Constrained Expected Improvement
+spotlight,机器人具身,,COOPERA_ Continual Open-Ended Human-Robot Assistance
 spotlight,评测与基准,LLM与语言模型,CoRe_ Benchmarking LLMs’ Code Reasoning Capabilities through Static Analysis Tasks
-spotlight,优化与数学,机器学习理论,Corporate Needs You to Find the Difference_ Revisiting Submodular and Supermodular Ratio Optimization Problems
-spotlight,高效推理加速,LLM与语言模型,Cost-Aware Contrastive Routing for LLMs
-spotlight,训练数据方法,LLM与语言模型,Cost-aware LLM-based Online Dataset Annotation
-spotlight,机器学习理论,LLM与语言模型,CoT Information_ Improved Sample Complexity under Chain-of-Thought Supervision
+spotlight,优化与数学,图与关系学习,Corporate Needs You to Find the Difference_ Revisiting Submodular and Supermodular Ratio Optimization Problems
+spotlight,LLM与语言模型,高效推理加速,Cost-Aware Contrastive Routing for LLMs
+spotlight,训练数据方法,机器学习理论,Cost-aware LLM-based Online Dataset Annotation
+spotlight,机器学习理论,,CoT Information_ Improved Sample Complexity under Chain-of-Thought Supervision
 spotlight,强化学习,,Counteractive RL_ Rethinking Core Principles for Efficient and Scalable Deep Reinforcement Learning
-spotlight,概率因果贝叶斯,,Credal Prediction based on Relative Likelihood
-spotlight,LLM与语言模型,训练数据方法,Critical Batch Size Revisited_ A Simple Empirical Approach to Large-Batch Language Model Training
-spotlight,神经科学与认知,医疗健康,CSBrain_ A Cross-scale Spatiotemporal Brain Foundation Model for EEG Decoding
-spotlight,安全对齐隐私,Agent智能体,CTRL-ALT-DECEIT Sabotage Evaluations for Automated AI R&D
-spotlight,AI4Science,强化学习,Ctrl-DNA_ Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL
+spotlight,概率因果贝叶斯,机器学习理论,Credal Prediction based on Relative Likelihood
+spotlight,LLM与语言模型,,Critical Batch Size Revisited_ A Simple Empirical Approach to Large-Batch Language Model Training
+spotlight,神经科学与认知,LLM与语言模型,CSBrain_ A Cross-scale Spatiotemporal Brain Foundation Model for EEG Decoding
+spotlight,安全对齐隐私,,CTRL-ALT-DECEIT Sabotage Evaluations for Automated AI R&D
+spotlight,AI4Science,,Ctrl-DNA_ Controllable Cell-Type-Specific Regulatory DNA Design via Constrained RL
 spotlight,计算机视觉,生成模型扩散,Cue3D_ Quantifying the Role of Image Cues in Single-Image 3D Generation
 spotlight,安全对齐隐私,生成模型扩散,CURE_ Concept Unlearning via Orthogonal Representation Editing in Diffusion Models
-spotlight,机器学习理论,优化与数学,Curl Descent _ Non-Gradient Learning Dynamics with Sign-Diverse Plasticity
+spotlight,神经科学与认知,AI4Science,Curl Descent _ Non-Gradient Learning Dynamics with Sign-Diverse Plasticity
 spotlight,医疗健康,评测与基准,CXReasonBench_ A Benchmark for Evaluating Structured Diagnostic Reasoning in Chest X-rays
-spotlight,计算机视觉,,Cycle-Sync_ Robust Global Camera Pose Estimation through Enhanced Cycle-Consistent Synchronization
+spotlight,计算机视觉,机器学习理论,Cycle-Sync_ Robust Global Camera Pose Estimation through Enhanced Cycle-Consistent Synchronization
 spotlight,LLM与语言模型,强化学习,d1_ Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning
-spotlight,强化学习,LLM与语言模型,DAPO _ Improving Multi-Step Reasoning Abilities of Large Language Models with Direct Advantage-Based Policy Optimization
+spotlight,强化学习,,DAPO _ Improving Multi-Step Reasoning Abilities of Large Language Models with Direct Advantage-Based Policy Optimization
 spotlight,训练数据方法,机器学习理论,Data Mixing Can Induce Phase Transitions in Knowledge Acquisition
-spotlight,训练数据方法,LLM与语言模型,Data-Juicer 2.0_ Cloud-Scale Adaptive Data Processing for and with Foundation Models
+spotlight,计算机视觉,领域应用,Data-Juicer 2.0_ Cloud-Scale Adaptive Data Processing for and with Foundation Models
 spotlight,Agent智能体,LLM与语言模型,Debate or Vote_ Which Yields Better Decisions in Multi-Agent Large Language Models_
 spotlight,概率因果贝叶斯,生成模型扩散,DeCaFlow_ A deconfounding causal generative model
-spotlight,计算机视觉,AI4Science,Deciphering the Extremes_ A Novel Approach for Pathological Long-tailed Recognition in Scientific Discovery
-spotlight,概率因果贝叶斯,,"Decomposing Interventional Causality into Synergistic, Redundant, and Unique Components"
-spotlight,神经科学与认知,生成模型扩散,Decomposing stimulus-specific sensory neural information via diffusion models
-spotlight,领域应用,机器学习理论,Deep Continuous-Time State-Space Models for Marked Event Sequences
-spotlight,评测与基准,安全对齐隐私,Deep Value Benchmark_ Measuring Whether Models Generalize Deep Values or Shallow Preferences
-spotlight,检索知识与记忆,强化学习,DeepDiver_ Adaptive Web-Search Intensity Scaling via Reinforcement Learning
-spotlight,领域应用,机器学习理论,DeepHalo_ A Neural Choice Model with Controllable Context Effects
-spotlight,计算机视觉,高效推理加速,DeltaFlow_ An Efficient Multi-frame Scene Flow Estimation Method
-spotlight,计算机视觉,,Deno-IF_ Unsupervised Noisy Visible and Infrared Image Fusion Method
-spotlight,神经科学与认知,机器学习理论,Dense Associative Memory with Epanechnikov Energy
-spotlight,生成模型扩散,强化学习,DenseDPO_ Fine-Grained Temporal Preference Optimization for Video Diffusion Models
-spotlight,机器学习理论,,Depth-Width Tradeoffs for Transformers on Graph Tasks
-spotlight,安全对齐隐私,计算机视觉,Detecting Generated Images by Fitting Natural Image Distributions
-spotlight,机器人具身,训练数据方法,DexFlyWheel_ A Scalable and Self-improving Data Generation Framework for Dexterous Manipulation
-spotlight,机器人具身,,DexGarmentLab_ Dexterous Garment Manipulation Environment with Generalizable Policy
-spotlight,可解释性,计算机视觉,DEXTER_ Diffusion-Guided EXplanations with TExtual Reasoning for Vision Models
-spotlight,生成模型扩散,计算机视觉,DICEPTION_ A Generalist Diffusion Model for Visual Perceptual Tasks
+spotlight,AI4Science,计算机视觉,Deciphering the Extremes_ A Novel Approach for Pathological Long-tailed Recognition in Scientific Discovery
+spotlight,概率因果贝叶斯,AI4Science,"Decomposing Interventional Causality into Synergistic, Redundant, and Unique Components"
+spotlight,生成模型扩散,可解释性,Decomposing stimulus-specific sensory neural information via diffusion models
+spotlight,领域应用,医疗健康,Deep Continuous-Time State-Space Models for Marked Event Sequences
+spotlight,机器学习理论,安全对齐隐私,Deep Value Benchmark_ Measuring Whether Models Generalize Deep Values or Shallow Preferences
+spotlight,LLM与语言模型,,DeepDiver_ Adaptive Web-Search Intensity Scaling via Reinforcement Learning
+spotlight,可解释性,神经科学与认知,DeepHalo_ A Neural Choice Model with Controllable Context Effects
+spotlight,高效推理加速,机器学习理论,DeltaFlow_ An Efficient Multi-frame Scene Flow Estimation Method
+spotlight,训练数据方法,生成模型扩散,Deno-IF_ Unsupervised Noisy Visible and Infrared Image Fusion Method
+spotlight,检索知识与记忆,,Dense Associative Memory with Epanechnikov Energy
+spotlight,生成模型扩散,LLM与语言模型,DenseDPO_ Fine-Grained Temporal Preference Optimization for Video Diffusion Models
+spotlight,计算机视觉,图与关系学习,Depth-Width Tradeoffs for Transformers on Graph Tasks
+spotlight,计算机视觉,,Detecting Generated Images by Fitting Natural Image Distributions
+spotlight,机器人具身,强化学习,DexFlyWheel_ A Scalable and Self-improving Data Generation Framework for Dexterous Manipulation
+spotlight,机器人具身,强化学习,DexGarmentLab_ Dexterous Garment Manipulation Environment with Generalizable Policy
+spotlight,LLM与语言模型,计算机视觉,DEXTER_ Diffusion-Guided EXplanations with TExtual Reasoning for Vision Models
+spotlight,生成模型扩散,神经科学与认知,DICEPTION_ A Generalist Diffusion Model for Visual Perceptual Tasks
 spotlight,生成模型扩散,,DiCo_ Revitalizing ConvNets for Scalable and Efficient Diffusion Modeling
-spotlight,概率因果贝叶斯,,Differentiable Cyclic Causal Discovery Under Unmeasured Confounders
-spotlight,机器学习理论,优化与数学,Differentiable Decision Tree via _ReLU+Argmin_ Reformulation
-spotlight,计算机视觉,,Differentiable Hierarchical Visual Tokenization
-spotlight,优化与数学,机器学习理论,Differentiable Sparsity via $D$-Gating_ Simple and Versatile Structured Penalization
-spotlight,安全对齐隐私,机器学习理论,Differential Privacy on Fully Dynamic Streams
-spotlight,生成模型扩散,机器学习理论,Diffusion Generative Modeling on Lie Group Representations
-spotlight,AI4Science,图与关系学习,Diffusion-Based Hierarchical Graph Neural Networks for Simulating Nonlinear Solid Mechanics
+spotlight,AI4Science,图与关系学习,Differentiable Cyclic Causal Discovery Under Unmeasured Confounders
+spotlight,概率因果贝叶斯,可解释性,Differentiable Decision Tree via _ReLU+Argmin_ Reformulation
+spotlight,LLM与语言模型,计算机视觉,Differentiable Hierarchical Visual Tokenization
+spotlight,优化与数学,,Differentiable Sparsity via $D$-Gating_ Simple and Versatile Structured Penalization
+spotlight,安全对齐隐私,,Differential Privacy on Fully Dynamic Streams
+spotlight,生成模型扩散,,Diffusion Generative Modeling on Lie Group Representations
+spotlight,图与关系学习,计算机视觉,Diffusion-Based Hierarchical Graph Neural Networks for Simulating Nonlinear Solid Mechanics
 spotlight,优化与数学,,Dimension-adapted Momentum Outscales SGD
-spotlight,概率因果贝叶斯,机器学习理论,Direct Fisher Score Estimation for Likelihood Maximization
-spotlight,生成模型扩散,,Discrete Spatial Diffusion_ Intensity-Preserving Diffusion Modeling
+spotlight,机器学习理论,,Direct Fisher Score Estimation for Likelihood Maximization
+spotlight,生成模型扩散,计算机视觉,Discrete Spatial Diffusion_ Intensity-Preserving Diffusion Modeling
 spotlight,可解释性,计算机视觉,Disentangled Concepts Speak Louder Than Words_ Explainable Video Action Recognition
-spotlight,计算机视觉,生成模型扩散,DisMo_ Disentangled Motion Representations for Open-World Motion Transfer
-spotlight,安全对齐隐私,,Distillation Robustifies Unlearning
+spotlight,计算机视觉,LLM与语言模型,DisMo_ Disentangled Motion Representations for Open-World Motion Transfer
+spotlight,高效推理加速,LLM与语言模型,Distillation Robustifies Unlearning
 spotlight,Agent智能体,LLM与语言模型,Distilling LLM Agent into Small Models with Retrieval and Code Tools
-spotlight,训练数据方法,机器学习理论,Distributional Training Data Attribution_ What do Influence Functions Sample_
-spotlight,强化学习,LLM与语言模型,Diversity-Aware Policy Optimization for Large Language Model Reasoning
-spotlight,世界模型与模拟,强化学习,DMWM_ Dual-Mind World Model with Long-Term Imagination
+spotlight,生成模型扩散,可解释性,Distributional Training Data Attribution_ What do Influence Functions Sample_
+spotlight,LLM与语言模型,强化学习,Diversity-Aware Policy Optimization for Large Language Model Reasoning
+spotlight,世界模型与模拟,,DMWM_ Dual-Mind World Model with Long-Term Imagination
 spotlight,安全对齐隐私,LLM与语言模型,DNA-DetectLLM_ Unveiling AI-Generated Text via a DNA-Inspired Mutation-Repair Paradigm
 spotlight,生成模型扩散,计算机视觉,DNAEdit_ Direct Noise Alignment for Text-Guided Rectified Flow Editing
-spotlight,概率因果贝叶斯,机器学习理论,Do-PFN_ In-Context Learning for Causal Effect Estimation
-spotlight,计算机视觉,机器学习理论,Does Object Binding Naturally Emerge in Large Pretrained Vision Transformers_
+spotlight,概率因果贝叶斯,LLM与语言模型,Do-PFN_ In-Context Learning for Causal Effect Estimation
+spotlight,神经科学与认知,,Does Object Binding Naturally Emerge in Large Pretrained Vision Transformers_
 spotlight,安全对齐隐私,计算机视觉,Dual Data Alignment Makes AI-Generated Image Detector Easier Generalizable
-spotlight,机器学习理论,优化与数学,Dynamic Algorithm for Explainable $k$-medians Clustering under $_ell_p$ Norm
-spotlight,机器学习理论,高效推理加速,E2Former_ An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products
+spotlight,可解释性,,Dynamic Algorithm for Explainable $k$-medians Clustering under $_ell_p$ Norm
+spotlight,AI4Science,图与关系学习,E2Former_ An Efficient and Equivariant Transformer with Linear-Scaling Tensor Products
 spotlight,计算机视觉,,EAG3R_ Event-Augmented 3D Geometry Estimation for Dynamic and Extreme-Lighting Scenes
 spotlight,世界模型与模拟,生成模型扩散,EDELINE_ Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling
 spotlight,计算机视觉,,EF-3DGS_ Event-Aided Free-Trajectory 3D Gaussian Splatting
-spotlight,安全对齐隐私,机器学习理论,Efficient Fairness-Performance Pareto Front Computation
+spotlight,安全对齐隐私,,Efficient Fairness-Performance Pareto Front Computation
 spotlight,高效推理加速,LLM与语言模型,Efficient Prompt Compression with Evaluator Heads for Long-Context Transformer Inference
-spotlight,计算机视觉,生成模型扩散,EGGS_ Exchangeable 2D_3D Gaussian Splatting for Geometry-Appearance Balanced Novel View Synthesis
+spotlight,计算机视觉,,EGGS_ Exchangeable 2D_3D Gaussian Splatting for Geometry-Appearance Balanced Novel View Synthesis
 spotlight,AI4Science,,ELECTRA_ A Cartesian Network for 3D Charge Density Prediction with Floating Orbitals
-spotlight,可解释性,机器学习理论,ElliCE_ Efficient and Provably Robust Algorithmic Recourse via the Rashomon Sets
-spotlight,机器学习理论,,Eluder dimension_ localise it!
-spotlight,Agent智能体,,Embodied Web Agents_ Bridging Physical-Digital Realms for Integrated Agent Intelligence
+spotlight,概率因果贝叶斯,,ElliCE_ Efficient and Provably Robust Algorithmic Recourse via the Rashomon Sets
+spotlight,机器学习理论,强化学习,Eluder dimension_ localise it!
+spotlight,机器人具身,Agent智能体,Embodied Web Agents_ Bridging Physical-Digital Realms for Integrated Agent Intelligence
 spotlight,可解释性,生成模型扩散,Emergence and Evolution of Interpretable Concepts in Diffusion Models
 spotlight,多模态视觉语言,安全对齐隐私,Enhancing CLIP Robustness via Cross-Modality Alignment
-spotlight,机器学习理论,,Enhancing Contrastive Learning with Variable Similarity
-spotlight,安全对齐隐私,LLM与语言模型,Enhancing LLM Watermark Resilience Against Both Scrubbing and  Spoofing Attacks
-spotlight,领域应用,,Enhancing Time Series Forecasting through Selective Representation Spaces_ A Patch Perspective
-spotlight,训练数据方法,机器学习理论,Enhancing Training Data Attribution with Representational Optimization
-spotlight,LLM与语言模型,训练数据方法,Enigmata_  Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles
-spotlight,AI4Science,,ENMA_ Tokenwise Autoregression for Continuous Neural PDE Operators
-spotlight,机器学习理论,,Environment Inference for Learning Generalizable Dynamical System
-spotlight,安全对齐隐私,生成模型扩散,EraseFlow_ Learning Concept Erasure Policies via GFlowNet-Driven Alignment
-spotlight,神经科学与认知,机器学习理论,Error Broadcast and Decorrelation as a Potential Artificial and Natural Learning Mechanism
-spotlight,神经科学与认知,机器学习理论,Error Forcing in Recurrent Neural Networks
-spotlight,评测与基准,机器学习理论,ErrorTrace_ A Black-Box Traceability Mechanism Based on Model Family Error Space
+spotlight,训练数据方法,,Enhancing Contrastive Learning with Variable Similarity
+spotlight,安全对齐隐私,,Enhancing LLM Watermark Resilience Against Both Scrubbing and  Spoofing Attacks
+spotlight,强化学习,,Enhancing Time Series Forecasting through Selective Representation Spaces_ A Patch Perspective
+spotlight,可解释性,LLM与语言模型,Enhancing Training Data Attribution with Representational Optimization
+spotlight,LLM与语言模型,评测与基准,Enigmata_  Scaling Logical Reasoning in Large Language Models with Synthetic Verifiable Puzzles
+spotlight,AI4Science,生成模型扩散,ENMA_ Tokenwise Autoregression for Continuous Neural PDE Operators
+spotlight,机器学习理论,高效推理加速,Environment Inference for Learning Generalizable Dynamical System
+spotlight,安全对齐隐私,强化学习,EraseFlow_ Learning Concept Erasure Policies via GFlowNet-Driven Alignment
+spotlight,机器学习理论,强化学习,Error Broadcast and Decorrelation as a Potential Artificial and Natural Learning Mechanism
+spotlight,神经科学与认知,强化学习,Error Forcing in Recurrent Neural Networks
+spotlight,安全对齐隐私,LLM与语言模型,ErrorTrace_ A Black-Box Traceability Mechanism Based on Model Family Error Space
 spotlight,优化与数学,,Escaping saddle points without Lipschitz smoothness_ the power of nonlinear preconditioning
-spotlight,Agent智能体,图与关系学习,ESCA_ Contextualizing Embodied Agents via Scene-Graph Generation
+spotlight,计算机视觉,多模态视觉语言,ESCA_ Contextualizing Embodied Agents via Scene-Graph Generation
 spotlight,机器学习理论,优化与数学,Establishing Linear Surrogate Regret Bounds for Convex Smooth Losses via Convolutional Fenchel–Young Losses
-spotlight,神经科学与认知,概率因果贝叶斯,Estimating cognitive biases with attention-aware inverse planning
-spotlight,语音音频,训练数据方法,EuroSpeech_ A Multilingual Speech Corpus
-spotlight,神经科学与认知,图与关系学习,EvoBrain_ Dynamic Multi-Channel EEG Graph Modeling for Time-Evolving Brain Networks
-spotlight,机器学习理论,,Exploration via Feature Perturbation in Contextual Bandits
-spotlight,神经科学与认知,机器学习理论,Extracting task-relevant preserved dynamics from contrastive aligned neural recordings
-spotlight,机器学习理论,机器学习理论,Extrapolation by Association_ Length Generalization Transfer In Transformers
-spotlight,Agent智能体,机器学习理论,Fair Cooperation in Mixed-Motive Games via Conflict-Aware Gradient Adjustment
-spotlight,医疗健康,神经科学与认知,FAPEX_ Fractional Amplitude-Phase Expressor for Robust Cross-Subject Seizure Prediction
-spotlight,生成模型扩散,LLM与语言模型,Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning
-spotlight,强化学习,高效推理加速,Fast Monte Carlo Tree Diffusion_ 100× Speedup via Parallel and Sparse Planning
+spotlight,神经科学与认知,世界模型与模拟,Estimating cognitive biases with attention-aware inverse planning
+spotlight,语音音频,,EuroSpeech_ A Multilingual Speech Corpus
+spotlight,图与关系学习,神经科学与认知,EvoBrain_ Dynamic Multi-Channel EEG Graph Modeling for Time-Evolving Brain Networks
+spotlight,强化学习,,Exploration via Feature Perturbation in Contextual Bandits
+spotlight,神经科学与认知,安全对齐隐私,Extracting task-relevant preserved dynamics from contrastive aligned neural recordings
+spotlight,LLM与语言模型,,Extrapolation by Association_ Length Generalization Transfer In Transformers
+spotlight,安全对齐隐私,强化学习,Fair Cooperation in Mixed-Motive Games via Conflict-Aware Gradient Adjustment
+spotlight,机器学习理论,LLM与语言模型,FAPEX_ Fractional Amplitude-Phase Expressor for Robust Cross-Subject Seizure Prediction
+spotlight,LLM与语言模型,生成模型扩散,Fast and Fluent Diffusion Language Models via Convolutional Decoding and Rejective Fine-tuning
+spotlight,优化与数学,高效推理加速,Fast Monte Carlo Tree Diffusion_ 100× Speedup via Parallel and Sparse Planning
 spotlight,医疗健康,,Fast MRI for All_ Bridging Access Gaps by Training without Raw Data
 spotlight,优化与数学,,Fast Projection-Free Approach (without Optimization Oracle) for Optimization over Compact Convex Set
-spotlight,高效推理加速,,Fast Training of Large Kernel Models with Delayed Projections
+spotlight,优化与数学,,Fast Training of Large Kernel Models with Delayed Projections
 spotlight,多模态视觉语言,强化学习,Fast-Slow Thinking GRPO for Large Vision-Language Model Reasoning
-spotlight,强化学习,,Feedback-Aware MCTS for Goal-Oriented Information Seeking
-spotlight,LLM与语言模型,,FFN Fusion_ Rethinking Sequential Computation in Large Language Models
-spotlight,医疗健康,,Fine-grained List-wise Alignment for Generative Medication Recommendation
-spotlight,评测与基准,生成模型扩散,FineGRAIN_ Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges
-spotlight,评测与基准,计算机视觉,Fire360_ A Benchmark for Robust Perception and Episodic Memory in Degraded 360° Firefighting Video
-spotlight,概率因果贝叶斯,,Fisher meets Feynman_ score-based variational inference with a product of experts
-spotlight,训练数据方法,,Fixed-Point RNNs_ Interpolating from Diagonal to Dense
+spotlight,医疗健康,机器学习理论,Feedback-Aware MCTS for Goal-Oriented Information Seeking
+spotlight,高效推理加速,LLM与语言模型,FFN Fusion_ Rethinking Sequential Computation in Large Language Models
+spotlight,安全对齐隐私,强化学习,Fine-grained List-wise Alignment for Generative Medication Recommendation
+spotlight,LLM与语言模型,生成模型扩散,FineGRAIN_ Evaluating Failure Modes of Text-to-Image Models with Vision Language Model Judges
+spotlight,计算机视觉,评测与基准,Fire360_ A Benchmark for Robust Perception and Episodic Memory in Degraded 360° Firefighting Video
+spotlight,概率因果贝叶斯,生成模型扩散,Fisher meets Feynman_ score-based variational inference with a product of experts
+spotlight,机器学习理论,,Fixed-Point RNNs_ Interpolating from Diagonal to Dense
 spotlight,训练数据方法,LLM与语言模型,Fixing It in Post_ A Comparative Study of LLM Post-Training Data Quality and Model Performance
-spotlight,AI4Science,高效推理加速,Flash Invariant Point Attention
+spotlight,AI4Science,,Flash Invariant Point Attention
 spotlight,AI4Science,,"FlashMD_ long-stride, universal prediction of molecular dynamics"
 spotlight,强化学习,,Flattening Hierarchies with Policy Bootstrapping
-spotlight,LLM与语言模型,训练数据方法,FlexOLMo_ Open Language Models for Flexible Data Use
-spotlight,生成模型扩散,强化学习,Flow Density Control_ Generative Optimization Beyond Entropy-Regularized Fine-Tuning
-spotlight,训练数据方法,,Flow Equivariant Recurrent Neural Networks
+spotlight,高效推理加速,评测与基准,FlexOLMo_ Open Language Models for Flexible Data Use
+spotlight,生成模型扩散,优化与数学,Flow Density Control_ Generative Optimization Beyond Entropy-Regularized Fine-Tuning
+spotlight,机器学习理论,,Flow Equivariant Recurrent Neural Networks
 spotlight,计算机视觉,,FlowFeat_ Pixel-Dense Embedding of Motion Profiles
 spotlight,强化学习,,Forecasting in Offline Reinforcement Learning for Non-stationary Environments
-spotlight,高效推理加速,LLM与语言模型,FP4 All the Way_ Fully Quantized Training of Large Language Models
+spotlight,LLM与语言模型,,FP4 All the Way_ Fully Quantized Training of Large Language Models
 spotlight,高效推理加速,生成模型扩散,FPSAttention_ Training-Aware FP8 and Sparsity Co-Design for Fast Video Diffusion
 spotlight,生成模型扩散,,Frame Context Packing and Drift Prevention in Next-Frame-Prediction Video Diffusion Models
 spotlight,安全对齐隐私,,From Counterfactuals to Trees_ Competitive Analysis of Model Extraction Attacks
 spotlight,机器人具身,,From Experts to a Generalist_ Toward General Whole-Body Control for Humanoid Robots
-spotlight,可解释性,LLM与语言模型,From Shortcut to Induction Head_ How Data Diversity Shapes Algorithm Selection in Transformers
-spotlight,多模态视觉语言,生成模型扩散,FUDOKI_ Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities
-spotlight,机器人具身,神经科学与认知,Fully Autonomous Neuromorphic Navigation and Dynamic Obstacle Avoidance
-spotlight,机器学习理论,,Functional Scaling Laws in Kernel Regression_ Loss Dynamics and Learning Rate Schedules
-spotlight,领域应用,计算机视觉,FutureSightDrive_ Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
-spotlight,Agent智能体,检索知识与记忆,G-Memory_ Tracing Hierarchical Memory for Multi-Agent Systems
-spotlight,计算机视觉,优化与数学,Gaussian Herding across Pens_ An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS
-spotlight,领域应用,计算机视觉,GaussianFusion_ Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving
+spotlight,训练数据方法,机器学习理论,From Shortcut to Induction Head_ How Data Diversity Shapes Algorithm Selection in Transformers
+spotlight,生成模型扩散,计算机视觉,FUDOKI_ Discrete Flow-based Unified Understanding and Generation via Kinetic-Optimal Velocities
+spotlight,计算机视觉,机器人具身,Fully Autonomous Neuromorphic Navigation and Dynamic Obstacle Avoidance
+spotlight,优化与数学,,Functional Scaling Laws in Kernel Regression_ Loss Dynamics and Learning Rate Schedules
+spotlight,计算机视觉,多模态视觉语言,FutureSightDrive_ Thinking Visually with Spatio-Temporal CoT for Autonomous Driving
+spotlight,Agent智能体,,G-Memory_ Tracing Hierarchical Memory for Multi-Agent Systems
+spotlight,计算机视觉,高效推理加速,Gaussian Herding across Pens_ An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS
+spotlight,机器人具身,强化学习,GaussianFusion_ Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving
 spotlight,计算机视觉,,Gaze Beyond the Frame_ Forecasting Egocentric 3D Visual Span
 spotlight,计算机视觉,生成模型扩散,GenColor_ Generative and Expressive Color Enhancement with Pixel-Perfect Texture Preservation
-spotlight,图与关系学习,机器学习理论,Generalizable Insights for Graph Transformers in Theory and Practice
-spotlight,LLM与语言模型,,Generalizable Reasoning through Compositional Energy Minimization
-spotlight,概率因果贝叶斯,,Generalized Top-k Mallows Model for Ranked Choices
-spotlight,强化学习,训练数据方法,Generating Informative Samples for Risk-Averse Fine-Tuning of Downstream Tasks
-spotlight,生成模型扩散,强化学习,Generative Trajectory Stitching through Diffusion Composition
-spotlight,机器学习理论,,Geometry Meets Incentives_ Sample-Efficient Incentivized Exploration with Linear Contexts
+spotlight,LLM与语言模型,,Generalizable Insights for Graph Transformers in Theory and Practice
+spotlight,评测与基准,机器学习理论,Generalizable Reasoning through Compositional Energy Minimization
+spotlight,训练数据方法,领域应用,Generalized Top-k Mallows Model for Ranked Choices
+spotlight,生成模型扩散,,Generating Informative Samples for Risk-Averse Fine-Tuning of Downstream Tasks
+spotlight,生成模型扩散,,Generative Trajectory Stitching through Diffusion Composition
+spotlight,机器学习理论,强化学习,Geometry Meets Incentives_ Sample-Efficient Incentivized Exploration with Linear Contexts
 spotlight,计算机视觉,,GeoRemover_ Removing Objects and Their Causal Visual Artifacts
-spotlight,计算机视觉,,GeoSVR_ Taming Sparse Voxels for Geometrically Accurate Surface Reconstruction
+spotlight,计算机视觉,优化与数学,GeoSVR_ Taming Sparse Voxels for Geometrically Accurate Surface Reconstruction
 spotlight,计算机视觉,,GeRaF_ Neural Geometry Reconstruction from Radio Frequency Signals
-spotlight,生成模型扩散,,Go With the Flow_ Fast Diffusion for Gaussian Mixture Models
+spotlight,优化与数学,,Go With the Flow_ Fast Diffusion for Gaussian Mixture Models
 spotlight,优化与数学,,Gradient-Variation Online Adaptivity for Accelerated Optimization with Hölder Smoothness
-spotlight,高效推理加速,LLM与语言模型,GraLoRA_ Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
-spotlight,优化与数学,图与关系学习,Graph-Based Attention for Differentiable MaxSAT Solving
-spotlight,Agent智能体,图与关系学习,GraphMaster_ Automated Graph Synthesis via LLM Agents in Data-Limited Environments
-spotlight,概率因果贝叶斯,,Graph–Smoothed Bayesian Black-Box Shift Estimator and Its Information Geometry
+spotlight,LLM与语言模型,生成模型扩散,GraLoRA_ Granular Low-Rank Adaptation for Parameter-Efficient Fine-Tuning
+spotlight,图与关系学习,,Graph-Based Attention for Differentiable MaxSAT Solving
+spotlight,Agent智能体,LLM与语言模型,GraphMaster_ Automated Graph Synthesis via LLM Agents in Data-Limited Environments
+spotlight,概率因果贝叶斯,机器学习理论,Graph–Smoothed Bayesian Black-Box Shift Estimator and Its Information Geometry
 spotlight,计算机视觉,,GSRF_ Complex-Valued 3D Gaussian Splatting for Efficient Radio-Frequency Data Synthesis
-spotlight,机器学习理论,,Guarantees for Alternating Least Squares in Overparameterized Tensor Decompositions
-spotlight,评测与基准,,GUARD_ Constructing Realistic Two-Player Matrix and Security Games for Benchmarking Game-Theoretic Algorithms
+spotlight,优化与数学,机器学习理论,Guarantees for Alternating Least Squares in Overparameterized Tensor Decompositions
+spotlight,安全对齐隐私,优化与数学,GUARD_ Constructing Realistic Two-Player Matrix and Security Games for Benchmarking Game-Theoretic Algorithms
 spotlight,强化学习,,Gymnasium_ A Standard Interface for Reinforcement Learning Environments
 spotlight,优化与数学,,Hamiltonian Descent Algorithms for Optimization_ Accelerated Rates via Randomized Integration Time
 spotlight,评测与基准,检索知识与记忆,HawkBench_ Investigating Resilience of RAG Methods on Stratified Information-Seeking Tasks
 spotlight,高效推理加速,LLM与语言模型,HBLLM_ Wavelet-Enhanced High-Fidelity 1-Bit Quantization for LLMs
-spotlight,可解释性,多模态视觉语言,Head Pursuit_ Probing Attention Specialization in Multimodal Transformers
+spotlight,可解释性,LLM与语言模型,Head Pursuit_ Probing Attention Specialization in Multimodal Transformers
 spotlight,图与关系学习,,Hierarchical Shortest-Path Graph Kernel Network
-spotlight,AI4Science,生成模型扩散,High-order Equivariant Flow Matching for Density Functional Theory Hamiltonian Prediction
-spotlight,优化与数学,高效推理加速,High-Performance Arithmetic Circuit Optimization via Differentiable Architecture Search
-spotlight,训练数据方法,,HM3_ Hierarchical Multi-Objective Model Merging for Pretrained Models
-spotlight,高效推理加速,LLM与语言模型,Hogwild! Inference_ Parallel LLM Generation via Concurrent Attention
-spotlight,计算机视觉,生成模型扩散,HopaDIFF_ Holistic-Partial Aware Fourier Conditioned Diffusion for Referring Human Action Segmentation in Multi-Person Scenarios
+spotlight,AI4Science,,High-order Equivariant Flow Matching for Density Functional Theory Hamiltonian Prediction
+spotlight,可解释性,评测与基准,High-Performance Arithmetic Circuit Optimization via Differentiable Architecture Search
+spotlight,LLM与语言模型,强化学习,HM3_ Hierarchical Multi-Objective Model Merging for Pretrained Models
+spotlight,LLM与语言模型,,Hogwild! Inference_ Parallel LLM Generation via Concurrent Attention
+spotlight,计算机视觉,,HopaDIFF_ Holistic-Partial Aware Fourier Conditioned Diffusion for Referring Human Action Segmentation in Multi-Person Scenarios
 spotlight,强化学习,,Horizon Reduction Makes RL Scalable
-spotlight,机器学习理论,LLM与语言模型,How do Transformers Learn Implicit Reasoning_
-spotlight,概率因果贝叶斯,,How many measurements are enough_ Bayesian recovery in inverse problems with general distributions
+spotlight,可解释性,,How do Transformers Learn Implicit Reasoning_
+spotlight,概率因果贝叶斯,生成模型扩散,How many measurements are enough_ Bayesian recovery in inverse problems with general distributions
 spotlight,安全对齐隐私,,How Well Can Differential Privacy Be Audited in One Run_
-spotlight,优化与数学,生成模型扩散,Hybrid-Balance GFlowNet for Solving Vehicle Routing Problems
-spotlight,LLM与语言模型,训练数据方法,Hyperbolic Fine-Tuning for Large Language Models
+spotlight,评测与基准,图与关系学习,Hybrid-Balance GFlowNet for Solving Vehicle Routing Problems
+spotlight,LLM与语言模型,,Hyperbolic Fine-Tuning for Large Language Models
 spotlight,安全对齐隐私,图与关系学习,HYPERION_ Fine-Grained Hypersphere Alignment for Robust Federated Graph Learning
-spotlight,AI4Science,,HyPINO_ Multi-Physics Neural Operators via HyperPINNs and the Method of Manufactured Solutions
+spotlight,AI4Science,评测与基准,HyPINO_ Multi-Physics Neural Operators via HyperPINNs and the Method of Manufactured Solutions
 spotlight,图与关系学习,,IA-GGAD_ Zero-shot Generalist Graph Anomaly Detection via Invariant and Affinity Learning
 spotlight,强化学习,,Imitation Beyond Expectation Using Pluralistic Stochastic Dominance
-spotlight,优化与数学,,Implicit Bias of Spectral Descent and Muon on Multiclass Separable Data
+spotlight,优化与数学,机器学习理论,Implicit Bias of Spectral Descent and Muon on Multiclass Separable Data
 spotlight,机器学习理论,,Improved Bounds for Swap Multicalibration and Swap Omniprediction
 spotlight,LLM与语言模型,可解释性,Improved Representation Steering for Language Models
-spotlight,训练数据方法,,Improving Bilinear RNN with Closed-loop Control
-spotlight,训练数据方法,,Improving Evolutionary Multi-View Classification via Eliminating Individual Fitness Bias
-spotlight,安全对齐隐私,LLM与语言模型,Improving LLM General Preference Alignment via Optimistic Online Mirror Descent
-spotlight,可解释性,概率因果贝叶斯,Improving Perturbation-based Explanations by Understanding the Role of Uncertainty Calibration
-spotlight,训练数据方法,领域应用,Incremental Sequence Classification with Temporal Consistency
-spotlight,安全对齐隐私,LLM与语言模型,Inference-Time Reward Hacking in Large Language Models
-spotlight,LLM与语言模型,安全对齐隐私,InfiFPO_ Implicit Model Fusion via Preference Optimization in Large Language Models
+spotlight,机器人具身,高效推理加速,Improving Bilinear RNN with Closed-loop Control
+spotlight,安全对齐隐私,计算机视觉,Improving Evolutionary Multi-View Classification via Eliminating Individual Fitness Bias
+spotlight,LLM与语言模型,优化与数学,Improving LLM General Preference Alignment via Optimistic Online Mirror Descent
+spotlight,概率因果贝叶斯,可解释性,Improving Perturbation-based Explanations by Understanding the Role of Uncertainty Calibration
+spotlight,LLM与语言模型,机器学习理论,Incremental Sequence Classification with Temporal Consistency
+spotlight,强化学习,LLM与语言模型,Inference-Time Reward Hacking in Large Language Models
+spotlight,LLM与语言模型,,InfiFPO_ Implicit Model Fusion via Preference Optimization in Large Language Models
 spotlight,多模态视觉语言,,InfMasking_ Unleashing Synergistic Information  by Contrastive Multimodal Interactions
 spotlight,计算机视觉,生成模型扩散,Injecting Frame-Event Complementary Fusion into Diffusion for Optical Flow in Challenging Scenes
-spotlight,强化学习,机器人具身,Inner Speech as Behavior Guides_ Steerable Imitation of Diverse Behaviors for Human-AI coordination
+spotlight,语音音频,神经科学与认知,Inner Speech as Behavior Guides_ Steerable Imitation of Diverse Behaviors for Human-AI coordination
 spotlight,安全对齐隐私,机器学习理论,Instance-Optimality for Private KL Distribution Estimation
 spotlight,AI4Science,,Integration Matters for Learning PDEs with Backward SDEs
-spotlight,安全对齐隐私,LLM与语言模型,InterMT_ Multi-Turn Interleaved Preference Alignment with Human Feedback
-spotlight,机器学习理论,,Is Grokking a Computational Glass Relaxation_
-spotlight,图与关系学习,生成模型扩散,Is Noise Conditioning Necessary_ A Unified Theory of Unconditional Graph Diffusion Models
-spotlight,机器学习理论,,Is the acquisition worth the cost_ Surrogate losses for   Consistent Two-stage Classifiers
+spotlight,安全对齐隐私,Agent智能体,InterMT_ Multi-Turn Interleaved Preference Alignment with Human Feedback
+spotlight,AI4Science,,Is Grokking a Computational Glass Relaxation_
+spotlight,生成模型扩散,,Is Noise Conditioning Necessary_ A Unified Theory of Unconditional Graph Diffusion Models
+spotlight,其他跨领域,,Is the acquisition worth the cost_ Surrogate losses for   Consistent Two-stage Classifiers
 spotlight,神经科学与认知,,Jacobian-Based Interpretation of Nonlinear Neural Encoding Model
-spotlight,多模态视觉语言,语音音频,JavisGPT_ A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation
-spotlight,训练数据方法,优化与数学,Joint Hierarchical Representation Learning of Samples and Features via Informed Tree-Wasserstein Distance
+spotlight,LLM与语言模型,多模态视觉语言,JavisGPT_ A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation
+spotlight,图与关系学习,AI4Science,Joint Hierarchical Representation Learning of Samples and Features via Informed Tree-Wasserstein Distance
 spotlight,机器学习理论,训练数据方法,Joint‑Embedding vs Reconstruction_ Provable Benefits of Latent Space Prediction for Self‑Supervised Learning
-spotlight,Agent智能体,图与关系学习,KARMA_ Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment
-spotlight,生成模型扩散,高效推理加速,KLASS_ KL-Guided Fast Inference in Masked Diffusion Models
-spotlight,机器人具身,多模态视觉语言,"Knowledge Insulating Vision-Language-Action Models_ Train Fast, Run Fast, Generalize Better"
+spotlight,图与关系学习,,KARMA_ Leveraging Multi-Agent LLMs for Automated Knowledge Graph Enrichment
+spotlight,生成模型扩散,,KLASS_ KL-Guided Fast Inference in Masked Diffusion Models
+spotlight,多模态视觉语言,,"Knowledge Insulating Vision-Language-Action Models_ Train Fast, Run Fast, Generalize Better"
 spotlight,评测与基准,LLM与语言模型,KORGym_ A Dynamic Game Platform for LLM Reasoning Evaluation
-spotlight,图与关系学习,可解释性,L2DGCN_ Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias
-spotlight,多模态视觉语言,生成模型扩散,LABridge_ Text–Image Latent Alignment Framework via Mean-Conditioned OU Process
+spotlight,图与关系学习,,L2DGCN_ Learnable Enhancement and Label Selection Dynamic Graph Convolutional Networks for Mitigating Degree Bias
+spotlight,生成模型扩散,,LABridge_ Text–Image Latent Alignment Framework via Mean-Conditioned OU Process
 spotlight,LLM与语言模型,,Language Modeling by Language Models
-spotlight,LLM与语言模型,强化学习,Language Models can Self-Improve at State-Value Estimation for Better Search
-spotlight,机器人具身,,Latent Policy Barrier_ Learning Robust Visuomotor Policies by Staying In-Distribution
-spotlight,多模态视觉语言,生成模型扩散,LaViDa_ A Large Diffusion Language Model for Multimodal Understanding
-spotlight,计算机视觉,,Learnable Burst-Encodable Time-of-Flight Imaging for High-Fidelity Long-Distance Depth Sensing
-spotlight,生成模型扩散,高效推理加速,Learnable Sampler Distillation for Discrete Diffusion Models
-spotlight,AI4Science,,Learning Interestingness in Automated Mathematical Theory Formation
-spotlight,多模态视觉语言,,Learning Robust Vision-Language Models from Natural Latent Spaces
-spotlight,LLM与语言模型,机器学习理论,Learning the Wrong Lessons_ Syntactic-Domain Spurious Correlations in Language Models
-spotlight,领域应用,,Learning to Factorize Spatio-Temporal Foundation Models
-spotlight,领域应用,高效推理加速,Learning with Calibration_ Exploring Test-Time Computing of Spatio-Temporal Forecasting
-spotlight,生成模型扩散,高效推理加速,LeMiCa_ Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation
-spotlight,安全对齐隐私,训练数据方法,Less is More_ Improving LLM Alignment via Preference Data Selection
-spotlight,LLM与语言模型,领域应用,LLM Meeting Decision Trees on Tabular Data
+spotlight,LLM与语言模型,,Language Models can Self-Improve at State-Value Estimation for Better Search
+spotlight,训练数据方法,强化学习,Latent Policy Barrier_ Learning Robust Visuomotor Policies by Staying In-Distribution
+spotlight,多模态视觉语言,LLM与语言模型,LaViDa_ A Large Diffusion Language Model for Multimodal Understanding
+spotlight,机器人具身,计算机视觉,Learnable Burst-Encodable Time-of-Flight Imaging for High-Fidelity Long-Distance Depth Sensing
+spotlight,生成模型扩散,,Learnable Sampler Distillation for Discrete Diffusion Models
+spotlight,强化学习,机器学习理论,Learning Interestingness in Automated Mathematical Theory Formation
+spotlight,多模态视觉语言,计算机视觉,Learning Robust Vision-Language Models from Natural Latent Spaces
+spotlight,LLM与语言模型,,Learning the Wrong Lessons_ Syntactic-Domain Spurious Correlations in Language Models
+spotlight,LLM与语言模型,,Learning to Factorize Spatio-Temporal Foundation Models
+spotlight,高效推理加速,概率因果贝叶斯,Learning with Calibration_ Exploring Test-Time Computing of Spatio-Temporal Forecasting
+spotlight,生成模型扩散,机器学习理论,LeMiCa_ Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation
+spotlight,训练数据方法,LLM与语言模型,Less is More_ Improving LLM Alignment via Preference Data Selection
+spotlight,LLM与语言模型,,LLM Meeting Decision Trees on Tabular Data
 spotlight,强化学习,LLM与语言模型,LLM-Explorer_ A Plug-in Reinforcement Learning Policy Exploration Enhancement Driven by Large Language Models
-spotlight,生成模型扩散,机器学习理论,Locality in Image Diffusion Models Emerges from Data Statistics
-spotlight,计算机视觉,高效推理加速,LODGE_ Level-of-Detail Large-Scale Gaussian Splatting with Efficient Rendering
-spotlight,LLM与语言模型,训练数据方法,LogicTree_ Improving Complex Reasoning of LLMs via Instantiated Multi-step Synthetic Logical Data
-spotlight,计算机视觉,训练数据方法,Long-Tailed Recognition via Information-Preservable Two-Stage Learning
-spotlight,生成模型扩散,,LoRAShop_ Training-Free Multi-Concept Image Generation and Editing with Rectified Flow Transformers
-spotlight,计算机视觉,高效推理加速,LoRATv2_ Enabling Low-Cost Temporal Modeling in One-Stream Trackers
+spotlight,生成模型扩散,,Locality in Image Diffusion Models Emerges from Data Statistics
+spotlight,计算机视觉,,LODGE_ Level-of-Detail Large-Scale Gaussian Splatting with Efficient Rendering
+spotlight,LLM与语言模型,,LogicTree_ Improving Complex Reasoning of LLMs via Instantiated Multi-step Synthetic Logical Data
+spotlight,计算机视觉,,Long-Tailed Recognition via Information-Preservable Two-Stage Learning
+spotlight,计算机视觉,,LoRAShop_ Training-Free Multi-Concept Image Generation and Editing with Rectified Flow Transformers
+spotlight,LLM与语言模型,高效推理加速,LoRATv2_ Enabling Low-Cost Temporal Modeling in One-Stream Trackers
 spotlight,LLM与语言模型,,Lost in Transmission_ When and Why LLMs Fail to Reason Globally
 spotlight,机器学习理论,,Low-degree evidence for computational transition of recovery rate in stochastic block model
-spotlight,领域应用,多模态视觉语言,MAESTRO _ Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series
-spotlight,评测与基准,安全对齐隐私,MARS-VFL_ A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation
-spotlight,计算机视觉,,MDReID_ Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification
-spotlight,强化学习,Agent智能体,Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning
-spotlight,神经科学与认知,,Measuring and Controlling Solution Degeneracy across Task-Trained Recurrent Neural Networks
-spotlight,可解释性,LLM与语言模型,Measuring and Guiding Monosemanticity
-spotlight,训练数据方法,安全对齐隐私,Measuring Fingerprints of Web-filtered Text Datasets and Fingerprint Propagation Through Training
-spotlight,医疗健康,Agent智能体,MedChain_ Bridging the Gap Between LLM Agents and Clinical Practice with Interactive Sequence
-spotlight,评测与基准,医疗健康,MedSG-Bench_ A Benchmark for Medical Image Sequences Grounding
-spotlight,优化与数学,检索知识与记忆,Memory-Enhanced Neural Solvers for Routing Problems
+spotlight,多模态视觉语言,高效推理加速,MAESTRO _ Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series
+spotlight,安全对齐隐私,,MARS-VFL_ A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation
+spotlight,多模态视觉语言,计算机视觉,MDReID_ Modality-Decoupled Learning for Any-to-Any Multi-Modal Object Re-Identification
+spotlight,机器学习理论,Agent智能体,Mean-Field Sampling for Cooperative Multi-Agent Reinforcement Learning
+spotlight,可解释性,机器学习理论,Measuring and Controlling Solution Degeneracy across Task-Trained Recurrent Neural Networks
+spotlight,可解释性,计算机视觉,Measuring and Guiding Monosemanticity
+spotlight,LLM与语言模型,,Measuring Fingerprints of Web-filtered Text Datasets and Fingerprint Propagation Through Training
+spotlight,Agent智能体,医疗健康,MedChain_ Bridging the Gap Between LLM Agents and Clinical Practice with Interactive Sequence
+spotlight,医疗健康,多模态视觉语言,MedSG-Bench_ A Benchmark for Medical Image Sequences Grounding
+spotlight,强化学习,,Memory-Enhanced Neural Solvers for Routing Problems
 spotlight,机器人具身,强化学习,Memo_ Training Memory-Efficient Embodied Agents with Reinforcement Learning
-spotlight,计算机视觉,生成模型扩散,MesaTask_ Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning
-spotlight,生成模型扩散,强化学习,Mesh-RFT_ Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning
-spotlight,多模态视觉语言,训练数据方法,Meta CLIP 2_ A Worldwide Scaling Recipe
+spotlight,计算机视觉,机器人具身,MesaTask_ Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning
+spotlight,计算机视觉,LLM与语言模型,Mesh-RFT_ Enhancing Mesh Generation via Fine-grained Reinforcement Fine-Tuning
+spotlight,多模态视觉语言,LLM与语言模型,Meta CLIP 2_ A Worldwide Scaling Recipe
 spotlight,计算机视觉,,MetaGS_ A Meta-Learned Gaussian-Phong Model for Out-of-Distribution 3D Scene Relighting
-spotlight,神经科学与认知,Agent智能体,MetaMind_ Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems
+spotlight,Agent智能体,LLM与语言模型,MetaMind_ Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems
 spotlight,优化与数学,,MGUP_ A Momentum-Gradient Alignment Update Policy for Stochastic Optimization
 spotlight,LLM与语言模型,,MigGPT_ Harnessing Large Language Models for Automated Migration of Out-of-Tree Linux Kernel Patches Across Versions
 spotlight,生成模型扩散,计算机视觉,Mind-the-Glitch_ Visual Correspondence for Detecting Inconsistencies in Subject-Driven Generation
 spotlight,机器学习理论,,Minimax Adaptive Online Nonparametric Regression over Besov spaces
-spotlight,机器学习理论,,"Minimax-Optimal Univariate Function Selection in Sparse Additive Models_ Rates, Adaptation, and the Estimation-Selection Gap"
-spotlight,AI4Science,,Mitigating Instability in High Residual Adaptive Sampling for PINNs via Langevin Dynamics
+spotlight,机器学习理论,优化与数学,"Minimax-Optimal Univariate Function Selection in Sparse Additive Models_ Rates, Adaptation, and the Estimation-Selection Gap"
+spotlight,优化与数学,AI4Science,Mitigating Instability in High Residual Adaptive Sampling for PINNs via Langevin Dynamics
 spotlight,安全对齐隐私,,Mitigating the Privacy–Utility Trade-off in Decentralized Federated Learning via f-Differential Privacy
-spotlight,评测与基准,生成模型扩散,MJ-Video_ Benchmarking and Rewarding Video Generation with Fine-Grained Video Preference
-spotlight,AI4Science,评测与基准,"MLIP Arena_ Advancing Fairness and Transparency in Machine Learning Interatomic Potentials via an Open, Accessible Benchmark Platform"
-spotlight,评测与基准,多模态视觉语言,MME_ A Comprehensive Evaluation Benchmark for Multimodal Large Language Models
-spotlight,评测与基准,多模态视觉语言,MMLongBench_ Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly
+spotlight,安全对齐隐私,评测与基准,MJ-Video_ Benchmarking and Rewarding Video Generation with Fine-Grained Video Preference
+spotlight,AI4Science,安全对齐隐私,"MLIP Arena_ Advancing Fairness and Transparency in Machine Learning Interatomic Potentials via an Open, Accessible Benchmark Platform"
+spotlight,评测与基准,LLM与语言模型,MME_ A Comprehensive Evaluation Benchmark for Multimodal Large Language Models
+spotlight,计算机视觉,多模态视觉语言,MMLongBench_ Benchmarking Long-Context Vision-Language Models Effectively and Thoroughly
 spotlight,LLM与语言模型,高效推理加速,MoBA_ Mixture of Block Attention for Long-Context LLMs
-spotlight,生成模型扩散,语音音频,MoCha_ Towards Movie-Grade Talking Character Generation
-spotlight,可解释性,,ModHiFi_ Identifying High Fidelity predictive components for Model Modification
+spotlight,LLM与语言模型,,MoCha_ Towards Movie-Grade Talking Character Generation
+spotlight,高效推理加速,训练数据方法,ModHiFi_ Identifying High Fidelity predictive components for Model Modification
 spotlight,高效推理加速,LLM与语言模型,MoESD_ Unveil Speculative Decoding's Potential for Accelerating Sparse MoE
-spotlight,高效推理加速,LLM与语言模型,"MonarchAttention_ Zero-Shot Conversion to Fast, Hardware-Aware Structured Attention"
-spotlight,计算机视觉,,MONITRS_ Multimodal Observations of Natural Incidents Through Remote Sensing
-spotlight,机器人具身,高效推理加速,MonoLift_ Learning 3D Manipulation Policies from Monocular RGB via Distillation
-spotlight,高效推理加速,训练数据方法,Mozart_ Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures
-spotlight,多模态视觉语言,LLM与语言模型,Mulberry_ Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search
-spotlight,强化学习,机器学习理论,Multi-Agent Learning under Uncertainty_ Recurrence vs. Concentration
+spotlight,优化与数学,LLM与语言模型,"MonarchAttention_ Zero-Shot Conversion to Fast, Hardware-Aware Structured Attention"
+spotlight,计算机视觉,LLM与语言模型,MONITRS_ Multimodal Observations of Natural Incidents Through Remote Sensing
+spotlight,计算机视觉,高效推理加速,MonoLift_ Learning 3D Manipulation Policies from Monocular RGB via Distillation
+spotlight,高效推理加速,LLM与语言模型,Mozart_ Modularized and Efficient MoE Training on 3.5D Wafer-Scale Chiplet Architectures
+spotlight,多模态视觉语言,优化与数学,Mulberry_ Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search
+spotlight,Agent智能体,概率因果贝叶斯,Multi-Agent Learning under Uncertainty_ Recurrence vs. Concentration
 spotlight,强化学习,,Multi-agent Markov Entanglement
 spotlight,机器学习理论,概率因果贝叶斯,Multidimensional Bayesian Utility Maximization_ Tight Approximations to Welfare
-spotlight,医疗健康,多模态视觉语言,Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment
-spotlight,训练数据方法,生成模型扩散,Multitask Learning  with Stochastic Interpolants
-spotlight,LLM与语言模型,,Multiverse_ Your Language Models Secretly Decide How to Parallelize and Merge Generation
-spotlight,检索知识与记忆,多模态视觉语言,Neighbor-aware Contrastive Disambiguation for Cross-Modal Hashing with Redundant Annotations
-spotlight,医疗健康,计算机视觉,Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation
+spotlight,医疗健康,,Multimodal Disease Progression Modeling via Spatiotemporal Disentanglement and Multiscale Alignment
+spotlight,生成模型扩散,,Multitask Learning  with Stochastic Interpolants
+spotlight,LLM与语言模型,生成模型扩散,Multiverse_ Your Language Models Secretly Decide How to Parallelize and Merge Generation
+spotlight,多模态视觉语言,,Neighbor-aware Contrastive Disambiguation for Cross-Modal Hashing with Redundant Annotations
+spotlight,医疗健康,,Neighborhood Self-Dissimilarity Attention for Medical Image Segmentation
 spotlight,训练数据方法,LLM与语言模型,Nemotron-CLIMB_ Clustering-based Iterative Data Mixture Bootstrapping for Language Model Pre-training
-spotlight,计算机视觉,领域应用,Neptune-X_ Active X-to-Maritime Generation for Universal Maritime Object Detection
-spotlight,计算机视觉,,Neural Atlas Graphs for Dynamic Scene Decomposition and Editing
-spotlight,机器学习理论,,Neural Entropy
-spotlight,机器学习理论,,Non-Asymptotic Analysis Of Data Augmentation For Precision Matrix Estimation
-spotlight,优化与数学,,Non-Clairvoyant Scheduling with Progress Bars
-spotlight,机器学习理论,,Nonlinear Laplacians_ Tunable principal component analysis under directional prior information
-spotlight,安全对齐隐私,训练数据方法,NormFit_ A Lightweight Solution for Few-Shot Federated Learning with Non-IID Data
-spotlight,领域应用,训练数据方法,Not All Data are Good Labels_ On the Self-supervised Labeling for Time Series Forecasting
-spotlight,机器人具身,,Object-centric 3D Motion Field for Robot Learning from Human Videos
-spotlight,医疗健康,生成模型扩散,OCTDiff_ Bridged Diffusion Model for Portable OCT Super-Resolution and Enhancement
+spotlight,计算机视觉,生成模型扩散,Neptune-X_ Active X-to-Maritime Generation for Universal Maritime Object Detection
+spotlight,计算机视觉,图与关系学习,Neural Atlas Graphs for Dynamic Scene Decomposition and Editing
+spotlight,生成模型扩散,,Neural Entropy
+spotlight,训练数据方法,机器学习理论,Non-Asymptotic Analysis Of Data Augmentation For Precision Matrix Estimation
+spotlight,机器学习理论,安全对齐隐私,Non-Clairvoyant Scheduling with Progress Bars
+spotlight,优化与数学,图与关系学习,Nonlinear Laplacians_ Tunable principal component analysis under directional prior information
+spotlight,LLM与语言模型,多模态视觉语言,NormFit_ A Lightweight Solution for Few-Shot Federated Learning with Non-IID Data
+spotlight,训练数据方法,,Not All Data are Good Labels_ On the Self-supervised Labeling for Time Series Forecasting
+spotlight,计算机视觉,机器人具身,Object-centric 3D Motion Field for Robot Learning from Human Videos
+spotlight,生成模型扩散,医疗健康,OCTDiff_ Bridged Diffusion Model for Portable OCT Super-Resolution and Enhancement
 spotlight,医疗健康,强化学习,Offline Guarded Safe Reinforcement Learning for Medical Treatment Optimization Strategies
-spotlight,生成模型扩散,语音音频,OmniSync_ Towards Universal Lip Synchronization via Diffusion Transformers
+spotlight,计算机视觉,语音音频,OmniSync_ Towards Universal Lip Synchronization via Diffusion Transformers
 spotlight,机器学习理论,,On Agnostic PAC Learning in the Small Error Regime
-spotlight,强化学习,机器学习理论,On Feasible Rewards in Multi-Agent Inverse Reinforcement Learning
+spotlight,强化学习,Agent智能体,On Feasible Rewards in Multi-Agent Inverse Reinforcement Learning
 spotlight,安全对齐隐私,机器学习理论,On the Empirical Power of Goodness-of-Fit Tests in Watermark Detection
 spotlight,机器学习理论,,On the Expressive Power of Mixture-of-Experts for Structured Complex Tasks
-spotlight,机器学习理论,,On the Hardness of Approximating Distributions with Tractable Probabilistic Models
-spotlight,机器学习理论,,On the Hardness of Conditional Independence Testing In Practice
-spotlight,机器学习理论,,On the necessity of adaptive regularisation_ Optimal anytime online learning on $_boldsymbol{_ell_p}$-balls
+spotlight,可解释性,概率因果贝叶斯,On the Hardness of Approximating Distributions with Tractable Probabilistic Models
+spotlight,概率因果贝叶斯,安全对齐隐私,On the Hardness of Conditional Independence Testing In Practice
+spotlight,机器学习理论,优化与数学,On the necessity of adaptive regularisation_ Optimal anytime online learning on $_boldsymbol{_ell_p}$-balls
 spotlight,优化与数学,,On the Optimal Construction of Unbiased Gradient Estimators for Zeroth-Order Optimization
-spotlight,机器学习理论,,On the sample complexity of semi-supervised multi-objective learning
-spotlight,机器学习理论,训练数据方法,On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling
-spotlight,机器学习理论,,On the Universal Near Optimality of Hedge in Combinatorial Settings
-spotlight,多模态视觉语言,,On the Value of Cross-Modal Misalignment in Multimodal Representation Learning
-spotlight,优化与数学,,On Traceability in $_ell_p$ Stochastic Convex Optimization
-spotlight,机器学习理论,,On Transferring Transferability_ Towards a Theory for Size Generalization
+spotlight,机器学习理论,训练数据方法,On the sample complexity of semi-supervised multi-objective learning
+spotlight,机器学习理论,优化与数学,On the Surprising Effectiveness of Large Learning Rates under Standard Width Scaling
+spotlight,机器学习理论,优化与数学,On the Universal Near Optimality of Hedge in Combinatorial Settings
+spotlight,多模态视觉语言,安全对齐隐私,On the Value of Cross-Modal Misalignment in Multimodal Representation Learning
+spotlight,优化与数学,机器学习理论,On Traceability in $_ell_p$ Stochastic Convex Optimization
+spotlight,图与关系学习,,On Transferring Transferability_ Towards a Theory for Size Generalization
 spotlight,机器学习理论,,On Universality Classes of Equivariant Networks
-spotlight,机器学习理论,训练数据方法,Online Functional Tensor Decomposition via Continual Learning for Streaming Data Completion
-spotlight,机器学习理论,,Online Prediction with Limited Selectivity
-spotlight,机器学习理论,,Online Strategic Classification With Noise and Partial Feedback
+spotlight,优化与数学,AI4Science,Online Functional Tensor Decomposition via Continual Learning for Streaming Data Completion
+spotlight,其他跨领域,,Online Prediction with Limited Selectivity
+spotlight,生成模型扩散,Agent智能体,Online Strategic Classification With Noise and Partial Feedback
 spotlight,计算机视觉,,OnlineSplatter_ Pose-Free Online 3D Reconstruction for Free-Moving Objects
-spotlight,计算机视觉,AI4Science,Open-Insect_ Benchmarking Open-Set Recognition of Novel Species in Biodiversity Monitoring
-spotlight,计算机视觉,,OpenBox_ Annotate Any Bounding Boxes in 3D
-spotlight,Agent智能体,LLM与语言模型,OpenCUA_ Open Foundations for Computer-Use Agents
-spotlight,计算机视觉,多模态视觉语言,OpenWorldSAM_ Extending SAM2 for Universal Image Segmentation with Language Prompts
-spotlight,优化与数学,图与关系学习,OPTFM_ A Scalable Multi-View Graph Transformer for Hierarchical Pre-Training in Combinatorial Optimization
-spotlight,机器学习理论,,Optimal and Provable Calibration in High-Dimensional Binary Classification_ Angular Calibration and Platt Scaling
+spotlight,计算机视觉,,Open-Insect_ Benchmarking Open-Set Recognition of Novel Species in Biodiversity Monitoring
+spotlight,计算机视觉,训练数据方法,OpenBox_ Annotate Any Bounding Boxes in 3D
+spotlight,Agent智能体,训练数据方法,OpenCUA_ Open Foundations for Computer-Use Agents
+spotlight,LLM与语言模型,多模态视觉语言,OpenWorldSAM_ Extending SAM2 for Universal Image Segmentation with Language Prompts
+spotlight,图与关系学习,,OPTFM_ A Scalable Multi-View Graph Transformer for Hierarchical Pre-Training in Combinatorial Optimization
+spotlight,机器学习理论,概率因果贝叶斯,Optimal and Provable Calibration in High-Dimensional Binary Classification_ Angular Calibration and Platt Scaling
 spotlight,高效推理加速,机器学习理论,Optimal Neural Compressors for the Rate-Distortion-Perception Tradeoff
-spotlight,机器学习理论,概率因果贝叶斯,Optimal Nuisance Function Tuning for Estimating a Doubly Robust Functional under Proportional Asymptotics
-spotlight,LLM与语言模型,优化与数学,Optimization Inspired Few-Shot Adaptation for Large Language Models
+spotlight,机器学习理论,,Optimal Nuisance Function Tuning for Estimating a Doubly Robust Functional under Proportional Asymptotics
+spotlight,LLM与语言模型,,Optimization Inspired Few-Shot Adaptation for Large Language Models
 spotlight,强化学习,,Option-aware Temporally Abstracted Value for Offline Goal-Conditioned Reinforcement Learning
 spotlight,计算机视觉,,Orient Anything V2_ Unifying Orientation and Rotation Understanding
-spotlight,评测与基准,多模态视觉语言,ORIGAMISPACE_ Benchmarking Multimodal LLMs in Multi-Step Spatial Reasoning with Mathematical Constraints
+spotlight,LLM与语言模型,,ORIGAMISPACE_ Benchmarking Multimodal LLMs in Multi-Step Spatial Reasoning with Mathematical Constraints
 spotlight,医疗健康,计算机视觉,Orochi_ Versatile Biomedical Image Processor
-spotlight,安全对齐隐私,评测与基准,OS-Harm_ A Benchmark for Measuring Safety of Computer Use Agents
-spotlight,多模态视觉语言,训练数据方法,Partition-Then-Adapt_ Combating Prediction Bias for Reliable Multi-Modal Test-Time Adaptation
+spotlight,安全对齐隐私,Agent智能体,OS-Harm_ A Benchmark for Measuring Safety of Computer Use Agents
+spotlight,多模态视觉语言,安全对齐隐私,Partition-Then-Adapt_ Combating Prediction Bias for Reliable Multi-Modal Test-Time Adaptation
 spotlight,多模态视觉语言,计算机视觉,PARTONOMY_ Large Multimodal Models with Part-Level Visual Understanding
 spotlight,强化学习,,Pass@K Policy Optimization_ Solving Harder Reinforcement Learning Problems
-spotlight,领域应用,,Path-Enhanced Contrastive Learning for Recommendation
-spotlight,医疗健康,LLM与语言模型,PatientSim_ A Persona-Driven Simulator for Realistic Doctor-Patient Interactions
-spotlight,多模态视觉语言,评测与基准,PerceptionLM_ Open-Access Data and Models for Detailed Visual Understanding
-spotlight,LLM与语言模型,领域应用,Personalized Decision Modeling_ Utility Optimization or Textualized-Symbolic Reasoning
-spotlight,计算机视觉,安全对齐隐私,Physics-Driven Spatiotemporal Modeling for AI-Generated Video Detection
+spotlight,图与关系学习,训练数据方法,Path-Enhanced Contrastive Learning for Recommendation
+spotlight,医疗健康,世界模型与模拟,PatientSim_ A Persona-Driven Simulator for Realistic Doctor-Patient Interactions
+spotlight,计算机视觉,训练数据方法,PerceptionLM_ Open-Access Data and Models for Detailed Visual Understanding
+spotlight,LLM与语言模型,,Personalized Decision Modeling_ Utility Optimization or Textualized-Symbolic Reasoning
+spotlight,计算机视觉,机器学习理论,Physics-Driven Spatiotemporal Modeling for AI-Generated Video Detection
 spotlight,计算机视觉,生成模型扩散,PhysX-3D_ Physical-Grounded 3D Asset Generation
-spotlight,训练数据方法,,PiKE_ Adaptive Data Mixing for Large-Scale Multi-Task Learning Under Low Gradient Conflicts
-spotlight,强化学习,,Plasticity as the Mirror of Empowerment
-spotlight,领域应用,LLM与语言模型,PLMTrajRec_ A Scalable and Generalizable Trajectory Recovery Method with Pre-trained Language Models
-spotlight,世界模型与模拟,,PoE-World_ Compositional World Modeling with Products of Programmatic Experts
+spotlight,机器学习理论,训练数据方法,PiKE_ Adaptive Data Mixing for Large-Scale Multi-Task Learning Under Low Gradient Conflicts
+spotlight,Agent智能体,机器学习理论,Plasticity as the Mirror of Empowerment
+spotlight,LLM与语言模型,强化学习,PLMTrajRec_ A Scalable and Generalizable Trajectory Recovery Method with Pre-trained Language Models
+spotlight,世界模型与模拟,Agent智能体,PoE-World_ Compositional World Modeling with Products of Programmatic Experts
 spotlight,强化学习,,Policy Compatible Skill Incremental Learning via Lazy Learning Interface
-spotlight,计算机视觉,高效推理加速,Polyline Path Masked Attention for Vision Transformer
-spotlight,可解释性,概率因果贝叶斯,Practical do-Shapley Explanations with Estimand-Agnostic Causal Inference
-spotlight,机器学习理论,,Precise Asymptotics and Refined Regret of Variance-Aware UCB
-spotlight,概率因果贝叶斯,生成模型扩散,Preconditioned Langevin Dynamics with Score-based Generative Models for Infinite-Dimensional Linear Bayesian Inverse Problems
-spotlight,强化学习,安全对齐隐私,Predictive Preference Learning from Human Interventions
-spotlight,优化与数学,训练数据方法,Principled Data Augmentation for Learning to Solve Quadratic Programming Problems
-spotlight,LLM与语言模型,训练数据方法,Prismatic Synthesis_ Gradient-based Data Diversification Boosts Generalization in LLM Reasoning
-spotlight,安全对齐隐私,,Privacy amplification by random allocation
+spotlight,计算机视觉,LLM与语言模型,Polyline Path Masked Attention for Vision Transformer
+spotlight,概率因果贝叶斯,领域应用,Practical do-Shapley Explanations with Estimand-Agnostic Causal Inference
+spotlight,机器学习理论,强化学习,Precise Asymptotics and Refined Regret of Variance-Aware UCB
+spotlight,生成模型扩散,机器学习理论,Preconditioned Langevin Dynamics with Score-based Generative Models for Infinite-Dimensional Linear Bayesian Inverse Problems
+spotlight,机器人具身,评测与基准,Predictive Preference Learning from Human Interventions
+spotlight,训练数据方法,,Principled Data Augmentation for Learning to Solve Quadratic Programming Problems
+spotlight,LLM与语言模型,评测与基准,Prismatic Synthesis_ Gradient-based Data Diversification Boosts Generalization in LLM Reasoning
+spotlight,安全对齐隐私,机器学习理论,Privacy amplification by random allocation
 spotlight,安全对齐隐私,,Private Hyperparameter Tuning with Ex-Post Guarantee
-spotlight,安全对齐隐私,,Private Set Union with Multiple Contributions
-spotlight,优化与数学,,Probing Neural Combinatorial Optimization Models
+spotlight,安全对齐隐私,机器学习理论,Private Set Union with Multiple Contributions
+spotlight,可解释性,机器学习理论,Probing Neural Combinatorial Optimization Models
 spotlight,机器学习理论,,Product Distribution Learning with Imperfect Advice
-spotlight,AI4Science,生成模型扩散,Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities
-spotlight,强化学习,机器学习理论,Projection-based Lyapunov method for fully heterogeneous weakly-coupled MDPs
-spotlight,机器学习理论,,Projective Equivariant Networks via Second-order Fundamental Differential Invariants
+spotlight,生成模型扩散,AI4Science,Progressive Inference-Time Annealing of Diffusion Models for Sampling from Boltzmann Densities
+spotlight,强化学习,,Projection-based Lyapunov method for fully heterogeneous weakly-coupled MDPs
+spotlight,优化与数学,计算机视觉,Projective Equivariant Networks via Second-order Fundamental Differential Invariants
 spotlight,AI4Science,,Protein Design with Dynamic Protein Vocabulary
-spotlight,AI4Science,强化学习,ProtInvTree_ Deliberate Protein Inverse Folding with Reward-guided Tree Search
-spotlight,机器学习理论,,Provable Gradient Editing of Deep Neural Networks
-spotlight,强化学习,安全对齐隐私,Provably Efficient RL under Episode-Wise Safety in Constrained MDPs with Linear Function Approximation
-spotlight,可解释性,高效推理加速,ProxySPEX_ Inference-Efficient Interpretability via Sparse Feature Interactions in LLMs
-spotlight,计算机视觉,生成模型扩散,Puppeteer_ Rig and Animate Your 3D Models
+spotlight,生成模型扩散,强化学习,ProtInvTree_ Deliberate Protein Inverse Folding with Reward-guided Tree Search
+spotlight,机器学习理论,AI4Science,Provable Gradient Editing of Deep Neural Networks
+spotlight,强化学习,机器学习理论,Provably Efficient RL under Episode-Wise Safety in Constrained MDPs with Linear Function Approximation
+spotlight,可解释性,LLM与语言模型,ProxySPEX_ Inference-Efficient Interpretability via Sparse Feature Interactions in LLMs
+spotlight,LLM与语言模型,图与关系学习,Puppeteer_ Rig and Animate Your 3D Models
 spotlight,安全对齐隐私,,Purifying Approximate Differential Privacy with Randomized Post-processing
 spotlight,优化与数学,,Purifying Shampoo_ Investigating Shampoo's Heuristics by Decomposing its Preconditioner
 spotlight,计算机视觉,强化学习,Q-Insight_ Understanding Image Quality via Visual Reinforcement Learning
-spotlight,LLM与语言模型,训练数据方法,"QFFT, Question-Free Fine-Tuning for Adaptive Reasoning"
+spotlight,LLM与语言模型,,"QFFT, Question-Free Fine-Tuning for Adaptive Reasoning"
 spotlight,高效推理加速,多模态视觉语言,QSVD_ Efficient Low-rank Approximation for Unified Query-Key-Value Weight Compression in Low-Precision Vision-Language Models
-spotlight,机器人具身,,Quantization-Free Autoregressive Action Transformer
-spotlight,机器学习理论,,Quantum Doubly Stochastic Transformers
-spotlight,其他跨领域,,Quantum speedup of non-linear Monte Carlo problems
+spotlight,生成模型扩散,,Quantization-Free Autoregressive Action Transformer
+spotlight,机器学习理论,计算机视觉,Quantum Doubly Stochastic Transformers
+spotlight,优化与数学,机器学习理论,Quantum speedup of non-linear Monte Carlo problems
 spotlight,强化学习,,Reasoning Gym_ Reasoning Environments for Reinforcement Learning with Verifiable Rewards
-spotlight,LLM与语言模型,,Reasoning Planning for Language Models
-spotlight,安全对齐隐私,机器学习理论,Reconstruction and Secrecy under Approximate Distance Queries
+spotlight,世界模型与模拟,优化与数学,Reasoning Planning for Language Models
+spotlight,计算机视觉,安全对齐隐私,Reconstruction and Secrecy under Approximate Distance Queries
 spotlight,计算机视觉,训练数据方法,ReCon_ Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection
 spotlight,计算机视觉,,Rectified Point Flow_ Generic Point Cloud Pose Estimation
 spotlight,机器学习理论,,Refinement Methods for Distributed Distribution Estimation under $_ell^p$-Losses
-spotlight,机器学习理论,,Regret Bounds for Adversarial Contextual Bandits with General Function Approximation and Delayed Feedback
+spotlight,机器学习理论,强化学习,Regret Bounds for Adversarial Contextual Bandits with General Function Approximation and Delayed Feedback
 spotlight,机器学习理论,,Regularized least squares learning with heavy-tailed noise is minimax optimal
 spotlight,医疗健康,强化学习,Reinforcement Learning for Out-of-Distribution Reasoning in LLMs_ An Empirical Study on Diagnosis-Related Group Coding
-spotlight,强化学习,机器学习理论,Reinforcement Learning with Imperfect Transition Predictions_ A Bellman-Jensen Approach
-spotlight,生成模型扩散,,"RepLDM_ Reprogramming Pretrained Latent Diffusion Models for High-Quality, High-Efficiency, High-Resolution Image Generation"
+spotlight,强化学习,,Reinforcement Learning with Imperfect Transition Predictions_ A Bellman-Jensen Approach
+spotlight,生成模型扩散,计算机视觉,"RepLDM_ Reprogramming Pretrained Latent Diffusion Models for High-Quality, High-Efficiency, High-Resolution Image Generation"
 spotlight,机器学习理论,,Replicable Distribution Testing
-spotlight,Agent智能体,,Repo2Run_ Automated Building Executable Environment for Code Repository at Scale
+spotlight,评测与基准,LLM与语言模型,Repo2Run_ Automated Building Executable Environment for Code Repository at Scale
 spotlight,Agent智能体,,RepoMaster_ Autonomous Exploration and Understanding of GitHub Repositories for  Complex Task Solving
-spotlight,计算机视觉,,Repurposing Marigold for Zero-Shot Metric Depth Estimation via Defocus Blur Cues
-spotlight,评测与基准,LLM与语言模型,ResearchCodeBench_ Benchmarking LLMs on Implementing Novel Machine Learning Research Code
-spotlight,领域应用,世界模型与模拟,ReSim_ Reliable World Simulation for Autonomous Driving
+spotlight,计算机视觉,生成模型扩散,Repurposing Marigold for Zero-Shot Metric Depth Estimation via Defocus Blur Cues
+spotlight,LLM与语言模型,,ResearchCodeBench_ Benchmarking LLMs on Implementing Novel Machine Learning Research Code
+spotlight,世界模型与模拟,,ReSim_ Reliable World Simulation for Autonomous Driving
 spotlight,高效推理加速,LLM与语言模型,Restoring Pruned Large Language Models via Lost Component Compensation
-spotlight,训练数据方法,,Rethinking Entropy in Test-Time Adaptation_ The Missing Piece from Energy Duality
+spotlight,优化与数学,,Rethinking Entropy in Test-Time Adaptation_ The Missing Piece from Energy Duality
 spotlight,图与关系学习,,Return of ChebNet_ Understanding and Improving an Overlooked GNN on Long Range Tasks
-spotlight,强化学习,,Reverse Engineering Human Preferences with Reinforcement Learning
-spotlight,计算机视觉,神经科学与认知,Revisiting Generative Infrared and Visible Image Fusion Based on Human Cognitive Laws
-spotlight,强化学习,Agent智能体,RF-Agent_ Automated Reward Function Design via Language Agent Tree Search
+spotlight,安全对齐隐私,LLM与语言模型,Reverse Engineering Human Preferences with Reinforcement Learning
+spotlight,神经科学与认知,计算机视觉,Revisiting Generative Infrared and Visible Image Fusion Based on Human Cognitive Laws
+spotlight,Agent智能体,优化与数学,RF-Agent_ Automated Reward Function Design via Language Agent Tree Search
 spotlight,计算机视觉,,RGB-Only Supervised Camera Parameter Optimization in Dynamic Scenes
-spotlight,机器学习理论,,Ridge Boosting is Both Robust and Efficient
-spotlight,高效推理加速,LLM与语言模型,RidgeLoRA_ Matrix Ridge Enhanced Low-Rank Adaptation of Large Language Models
+spotlight,机器学习理论,领域应用,Ridge Boosting is Both Robust and Efficient
+spotlight,LLM与语言模型,优化与数学,RidgeLoRA_ Matrix Ridge Enhanced Low-Rank Adaptation of Large Language Models
 spotlight,计算机视觉,,Rig3R_ Rig-Aware Conditioning and Discovery for 3D Reconstruction
-spotlight,LLM与语言模型,,Right Question is Already Half the Answer_ Fully Unsupervised LLM Reasoning Incentivization
+spotlight,LLM与语言模型,强化学习,Right Question is Already Half the Answer_ Fully Unsupervised LLM Reasoning Incentivization
 spotlight,多模态视觉语言,机器人具身,Robo2VLM_ Improving Visual Question Answering using Large-Scale Robot Manipulation Data
-spotlight,机器人具身,世界模型与模拟,RoboScape_ Physics-informed Embodied World Model
-spotlight,机器学习理论,,Robust learning of halfspaces under log-concave marginals
+spotlight,计算机视觉,,RoboScape_ Physics-informed Embodied World Model
+spotlight,生成模型扩散,高效推理加速,Robust learning of halfspaces under log-concave marginals
 spotlight,计算机视觉,,Robust Neural Rendering in the Wild with Asymmetric Dual 3D Gaussian Splatting
 spotlight,多模态视觉语言,安全对齐隐私,Robust SuperAlignment_ Weak-to-Strong Robustness Generalization for Vision-Language Models
-spotlight,多模态视觉语言,高效推理加速,RobustMerge_ Parameter-Efficient Model Merging for MLLMs with Direction Robustness
-spotlight,AI4Science,评测与基准,RoFt-Mol_ Benchmarking Robust Fine-tuning with Molecular Graph Foundation Models
-spotlight,计算机视觉,生成模型扩散,ROGR_ Relightable 3D Objects using Generative Relighting
-spotlight,优化与数学,生成模型扩散,ROOT_ Rethinking Offline Optimization as Distributional Translation via Probabilistic Bridge
-spotlight,安全对齐隐私,机器人具身,SafeVLA_ Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning
+spotlight,高效推理加速,安全对齐隐私,RobustMerge_ Parameter-Efficient Model Merging for MLLMs with Direction Robustness
+spotlight,AI4Science,训练数据方法,RoFt-Mol_ Benchmarking Robust Fine-tuning with Molecular Graph Foundation Models
+spotlight,计算机视觉,评测与基准,ROGR_ Relightable 3D Objects using Generative Relighting
+spotlight,概率因果贝叶斯,LLM与语言模型,ROOT_ Rethinking Offline Optimization as Distributional Translation via Probabilistic Bridge
+spotlight,安全对齐隐私,,SafeVLA_ Towards Safety Alignment of Vision-Language-Action Model via Constrained Learning
 spotlight,安全对齐隐私,评测与基准,SAGE-Eval_ Evaluating LLMs for Systematic Generalizations of Safety Facts
-spotlight,高效推理加速,,SageAttention3_ Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training
-spotlight,机器学习理论,,Sample-Adaptivity Tradeoff in On-Demand Sampling
-spotlight,计算机视觉,训练数据方法,SANSA_ Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation
-spotlight,强化学习,LLM与语言模型,SATURN_ SAT-based Reinforcement Learning to Unleash LLMs Reasoning
-spotlight,机器学习理论,训练数据方法,Scalable Cross-View Sample Alignment for Multi-View Clustering with View Structure Similarity
-spotlight,安全对齐隐私,LLM与语言模型,Scalable Fingerprinting of Large Language Models
+spotlight,高效推理加速,LLM与语言模型,SageAttention3_ Microscaling FP4 Attention for Inference and An Exploration of 8-Bit Training
+spotlight,生成模型扩散,机器学习理论,Sample-Adaptivity Tradeoff in On-Demand Sampling
+spotlight,LLM与语言模型,计算机视觉,SANSA_ Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation
+spotlight,训练数据方法,LLM与语言模型,SATURN_ SAT-based Reinforcement Learning to Unleash LLMs Reasoning
+spotlight,安全对齐隐私,生成模型扩散,Scalable Cross-View Sample Alignment for Multi-View Clustering with View Structure Similarity
+spotlight,LLM与语言模型,计算机视觉,Scalable Fingerprinting of Large Language Models
 spotlight,神经科学与认知,LLM与语言模型,Scaling and context steer LLMs along the same computational path as the human brain
-spotlight,机器学习理论,机器学习理论,Scaling can lead to compositional generalization
-spotlight,Agent智能体,LLM与语言模型,Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis
-spotlight,安全对齐隐私,机器学习理论,Scaling Laws For Scalable Oversight
-spotlight,AI4Science,生成模型扩散,Scaling Unlocks Broader Generation and Deeper Functional Understanding of Proteins
+spotlight,机器学习理论,生成模型扩散,Scaling can lead to compositional generalization
+spotlight,Agent智能体,多模态视觉语言,Scaling Computer-Use Grounding via User Interface Decomposition and Synthesis
+spotlight,安全对齐隐私,,Scaling Laws For Scalable Oversight
+spotlight,AI4Science,,Scaling Unlocks Broader Generation and Deeper Functional Understanding of Proteins
 spotlight,LLM与语言模型,高效推理加速,Scaling up Test-Time Compute with Latent Reasoning_ A Recurrent Depth Approach
-spotlight,计算机视觉,生成模型扩散,SceneDesigner_ Controllable Multi-Object Image Generation with 9-DoF Pose Manipulation
+spotlight,计算机视觉,,SceneDesigner_ Controllable Multi-Object Image Generation with 9-DoF Pose Manipulation
 spotlight,检索知识与记忆,LLM与语言模型,Scent of Knowledge_ Optimizing Search-Enhanced Reasoning with Information Foraging
 spotlight,评测与基准,AI4Science,SciArena_ An Open Evaluation Platform for Non-Verifiable Scientific Literature-Grounded Tasks
-spotlight,AI4Science,,scMRDR_ A scalable and flexible framework for unpaired single-cell multi-omics data integration
-spotlight,优化与数学,机器学习理论,Searching Latent Program Spaces
+spotlight,AI4Science,多模态视觉语言,scMRDR_ A scalable and flexible framework for unpaired single-cell multi-omics data integration
+spotlight,计算机视觉,,Searching Latent Program Spaces
 spotlight,语音音频,多模态视觉语言,"Seeing Sound, Hearing Sight_ Uncovering Modality Bias and Conflict of AI models in Sound Localization"
 spotlight,计算机视觉,,SegMASt3R_ Geometry Grounded Segment Matching
-spotlight,机器学习理论,安全对齐隐私,Selective Omniprediction and Fair Abstention
-spotlight,生成模型扩散,计算机视觉,Self Forcing_ Bridging the Train-Test Gap in Autoregressive Video Diffusion
-spotlight,图与关系学习,机器学习理论,Self-Assembling Graph Perceptrons
-spotlight,领域应用,图与关系学习,Self-Perturbed Anomaly-Aware Graph Dynamics for Multivariate Time-Series Anomaly Detection
-spotlight,计算机视觉,机器学习理论,Self-Supervised Learning of Motion Concepts by Optimizing Counterfactuals
+spotlight,安全对齐隐私,,Selective Omniprediction and Fair Abstention
+spotlight,生成模型扩散,高效推理加速,Self Forcing_ Bridging the Train-Test Gap in Autoregressive Video Diffusion
+spotlight,神经科学与认知,图与关系学习,Self-Assembling Graph Perceptrons
+spotlight,图与关系学习,计算机视觉,Self-Perturbed Anomaly-Aware Graph Dynamics for Multivariate Time-Series Anomaly Detection
+spotlight,计算机视觉,训练数据方法,Self-Supervised Learning of Motion Concepts by Optimizing Counterfactuals
 spotlight,优化与数学,,Set Smoothness Unlocks Clarke Hyper-stationarity in Bilevel Optimization
-spotlight,医疗健康,计算机视觉,SGCD_ Stain-Guided CycleDiffusion for Unsupervised Domain Adaptation of Histopathology Image Classification
+spotlight,计算机视觉,生成模型扩散,SGCD_ Stain-Guided CycleDiffusion for Unsupervised Domain Adaptation of Histopathology Image Classification
 spotlight,安全对齐隐私,生成模型扩散,Shallow Diffuse_ Robust and Invisible Watermarking through Low-Dim Subspaces in Diffusion Models
-spotlight,多模态视觉语言,计算机视觉,ShapeLLM-Omni_ A Native Multimodal LLM for 3D Generation and Understanding
-spotlight,机器学习理论,,Sharp Gaussian approximations for Decentralized Federated Learning
+spotlight,生成模型扩散,LLM与语言模型,ShapeLLM-Omni_ A Native Multimodal LLM for 3D Generation and Understanding
+spotlight,机器学习理论,安全对齐隐私,Sharp Gaussian approximations for Decentralized Federated Learning
 spotlight,优化与数学,,Sharper Convergence Rates for Nonconvex Optimisation via Reduction Mappings
-spotlight,训练数据方法,LLM与语言模型,Sheetpedia_ A 300K-Spreadsheet Corpus for Spreadsheet Intelligence and LLM Fine-Tuning
-spotlight,医疗健康,计算机视觉,SHF_ Symmetrical Hierarchical Forest with Pretrained Vision Transformer Encoder for High-Resolution Medical Segmentation
+spotlight,LLM与语言模型,,Sheetpedia_ A 300K-Spreadsheet Corpus for Spreadsheet Intelligence and LLM Fine-Tuning
+spotlight,计算机视觉,LLM与语言模型,SHF_ Symmetrical Hierarchical Forest with Pretrained Vision Transformer Encoder for High-Resolution Medical Segmentation
 spotlight,强化学习,,Shift Before You Learn_ Enabling Low-Rank Representations in Reinforcement Learning
-spotlight,机器学习理论,机器学习理论,Shortcut Features as Top Eigenfunctions of NTK_ A Linear Neural Network Case and More
-spotlight,评测与基准,机器学习理论,Signal and Noise_ A Framework for Reducing Uncertainty in Language Model Evaluation
-spotlight,机器学习理论,机器学习理论,Simultaneous Swap Regret Minimization via KL-Calibration
-spotlight,世界模型与模拟,Agent智能体,SimWorld_ An Open-ended Simulator for Agents in Physical and Social Worlds
+spotlight,机器学习理论,,Shortcut Features as Top Eigenfunctions of NTK_ A Linear Neural Network Case and More
+spotlight,评测与基准,LLM与语言模型,Signal and Noise_ A Framework for Reducing Uncertainty in Language Model Evaluation
+spotlight,机器学习理论,,Simultaneous Swap Regret Minimization via KL-Calibration
+spotlight,Agent智能体,世界模型与模拟,SimWorld_ An Open-ended Simulator for Agents in Physical and Social Worlds
 spotlight,计算机视觉,,SIU3R_ Simultaneous Scene Understanding and 3D Reconstruction Beyond Feature Alignment
-spotlight,安全对齐隐私,机器学习理论,Sketched Gaussian Mechanism for Private Federated Learning
+spotlight,安全对齐隐私,优化与数学,Sketched Gaussian Mechanism for Private Federated Learning
 spotlight,高效推理加速,LLM与语言模型,SmallKV_ Small Model Assisted Compensation of KV Cache Compression for Efficient LLM Inference
 spotlight,机器人具身,多模态视觉语言,SoFar_ Language-Grounded Orientation Bridges Spatial Reasoning and Object Manipulation
-spotlight,LLM与语言模型,优化与数学,Solving Inequality Proofs with Large Language Models
-spotlight,优化与数学,机器学习理论,"Solving Neural Min-Max Games_ The Role of Architecture, Initialization & Dynamics"
+spotlight,机器学习理论,LLM与语言模型,Solving Inequality Proofs with Large Language Models
+spotlight,优化与数学,,"Solving Neural Min-Max Games_ The Role of Architecture, Initialization & Dynamics"
 spotlight,优化与数学,安全对齐隐私,Some Optimizers are More Equal_ Understanding the Role of Optimizers in Group Fairness
-spotlight,可解释性,机器学习理论,SORTeD Rashomon Sets of Sparse Decision Trees_ Anytime Enumeration
-spotlight,训练数据方法,机器学习理论,SoTA with Less_ MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement
-spotlight,高效推理加速,生成模型扩散,Sparse VideoGen2_ Accelerate Video Generation with  Sparse Attention via Semantic-Aware Permutation
-spotlight,机器学习理论,训练数据方法,SparseMVC_ Probing Cross-view Sparsity Variations for Multi-view Clustering
+spotlight,领域应用,优化与数学,SORTeD Rashomon Sets of Sparse Decision Trees_ Anytime Enumeration
+spotlight,多模态视觉语言,训练数据方法,SoTA with Less_ MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement
+spotlight,高效推理加速,,Sparse VideoGen2_ Accelerate Video Generation with  Sparse Attention via Semantic-Aware Permutation
+spotlight,可解释性,,SparseMVC_ Probing Cross-view Sparsity Variations for Multi-view Clustering
 spotlight,多模态视觉语言,计算机视觉,Spatial-MLLM_ Boosting MLLM Capabilities in Visual-based Spatial Intelligence
 spotlight,高效推理加速,LLM与语言模型,SpecEdge_ Scalable Edge-Assisted Serving Framework for Interactive LLMs
-spotlight,AI4Science,生成模型扩散,SpecMER_ Fast Protein Generation with K-mer Guided Speculative Decoding
-spotlight,机器学习理论,机器学习理论,Spectral Estimation with Free Decompression
-spotlight,图与关系学习,机器学习理论,Spectral Graph Neural Networks are Incomplete on Graphs with a Simple Spectrum
-spotlight,训练数据方法,训练数据方法,Spend Wisely_ Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping
-spotlight,领域应用,计算机视觉,SQS_ Enhancing Sparse Perception Models via Query-based Splatting in Autonomous Driving
+spotlight,AI4Science,高效推理加速,SpecMER_ Fast Protein Generation with K-mer Guided Speculative Decoding
+spotlight,优化与数学,,Spectral Estimation with Free Decompression
+spotlight,图与关系学习,,Spectral Graph Neural Networks are Incomplete on Graphs with a Simple Spectrum
+spotlight,训练数据方法,生成模型扩散,Spend Wisely_ Maximizing Post-Training Gains in Iterative Synthetic Data Bootstrapping
+spotlight,计算机视觉,,SQS_ Enhancing Sparse Perception Models via Query-based Splatting in Autonomous Driving
 spotlight,强化学习,,Stable Gradients for Stable Learning at Scale in Deep Reinforcement Learning
-spotlight,机器学习理论,机器学习理论,Stable Minima of ReLU Neural Networks Suffer from the Curse of Dimensionality_ The Neural Shattering Phenomenon
+spotlight,机器学习理论,,Stable Minima of ReLU Neural Networks Suffer from the Curse of Dimensionality_ The Neural Shattering Phenomenon
 spotlight,生成模型扩散,计算机视觉,Stable Part Diffusion 4D_ Multi-View RGB and Kinematic Parts Video Generation
-spotlight,生成模型扩散,计算机视觉,STARFlow_ Scaling Latent Normalizing Flows for High-resolution Image Synthesis
-spotlight,AI4Science,评测与基准,STAR_ A Benchmark for Astronomical Star Fields Super-Resolution
-spotlight,强化学习,生成模型扩散,STITCH-OPE_ Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation
-spotlight,优化与数学,,Stochastic Optimization in Semi-Discrete Optimal Transport_ Convergence Analysis and Minimax Rate
+spotlight,生成模型扩散,,STARFlow_ Scaling Latent Normalizing Flows for High-resolution Image Synthesis
+spotlight,计算机视觉,,STAR_ A Benchmark for Astronomical Star Fields Super-Resolution
+spotlight,生成模型扩散,强化学习,STITCH-OPE_ Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation
+spotlight,优化与数学,机器学习理论,Stochastic Optimization in Semi-Discrete Optimal Transport_ Convergence Analysis and Minimax Rate
 spotlight,概率因果贝叶斯,生成模型扩散,Stochastic Process Learning via Operator Flow Matching
-spotlight,安全对齐隐私,机器学习理论,Strategic Costs of Perceived Bias in Fair Selection
-spotlight,机器学习理论,机器学习理论,Strategic Hypothesis Testing
-spotlight,计算机视觉,,StreamForest_ Efficient Online Video Understanding with Persistent Event Memory
-spotlight,机器学习理论,高效推理加速,Streaming Attention Approximation via Discrepancy Theory
-spotlight,机器学习理论,,Structured Linear CDEs_ Maximally Expressive and Parallel-in-Time Sequence Models
-spotlight,机器学习理论,,Structured Sparse Transition Matrices to Enable State Tracking in State-Space Models
-spotlight,高效推理加速,LLM与语言模型,SuffixDecoding_ Extreme Speculative Decoding for Emerging AI Applications
-spotlight,生成模型扩散,计算机视觉,SViMo_ Synchronized Diffusion for Video and Motion Generation in Hand-object Interaction Scenarios
+spotlight,安全对齐隐私,,Strategic Costs of Perceived Bias in Fair Selection
+spotlight,安全对齐隐私,,Strategic Hypothesis Testing
+spotlight,计算机视觉,LLM与语言模型,StreamForest_ Efficient Online Video Understanding with Persistent Event Memory
+spotlight,LLM与语言模型,,Streaming Attention Approximation via Discrepancy Theory
+spotlight,优化与数学,机器学习理论,Structured Linear CDEs_ Maximally Expressive and Parallel-in-Time Sequence Models
+spotlight,优化与数学,计算机视觉,Structured Sparse Transition Matrices to Enable State Tracking in State-Space Models
+spotlight,LLM与语言模型,Agent智能体,SuffixDecoding_ Extreme Speculative Decoding for Emerging AI Applications
+spotlight,计算机视觉,生成模型扩散,SViMo_ Synchronized Diffusion for Video and Motion Generation in Hand-object Interaction Scenarios
 spotlight,Agent智能体,训练数据方法,SWE-smith_ Scaling Data for Software Engineering Agents
-spotlight,机器学习理论,训练数据方法,T-REGS_ Minimum Spanning Tree Regularization for Self-Supervised Learning
-spotlight,评测与基准,机器学习理论,TabArena_ A Living Benchmark for Machine Learning on Tabular Data
-spotlight,机器人具身,机器学习理论,Taccel_ Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation
-spotlight,机器学习理论,机器学习理论,Tackling Biased Evaluators in Dueling Bandits
-spotlight,计算机视觉,,Talk2Event_ Grounded Understanding of Dynamic Scenes from Event Cameras
-spotlight,概率因果贝叶斯,机器学习理论,Temperature is All You Need for Generalization in Langevin Dynamics and other Markov Processes
-spotlight,LLM与语言模型,机器学习理论,Tensor Product Attention Is All You Need
+spotlight,训练数据方法,优化与数学,T-REGS_ Minimum Spanning Tree Regularization for Self-Supervised Learning
+spotlight,评测与基准,,TabArena_ A Living Benchmark for Machine Learning on Tabular Data
+spotlight,机器人具身,,Taccel_ Scaling Up Vision-based Tactile Robotics via High-performance GPU Simulation
+spotlight,机器学习理论,强化学习,Tackling Biased Evaluators in Dueling Bandits
+spotlight,多模态视觉语言,,Talk2Event_ Grounded Understanding of Dynamic Scenes from Event Cameras
+spotlight,优化与数学,机器学习理论,Temperature is All You Need for Generalization in Langevin Dynamics and other Markov Processes
+spotlight,LLM与语言模型,高效推理加速,Tensor Product Attention Is All You Need
 spotlight,计算机视觉,,TGA_ True-to-Geometry Avatar Dynamic Reconstruction
-spotlight,训练数据方法,LLM与语言模型,The Best Instruction-Tuning Data are Those That Fit
-spotlight,机器学习理论,优化与数学,The Complexity of Symmetric Equilibria in Min-Max Optimization and Team Zero-Sum Games
-spotlight,机器学习理论,机器学习理论,The Computational Advantage of Depth in Learning High-Dimensional Hierarchical Targets
-spotlight,可解释性,机器学习理论,The Fragile Truth of Saliency_ Improving LLM Input Attribution via Attention Bias Optimization
-spotlight,机器学习理论,机器学习理论,The Generative Leap_ Tight Sample Complexity for Efficiently Learning Gaussian Multi-Index Models
-spotlight,机器学习理论,高效推理加速,The Graphon Limit Hypothesis_ Understanding Neural Network Pruning via Infinite Width Analysis
+spotlight,LLM与语言模型,,The Best Instruction-Tuning Data are Those That Fit
+spotlight,优化与数学,,The Complexity of Symmetric Equilibria in Min-Max Optimization and Team Zero-Sum Games
+spotlight,机器学习理论,,The Computational Advantage of Depth in Learning High-Dimensional Hierarchical Targets
+spotlight,LLM与语言模型,可解释性,The Fragile Truth of Saliency_ Improving LLM Input Attribution via Attention Bias Optimization
+spotlight,机器学习理论,生成模型扩散,The Generative Leap_ Tight Sample Complexity for Efficiently Learning Gaussian Multi-Index Models
+spotlight,图与关系学习,优化与数学,The Graphon Limit Hypothesis_ Understanding Neural Network Pruning via Infinite Width Analysis
 spotlight,安全对齐隐私,机器学习理论,The Implicit Bias of Structured State Space  Models Can Be Poisoned With Clean Labels
-spotlight,评测与基准,高效推理加速,The ML.ENERGY Benchmark_ Toward Automated Inference Energy Measurement and Optimization
-spotlight,可解释性,机器学习理论,The Non-Linear Representation Dilemma_ Is Causal Abstraction Enough for Mechanistic Interpretability_
-spotlight,机器学习理论,训练数据方法,The Power of Iterative Filtering for Supervised Learning with (Heavy) Contamination
-spotlight,高效推理加速,LLM与语言模型,The Primacy of Magnitude in Low-Rank Adaptation
-spotlight,可解释性,LLM与语言模型,The Structure of Relation Decoding Linear Operators in Large Language Models
-spotlight,图与关系学习,领域应用,The Temporal Graph of Bitcoin Transactions
-spotlight,机器学习理论,,The World Is Bigger! A Computationally-Embedded Perspective on the Big World Hypothesis
+spotlight,评测与基准,,The ML.ENERGY Benchmark_ Toward Automated Inference Energy Measurement and Optimization
+spotlight,可解释性,,The Non-Linear Representation Dilemma_ Is Causal Abstraction Enough for Mechanistic Interpretability_
+spotlight,训练数据方法,概率因果贝叶斯,The Power of Iterative Filtering for Supervised Learning with (Heavy) Contamination
+spotlight,优化与数学,,The Primacy of Magnitude in Low-Rank Adaptation
+spotlight,LLM与语言模型,,The Structure of Relation Decoding Linear Operators in Large Language Models
+spotlight,图与关系学习,,The Temporal Graph of Bitcoin Transactions
+spotlight,强化学习,世界模型与模拟,The World Is Bigger! A Computationally-Embedded Perspective on the Big World Hypothesis
 spotlight,机器学习理论,图与关系学习,Theory-Driven Label-Specific Representation for Incomplete Multi-View Multi-Label Learning
 spotlight,LLM与语言模型,机器学习理论,Think or Not_ Exploring Thinking Efficiency in Large Reasoning Models via an Information-Theoretic Lens
-spotlight,Agent智能体,LLM与语言模型,Thought Communication in Multiagent Collaboration
-spotlight,LLM与语言模型,机器学习理论,Thoughts Are All Over the Place_ On the Underthinking of Long Reasoning Models
-spotlight,训练数据方法,医疗健康,Thousand Voices of Trauma_ A Large-Scale Synthetic Dataset for Modeling Prolonged Exposure Therapy Conversations
-spotlight,医疗健康,评测与基准,THUNDER_ Tile-level Histopathology image UNDERstanding benchmark
-spotlight,AI4Science,评测与基准,TIDMAD_ Time Series Dataset for Discovering Dark Matter with AI Denoising
+spotlight,Agent智能体,,Thought Communication in Multiagent Collaboration
+spotlight,LLM与语言模型,,Thoughts Are All Over the Place_ On the Underthinking of Long Reasoning Models
+spotlight,医疗健康,,Thousand Voices of Trauma_ A Large-Scale Synthetic Dataset for Modeling Prolonged Exposure Therapy Conversations
+spotlight,医疗健康,,THUNDER_ Tile-level Histopathology image UNDERstanding benchmark
+spotlight,AI4Science,,TIDMAD_ Time Series Dataset for Discovering Dark Matter with AI Denoising
 spotlight,机器学习理论,,Tight Generalization Bounds for Large-Margin Halfspaces
-spotlight,安全对齐隐私,领域应用,TimeWak_ Temporal Chained-Hashing Watermark for Time Series Data
-spotlight,评测与基准,LLM与语言模型,TimE_ A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios
-spotlight,强化学习,,To Distill or Decide_ Understanding the Algorithmic Trade-off in Partially Observable RL
-spotlight,强化学习,计算机视觉,To Think or Not To Think_ A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning
-spotlight,安全对齐隐私,LLM与语言模型,TokenSwap_ A Lightweight Method to Disrupt Memorized Sequences in LLMs
-spotlight,概率因果贝叶斯,机器学习理论,Torch-Uncertainty_ Deep Learning Uncertainty Quantification
-spotlight,神经科学与认知,机器学习理论,Toward Relative Positional Encoding in Spiking Transformers
-spotlight,生成模型扩散,,Towards a Golden Classifier-Free Guidance Path via Foresight Fixed Point Iterations
-spotlight,机器学习理论,,Towards a Pairwise Ranking Model with Orderliness and Monotonicity for Label Enhancement
-spotlight,安全对齐隐私,多模态视觉语言,Towards Building Model_Prompt-Transferable Attackers against Large Vision-Language Models
-spotlight,多模态视觉语言,,Towards Comprehensive Scene Understanding_ Integrating First and Third-Person Views for LVLMs
-spotlight,医疗健康,计算机视觉,Towards Dynamic 3D Reconstruction of Hand-Instrument Interaction in Ophthalmic Surgery
-spotlight,可解释性,高效推理加速,Towards Interpretable and Efficient Attention_ Compressing All by Contracting a Few
-spotlight,训练数据方法,机器学习理论,Towards Multi-Table Learning_ A Novel Paradigm for Complementarity Quantification and Integration
-spotlight,领域应用,AI4Science,Towards Physics-informed Spatial Intelligence with Human Priors_ An Autonomous Driving Pilot Study
-spotlight,机器人具身,机器学习理论,Towards Reliable Code-as-Policies_ A Neuro-Symbolic Framework for Embodied Task Planning
-spotlight,计算机视觉,,Towards Understanding Camera Motions in Any Video
-spotlight,生成模型扩散,机器学习理论,Towards Understanding the Mechanisms of Classifier-Free Guidance
+spotlight,安全对齐隐私,,TimeWak_ Temporal Chained-Hashing Watermark for Time Series Data
+spotlight,领域应用,LLM与语言模型,TimE_ A Multi-level Benchmark for Temporal Reasoning of LLMs in Real-World Scenarios
+spotlight,强化学习,高效推理加速,To Distill or Decide_ Understanding the Algorithmic Trade-off in Partially Observable RL
+spotlight,计算机视觉,,To Think or Not To Think_ A Study of Thinking in Rule-Based Visual Reinforcement Fine-Tuning
+spotlight,安全对齐隐私,,TokenSwap_ A Lightweight Method to Disrupt Memorized Sequences in LLMs
+spotlight,概率因果贝叶斯,计算机视觉,Torch-Uncertainty_ Deep Learning Uncertainty Quantification
+spotlight,神经科学与认知,,Toward Relative Positional Encoding in Spiking Transformers
+spotlight,生成模型扩散,机器学习理论,Towards a Golden Classifier-Free Guidance Path via Foresight Fixed Point Iterations
+spotlight,概率因果贝叶斯,领域应用,Towards a Pairwise Ranking Model with Orderliness and Monotonicity for Label Enhancement
+spotlight,安全对齐隐私,LLM与语言模型,Towards Building Model_Prompt-Transferable Attackers against Large Vision-Language Models
+spotlight,计算机视觉,LLM与语言模型,Towards Comprehensive Scene Understanding_ Integrating First and Third-Person Views for LVLMs
+spotlight,计算机视觉,,Towards Dynamic 3D Reconstruction of Hand-Instrument Interaction in Ophthalmic Surgery
+spotlight,可解释性,LLM与语言模型,Towards Interpretable and Efficient Attention_ Compressing All by Contracting a Few
+spotlight,评测与基准,,Towards Multi-Table Learning_ A Novel Paradigm for Complementarity Quantification and Integration
+spotlight,LLM与语言模型,,Towards Physics-informed Spatial Intelligence with Human Priors_ An Autonomous Driving Pilot Study
+spotlight,机器人具身,Agent智能体,Towards Reliable Code-as-Policies_ A Neuro-Symbolic Framework for Embodied Task Planning
+spotlight,计算机视觉,多模态视觉语言,Towards Understanding Camera Motions in Any Video
+spotlight,生成模型扩散,,Towards Understanding the Mechanisms of Classifier-Free Guidance
 spotlight,机器学习理论,,Tradeoffs between Mistakes and ERM Oracle Calls in Online and Transductive Online Learning
-spotlight,生成模型扩散,,Training-Free Constrained Generation With Stable Diffusion Models
+spotlight,生成模型扩散,AI4Science,Training-Free Constrained Generation With Stable Diffusion Models
 spotlight,强化学习,,Trajectory Graph Learning_ Aligning with Long Trajectories in Reinforcement Learning Without Reward Design
-spotlight,领域应用,LLM与语言模型,TrajMamba_ An Efficient and Semantic-rich Vehicle Trajectory Pre-training Model
-spotlight,优化与数学,机器学习理论,"Transfer Faster, Price Smarter_ Minimax Dynamic Pricing under Cross-Market Preference Shift"
-spotlight,机器学习理论,机器学习理论,Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression
-spotlight,安全对齐隐私,计算机视觉,Transferable Black-Box One-Shot Forging of Watermarks via Image Preference Models
-spotlight,LLM与语言模型,可解释性,Transferring Linear Features Across Language Models With Model Stitching
+spotlight,高效推理加速,强化学习,TrajMamba_ An Efficient and Semantic-rich Vehicle Trajectory Pre-training Model
+spotlight,机器学习理论,,"Transfer Faster, Price Smarter_ Minimax Dynamic Pricing under Cross-Market Preference Shift"
+spotlight,机器学习理论,,Transfer Learning for Benign Overfitting in High-Dimensional Linear Regression
+spotlight,安全对齐隐私,,Transferable Black-Box One-Shot Forging of Watermarks via Image Preference Models
+spotlight,可解释性,高效推理加速,Transferring Linear Features Across Language Models With Model Stitching
 spotlight,神经科学与认知,计算机视觉,Transformer brain encoders explain human high-level visual responses
-spotlight,LLM与语言模型,训练数据方法,Transformer Copilot_ Learning from The Mistake Log in LLM Fine-tuning
-spotlight,机器学习理论,,Transformers for Mixed-type Event Sequences
-spotlight,高效推理加速,LLM与语言模型,TransMLA_ Migrating GQA Models to MLA with Full DeepSeek Compatibility and Speedup
-spotlight,安全对齐隐私,生成模型扩散,Transstratal Adversarial Attack_ Compromising Multi-Layered Defenses in Text-to-Image Models
-spotlight,训练数据方法,训练数据方法,TreeSynth_ Synthesizing Diverse Data from Scratch via Tree-Guided Subspace Partitioning
+spotlight,LLM与语言模型,,Transformer Copilot_ Learning from The Mistake Log in LLM Fine-tuning
+spotlight,医疗健康,生成模型扩散,Transformers for Mixed-type Event Sequences
+spotlight,高效推理加速,,TransMLA_ Migrating GQA Models to MLA with Full DeepSeek Compatibility and Speedup
+spotlight,安全对齐隐私,,Transstratal Adversarial Attack_ Compromising Multi-Layered Defenses in Text-to-Image Models
+spotlight,LLM与语言模型,图与关系学习,TreeSynth_ Synthesizing Diverse Data from Scratch via Tree-Guided Subspace Partitioning
 spotlight,计算机视觉,,TREND_ Unsupervised 3D Representation Learning via Temporal Forecasting for LiDAR Perception
-spotlight,AI4Science,多模态视觉语言,TRIDENT_ Tri-Modal Molecular Representation Learning with Taxonomic Annotations and Local Correspondence
-spotlight,优化与数学,概率因果贝叶斯,Trust Region Constrained Measure Transport in Path Space for Stochastic Optimal Control and Inference
-spotlight,高效推理加速,LLM与语言模型,Twilight_ Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning
-spotlight,训练数据方法,机器学习理论,Two Heads are Better than One_ Simulating Large Transformers with Small Ones
-spotlight,优化与数学,领域应用,Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion
-spotlight,多模态视觉语言,计算机视觉,UFO_ A Unified Approach to Fine-grained Visual Perception via Open-ended Language Interface
+spotlight,AI4Science,,TRIDENT_ Tri-Modal Molecular Representation Learning with Taxonomic Annotations and Local Correspondence
+spotlight,生成模型扩散,,Trust Region Constrained Measure Transport in Path Space for Stochastic Optimal Control and Inference
+spotlight,高效推理加速,,Twilight_ Adaptive Attention Sparsity with Hierarchical Top-$p$  Pruning
+spotlight,高效推理加速,LLM与语言模型,Two Heads are Better than One_ Simulating Large Transformers with Small Ones
+spotlight,生成模型扩散,强化学习,Two‑Stage Learning of Stabilizing Neural Controllers via Zubov Sampling and Iterative Domain Expansion
+spotlight,计算机视觉,,UFO_ A Unified Approach to Fine-grained Visual Perception via Open-ended Language Interface
 spotlight,AI4Science,,UMA_ A Family of Universal Models for Atoms
-spotlight,LLM与语言模型,机器学习理论,UMoE_ Unifying Attention and FFN with Shared Experts
-spotlight,计算机视觉,多模态视觉语言,Unbiased Prototype Consistency Learning for Multi-Modal and Multi-Task Object Re-Identification
-spotlight,图与关系学习,概率因果贝叶斯,Uncertain Knowledge Graph Completion via Semi-Supervised Confidence Distribution Learning
-spotlight,LLM与语言模型,机器学习理论,"Understanding LLM Behaviors via Compression_ Data Generation, Knowledge Acquisition and Scaling Laws"
-spotlight,LLM与语言模型,,Understanding Parametric and Contextual Knowledge Reconciliation within Large Language Models
-spotlight,高效推理加速,LLM与语言模型,Uni-LoRA_ One Vector is All You Need
-spotlight,计算机视觉,优化与数学,Uni-MuMER_ Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition
-spotlight,机器学习理论,安全对齐隐私,Unifying Proportional Fairness in Centroid and Non-Centroid Clustering
-spotlight,计算机视觉,,UniRelight_ Learning Joint Decomposition and Synthesis for Video Relighting
-spotlight,AI4Science,医疗健康,UniSite_ The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection
-spotlight,优化与数学,图与关系学习,UniteFormer_ Unifying Node and Edge Modalities in Transformers for Vehicle Routing Problems
-spotlight,计算机视觉,LLM与语言模型,UniTok_ a Unified Tokenizer for Visual Generation and Understanding
-spotlight,概率因果贝叶斯,机器学习理论,Universal Causal Inference in a Topos
-spotlight,机器学习理论,,Universal Sequence Preconditioning
-spotlight,多模态视觉语言,训练数据方法,Unleashing Hour-Scale Video Training for Long Video-Language Understanding
-spotlight,训练数据方法,生成模型扩散,Unlocking Dataset Distillation with Diffusion Models
+spotlight,LLM与语言模型,,UMoE_ Unifying Attention and FFN with Shared Experts
+spotlight,多模态视觉语言,,Unbiased Prototype Consistency Learning for Multi-Modal and Multi-Task Object Re-Identification
+spotlight,图与关系学习,,Uncertain Knowledge Graph Completion via Semi-Supervised Confidence Distribution Learning
+spotlight,LLM与语言模型,高效推理加速,"Understanding LLM Behaviors via Compression_ Data Generation, Knowledge Acquisition and Scaling Laws"
+spotlight,LLM与语言模型,检索知识与记忆,Understanding Parametric and Contextual Knowledge Reconciliation within Large Language Models
+spotlight,LLM与语言模型,,Uni-LoRA_ One Vector is All You Need
+spotlight,多模态视觉语言,,Uni-MuMER_ Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition
+spotlight,安全对齐隐私,机器学习理论,Unifying Proportional Fairness in Centroid and Non-Centroid Clustering
+spotlight,计算机视觉,生成模型扩散,UniRelight_ Learning Joint Decomposition and Synthesis for Video Relighting
+spotlight,AI4Science,评测与基准,UniSite_ The First Cross-Structure Dataset and Learning Framework for End-to-End Ligand Binding Site Detection
+spotlight,图与关系学习,多模态视觉语言,UniteFormer_ Unifying Node and Edge Modalities in Transformers for Vehicle Routing Problems
+spotlight,LLM与语言模型,计算机视觉,UniTok_ a Unified Tokenizer for Visual Generation and Understanding
+spotlight,概率因果贝叶斯,,Universal Causal Inference in a Topos
+spotlight,机器学习理论,优化与数学,Universal Sequence Preconditioning
+spotlight,多模态视觉语言,计算机视觉,Unleashing Hour-Scale Video Training for Long Video-Language Understanding
+spotlight,生成模型扩散,,Unlocking Dataset Distillation with Diffusion Models
 spotlight,AI4Science,生成模型扩散,Unlocking hidden biomolecular conformational landscapes in diffusion models at inference time
-spotlight,机器学习理论,机器学习理论,Unveiling the Power of Multiple Gossip Steps_ A Stability-Based Generalization Analysis in Decentralized Training
-spotlight,机器人具身,计算机视觉,URDF-Anything_ Constructing Articulated Objects with 3D Multimodal Language Model
-spotlight,安全对齐隐私,机器学习理论,Utility Engineering_ Analyzing and Controlling Emergent Value Systems in AIs
-spotlight,领域应用,训练数据方法,V2X-Radar_ A Multi-modal Dataset with 4D Radar for Cooperative Perception
-spotlight,安全对齐隐私,计算机视觉,Vanish into Thin Air_ Cross-prompt Universal Adversarial Attacks for SAM2
-spotlight,机器学习理论,机器学习理论,Variational Learning Finds Flatter Solutions at the Edge of Stability
-spotlight,概率因果贝叶斯,,Variational Transdimensional Inference
-spotlight,神经科学与认知,世界模型与模拟,Vector Quantization in the Brain_ Grid-like Codes in World Models
-spotlight,图与关系学习,检索知识与记忆,Vgent_ Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding
-spotlight,安全对齐隐私,LLM与语言模型,Virus Infection Attack on LLMs_ Your Poisoning Can Spread _VIA_ Synthetic Data
-spotlight,计算机视觉,机器学习理论,Vision Transformers Don't Need Trained Registers
-spotlight,计算机视觉,训练数据方法,Vision Transformers with Self-Distilled Registers
-spotlight,高效推理加速,计算机视觉,Vision-centric Token Compression in Large Language Model
-spotlight,计算机视觉,强化学习,VisualQuality-R1_ Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank
-spotlight,多模态视觉语言,语音音频,VITA-1.5_ Towards GPT-4o Level Real-Time Vision and Speech Interaction
-spotlight,多模态视觉语言,强化学习,VL-Rethinker_ Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning
-spotlight,评测与基准,多模态视觉语言,VLMs have Tunnel Vision_ Evaluating Nonlocal Visual Reasoning in Leading VLMs
+spotlight,优化与数学,机器学习理论,Unveiling the Power of Multiple Gossip Steps_ A Stability-Based Generalization Analysis in Decentralized Training
+spotlight,计算机视觉,机器人具身,URDF-Anything_ Constructing Articulated Objects with 3D Multimodal Language Model
+spotlight,计算机视觉,领域应用,Utility Engineering_ Analyzing and Controlling Emergent Value Systems in AIs
+spotlight,计算机视觉,机器人具身,V2X-Radar_ A Multi-modal Dataset with 4D Radar for Cooperative Perception
+spotlight,安全对齐隐私,,Vanish into Thin Air_ Cross-prompt Universal Adversarial Attacks for SAM2
+spotlight,优化与数学,机器学习理论,Variational Learning Finds Flatter Solutions at the Edge of Stability
+spotlight,优化与数学,概率因果贝叶斯,Variational Transdimensional Inference
+spotlight,高效推理加速,世界模型与模拟,Vector Quantization in the Brain_ Grid-like Codes in World Models
+spotlight,检索知识与记忆,LLM与语言模型,Vgent_ Graph-based Retrieval-Reasoning-Augmented Generation For Long Video Understanding
+spotlight,安全对齐隐私,,Virus Infection Attack on LLMs_ Your Poisoning Can Spread _VIA_ Synthetic Data
+spotlight,LLM与语言模型,多模态视觉语言,Vision Transformers Don't Need Trained Registers
+spotlight,计算机视觉,,Vision Transformers with Self-Distilled Registers
+spotlight,LLM与语言模型,高效推理加速,Vision-centric Token Compression in Large Language Model
+spotlight,计算机视觉,评测与基准,VisualQuality-R1_ Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank
+spotlight,语音音频,多模态视觉语言,VITA-1.5_ Towards GPT-4o Level Real-Time Vision and Speech Interaction
+spotlight,强化学习,Agent智能体,VL-Rethinker_ Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning
+spotlight,多模态视觉语言,神经科学与认知,VLMs have Tunnel Vision_ Evaluating Nonlocal Visual Reasoning in Leading VLMs
 spotlight,计算机视觉,,VoxDet_ Rethinking 3D Semantic Scene Completion as Dense Object Detection
-spotlight,机器学习理论,机器学习理论,Wavelet Canonical Coherence for Nonstationary Signals
-spotlight,Agent智能体,LLM与语言模型,Web-Shepherd_ Advancing PRMs for Reinforcing Web Agents
-spotlight,LLM与语言模型,机器学习理论,What are you sinking_ A geometric approach on attention sink
-spotlight,图与关系学习,机器学习理论,What Expressivity Theory Misses_ Message Passing Complexity for GNNs
-spotlight,强化学习,LLM与语言模型,What Makes a Reward Model a Good Teacher_ An Optimization Perspective
-spotlight,机器学习理论,机器学习理论,"What One Cannot, Two Can_ Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains"
-spotlight,安全对齐隐私,概率因果贝叶斯,When Data Can't Meet_ Estimating Correlation Across Privacy Barriers
+spotlight,神经科学与认知,,Wavelet Canonical Coherence for Nonstationary Signals
+spotlight,Agent智能体,强化学习,Web-Shepherd_ Advancing PRMs for Reinforcing Web Agents
+spotlight,LLM与语言模型,计算机视觉,What are you sinking_ A geometric approach on attention sink
+spotlight,图与关系学习,,What Expressivity Theory Misses_ Message Passing Complexity for GNNs
+spotlight,强化学习,,What Makes a Reward Model a Good Teacher_ An Optimization Perspective
+spotlight,LLM与语言模型,可解释性,"What One Cannot, Two Can_ Two-Layer Transformers Provably Represent Induction Heads on Any-Order Markov Chains"
+spotlight,机器学习理论,安全对齐隐私,When Data Can't Meet_ Estimating Correlation Across Privacy Barriers
 spotlight,LLM与语言模型,,When Thinking Fails_ The Pitfalls of Reasoning for Instruction-Following in LLMs
-spotlight,计算机视觉,高效推理加速,When Worse is Better_ Navigating the Compression Generation Trade-off In Visual Tokenization
+spotlight,LLM与语言模型,高效推理加速,When Worse is Better_ Navigating the Compression Generation Trade-off In Visual Tokenization
 spotlight,机器学习理论,,Which Algorithms Have Tight Generalization Bounds_
-spotlight,安全对齐隐私,评测与基准,Whose View of Safety_ A Deep DIVE Dataset for Pluralistic Alignment of Text-to-Image Models
-spotlight,Agent智能体,LLM与语言模型,Why Do Multi-Agent LLM Systems Fail_
-spotlight,安全对齐隐私,LLM与语言模型,Why Do Some Language Models Fake Alignment While Others Don't_
-spotlight,评测与基准,Agent智能体,Wide-Horizon Thinking and Simulation-Based Evaluation for Real-World LLM Planning with Multifaceted Constraints
-spotlight,高效推理加速,LLM与语言模型,Wider or Deeper_  Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search
+spotlight,安全对齐隐私,,Whose View of Safety_ A Deep DIVE Dataset for Pluralistic Alignment of Text-to-Image Models
+spotlight,Agent智能体,训练数据方法,Why Do Multi-Agent LLM Systems Fail_
+spotlight,安全对齐隐私,,Why Do Some Language Models Fake Alignment While Others Don't_
+spotlight,世界模型与模拟,评测与基准,Wide-Horizon Thinking and Simulation-Based Evaluation for Real-World LLM Planning with Multifaceted Constraints
+spotlight,LLM与语言模型,评测与基准,Wider or Deeper_  Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search
 spotlight,高效推理加速,LLM与语言模型,Win Fast or Lose Slow_ Balancing Speed and Accuracy in Latency-Sensitive Decisions of LLMs
 spotlight,世界模型与模拟,生成模型扩散,WISA_ World simulator assistant for physics-aware text-to-video generation
-spotlight,语音音频,,Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis
-spotlight,医疗健康,计算机视觉,X-Field_ A Physically Informed Representation for 3D X-ray Reconstruction
-spotlight,机器学习理论,机器学习理论,Zero-shot Denoising via Neural Compression_ Theoretical and algorithmic framework
-spotlight,高效推理加速,LLM与语言模型,ZeroS_ Zero‑Sum Linear Attention for Efficient Transformers
-spotlight,生成模型扩散,语音音频,🎧MOSPA_ Human Motion Generation Driven by Spatial Audio
+spotlight,语音音频,LLM与语言模型,Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis
+spotlight,计算机视觉,医疗健康,X-Field_ A Physically Informed Representation for 3D X-ray Reconstruction
+spotlight,生成模型扩散,医疗健康,Zero-shot Denoising via Neural Compression_ Theoretical and algorithmic framework
+spotlight,LLM与语言模型,优化与数学,ZeroS_ Zero‑Sum Linear Attention for Efficient Transformers
+spotlight,语音音频,生成模型扩散,🎧MOSPA_ Human Motion Generation Driven by Spatial Audio
