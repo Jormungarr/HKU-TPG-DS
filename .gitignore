@@ -1,28 +1,7 @@
-# 系统临时文件
-Thumbs.db
-Desktop.ini
+# 总目录：学习材料收集
+#
+# production/   个人课程产出（公开）
+# moodle-sync/  课程材料镜像 + 同步工具
+#               （镜像数据由 moodle-sync/.gitignore 排除，不入库）
+
 .DS_Store
-~$*
-
-# 编辑器/IDE
-.vscode/
-.idea/
-*.swp
-
-# 缓存与临时
-*.tmp
-*.log
-__pycache__/
-
-# COMP7404 local-only large files (not tracked)
-COMP7404/NeurIPS Showcase/oral/
-COMP7404/NeurIPS Showcase/spotlight/
-COMP7404/A1/
-
-# local verification screenshots
-COMP7404/NeurIPS Showcase/_verify_*.png
-
-# local-large-data-and-temp (auto)
-COMP7404/NeurIPS Showcase/abstracts/*.jsonl
-COMP7404/NeurIPS Showcase/build/*.bak.csv
-COMP7404/_verify_*.png

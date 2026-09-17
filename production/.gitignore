@@ -1,0 +1,28 @@
+# 系统临时文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+
+# 缓存与临时
+*.tmp
+*.log
+__pycache__/
+
+# COMP7404 local-only large files (not tracked)
+COMP7404/NeurIPS Showcase/oral/
+COMP7404/NeurIPS Showcase/spotlight/
+COMP7404/A1/
+
+# local verification screenshots
+COMP7404/NeurIPS Showcase/_verify_*.png
+
+# local-large-data-and-temp (auto)
+COMP7404/NeurIPS Showcase/abstracts/*.jsonl
+COMP7404/NeurIPS Showcase/build/*.bak.csv
+COMP7404/_verify_*.png

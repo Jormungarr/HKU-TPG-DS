@@ -1,0 +1,17 @@
+# 凭据：绝不入库
+.token
+.credentials*
+
+# 采集产物与状态（数据不进版本库）
+out/
+state/
+reports/
+logs/
+mirror/
+
+# 运行开关标记文件
+DRY
+ONLY
+
+# 系统杂项
+.DS_Store
