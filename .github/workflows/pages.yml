@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "COMP7404/NeurIPS Showcase/**"
+      - "production/COMP7404/NeurIPS Showcase/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
       - name: Stage site (paper explorer only)
         run: |
           mkdir -p _site
-          cp -R "COMP7404/NeurIPS Showcase/neurips2025-oral-spotlight" "_site/neurips2025-oral-spotlight"
+          cp -R "production/COMP7404/NeurIPS Showcase/neurips2025-oral-spotlight" "_site/neurips2025-oral-spotlight"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
