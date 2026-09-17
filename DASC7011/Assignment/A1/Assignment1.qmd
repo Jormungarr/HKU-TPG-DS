@@ -1,0 +1,50 @@
+---
+title: "Assignment1"
+author: "YukuanZou"
+format: pdf
+editor: visual
+---
+
+## Question 4
+
+### set up
+
+```{r}
+set.seed(7011)
+data("iris")
+X <- iris[iris[,5]=="setosa", 1]
+Y <- iris[iris[,5]=="versicolor", 1]
+```
+
+### a) Test the normality of X.
+
+```{r}
+require(tseries)
+jarque.bera.test(X)
+```
+
+The hypothesis test is $H_0:X \text{ is normal}$ against $H_a:X \text{ is not normal}$ . We run Jarque-Bera test to check the normality. Since the reported p-value is $0.8344 > 0.05$ , we don't have enough evidence to reject $H_0$ on the $0.05$ confidence level. We don't reject $X$ is normal.
+
+### b) Assuming $\sigma_x = \sigma_y$, test $\mu_x = \mu_y$ against $\mu_x \ne \mu_y$.
+
+```{r}
+t.test(X,Y,var.equal = TRUE)
+```
+
+The hypothesis test is $H_0:\mu_x = \mu_y$ against $H_a:\mu_x \ne \mu_y$ .$\sigma_x = \sigma_y \implies \sigma_x^2 = \sigma_y^2 = \sigma^2$. We run Two sample t-test to check if the true means of $X$ and $Y$ are same. Since the reported p-value is extremely small and less than $0.05$ , we have enough evidence to reject $H_0$ on the $0.05$ confidence level. True difference in means is not equal to $0$.
+
+### c) Assuming $\sigma_x \ne \sigma_y$, test $\mu_x \le \mu_y$ against $\mu_x > \mu_y$.
+
+```{r}
+t.test(X,Y,var.equal = FALSE,alternative = "greater")
+```
+
+The hypothesis test $H_0:\mu_x \le \mu_y$ against $H_a:\mu_x > \mu_y$. $\sigma_x \ne \sigma_y \implies \sigma_x^2 \ne \sigma_y^2$. We run Welch two sample t-test to check if the true means of $X$ is less than or equal to that of $Y$. Since the reported p-value is $1 > 0.05$ , we don't have enough evidence to reject $H_0$ on the $0.05$ confidence level. We don't reject $\mu_x \le \mu_y$.
+
+### d) Test $\sigma_x^2 \ge \sigma_y^2/2$ against $\sigma_x^2 < \sigma_y^2/2$.
+
+```{r}
+var.test(X,Y,ratio = 2, alternative = "less")
+```
+
+The hypothesis test is $H_0:\sigma_x^2 \ge \sigma_y^2/2$ against $H_a:\sigma_x^2 < \sigma_y^2/2$. We run F test to compare two variances. Since the reported p-value is $5.568\mathrm{e}{-7} < 0.05$. We have enough evidence to reject $H_0$ on the $0.05$ confidence level. The variance of $X$ is less than the half variance of $Y$.
