@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HKU TPG DS · 课程产出</title>
+<style>
+  :root{
+    --bg:#f3f4f8;
+    --card:#ffffff;
+    --ink:#17203a;
+    --muted:#667085;
+    --line:#e6e8f0;
+    --brand:#4f46e5;
+    --brand-strong:#4338ca;
+    --brand-soft:#eef2ff;
+    --radius:16px;
+    --shadow:0 1px 2px rgba(16,24,40,.06),0 4px 16px rgba(16,24,40,.06);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Hiragino Sans GB","Noto Sans CJK SC",sans-serif;
+    font-size:14px;line-height:1.55;min-height:100vh;display:flex;flex-direction:column;
+  }
+  a{color:inherit}
+
+  .hero{
+    background:
+      radial-gradient(900px 300px at 20% -40%, rgba(99,102,241,.55), transparent 62%),
+      radial-gradient(760px 280px at 84% -30%, rgba(217,70,239,.30), transparent 60%),
+      linear-gradient(135deg,#0f172a,#1e1b4b 55%,#312e81);
+    color:#fff;text-align:center;padding:56px 20px 84px;
+  }
+  .hero h1{margin:0 0 10px;font-size:27px;font-weight:800;letter-spacing:.5px}
+  .hero .sub{margin:0;color:#c7d2fe;font-size:13.5px;max-width:640px;margin-inline:auto}
+  .hero .sub b{color:#fff;font-weight:700}
+
+  main{width:100%;max-width:880px;margin:-52px auto 40px;padding:0 20px;position:relative;flex:1 0 auto}
+
+  .sec-head{
+    display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+    margin:0 4px 12px;color:#c7d2fe;font-size:12.5px;font-weight:700;letter-spacing:1.2px;
+  }
+  .sec-head::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,rgba(199,210,254,.5),transparent)}
+
+  .card{
+    display:block;text-decoration:none;background:var(--card);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:22px 24px 20px;margin-bottom:16px;
+    border:1.5px solid transparent;position:relative;overflow:hidden;
+    transition:transform .14s,box-shadow .14s,border-color .14s;
+  }
+  .card::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+    background:linear-gradient(#818cf8,#4f46e5);
+  }
+  .card:hover{transform:translateY(-2px);border-color:#c7d2fe;box-shadow:0 8px 26px rgba(79,70,229,.18)}
+  .card:focus-visible{outline:2px solid #a5b4fc;outline-offset:3px}
+  .eyebrow{font-size:11.5px;font-weight:800;letter-spacing:1px;color:var(--brand);margin-bottom:7px}
+  .card h2{margin:0 0 8px;font-size:19px;font-weight:800;line-height:1.4;color:var(--ink)}
+  .card .desc{margin:0 0 14px;color:#4b5568;font-size:13.5px;line-height:1.68}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:16px}
+  .chips span{
+    border:1px solid #e0e7ff;background:#f4f6ff;color:#4338ca;border-radius:999px;
+    padding:2px 11px;font-size:11.5px;font-variant-numeric:tabular-nums;
+  }
+  .chips span.gold{border-color:#fcd9a1;background:#fef3c7;color:#b45309;font-weight:700}
+  .cta{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:700;color:var(--brand-strong)}
+  .cta .arw{transition:transform .14s}
+  .card:hover .cta .arw{transform:translateX(4px)}
+
+  .note{
+    background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:18px 22px;color:var(--muted);font-size:12.5px;line-height:1.8;
+  }
+  .note b{color:#344054}
+  .note a{color:var(--brand-strong);font-weight:600;text-decoration:none}
+  .note a:hover{text-decoration:underline}
+
+  footer{
+    flex-shrink:0;text-align:center;color:#98a2b3;font-size:12px;
+    padding:0 20px 34px;
+  }
+
+  @media (max-width:560px){
+    .hero h1{font-size:21px}
+    .hero{padding:44px 18px 78px}
+    .card{padding:19px 18px 17px}
+    .card h2{font-size:17px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>HKU TPG DS · 课程产出</h1>
+  <p class="sub">香港大学授课型研究生（数据科学方向）课程中 <b>我自己做出来的东西</b> —— 作业、项目与工具，随课程进度持续更新。</p>
+</header>
+
+<main>
+  <div class="sec-head">站点</div>
+
+  <a class="card" href="neurips2025-oral-spotlight/">
+    <div class="eyebrow">COMP7404 · NeurIPS Research Showcase</div>
+    <h2>NeurIPS 2025 Oral &amp; Spotlight 论文分类检索</h2>
+    <p class="desc">从 NeurIPS 2025 Oral / Spotlight 论文清单出发，抓取摘要、按摘要重判主题标签，
+      并为全部 <b>87</b> 篇 Oral 论文补充中文速读总结（概括 · 背景 · 痛点 · 方案 · 效果 · 未来方向）。
+      支持按分组与主题筛选、中英文关键词检索。</p>
+    <div class="chips">
+      <span>808 篇论文</span>
+      <span>87 Oral</span>
+      <span>721 Spotlight</span>
+      <span class="gold">87 篇中文速读</span>
+    </div>
+    <span class="cta">进入检索页 <i class="arw">→</i></span>
+  </a>
+
+  <div class="note">
+    <b>说明</b>：本页由 <code>build/_build.js</code> 生成，随仓库根目录的 GitHub Actions 一并发布。
+    仓库源码见 <a href="https://github.com/Jormungarr/HKU-TPG-DS" target="_blank" rel="noopener">Jormungarr/HKU-TPG-DS ↗</a>。
+    课程材料（课件、教程、作业题目）不在本站，由本地 <code>moodle-sync</code> 单独维护。
+  </div>
+</main>
+
+<footer>构建于 2026-09-18</footer>
+
+</body>
+</html>

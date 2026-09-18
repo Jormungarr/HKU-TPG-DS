@@ -157,6 +157,58 @@
   .abstract .src a{color:var(--brand-strong);font-weight:600;text-decoration:none}
   .abstract .src a:hover{text-decoration:underline}
   .abstract .none{color:var(--muted)}
+
+  /* ---------- 中文速读（Oral 论文用速读总结替代原始摘要） ---------- */
+  .summ{
+    margin:10px 0 6px;padding:0;background:#fff;border:1px solid #ebe7f4;
+    border-radius:13px;overflow:hidden;box-shadow:0 1px 3px rgba(76,29,149,.05);
+  }
+  /* 速读文本已在构建期压成单行，这里覆盖摘要的 pre-wrap，避免继承出意外的折行 */
+  .summ p{white-space:normal}
+  .summ-top{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:8px 14px;
+    background:linear-gradient(90deg,#fffaef,#fbf7ff);border-bottom:1px solid #f2edf9;
+  }
+  .summ-top .src{margin-left:auto}
+  .chip{
+    font-size:11px;font-weight:800;letter-spacing:.5px;color:#b45309;background:#fef3c7;
+    border:1px solid #fcd9a1;border-radius:999px;padding:1.5px 10px;line-height:1.5;
+  }
+  .summ-body{padding:13px 14px 14px}
+  .summ-lead{
+    margin:0 0 13px;padding:10px 13px;background:#f6f7ff;border-left:3px solid var(--brand);
+    border-radius:0 10px 10px 0;color:#313a52;line-height:1.72;
+  }
+  .summ-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  .summ-cell{border:1px solid var(--line);border-radius:11px;padding:9px 11px 10px;background:#fcfcfe}
+  .summ-cell .k{
+    display:inline-block;font-size:11px;font-weight:800;letter-spacing:.6px;
+    padding:0 7px;border-radius:6px;margin-bottom:5px;
+  }
+  .summ-cell p{margin:0;line-height:1.66;color:#414a5f;white-space:normal}
+  .summ-cell.b{border-color:#dde5fb;background:#fafbff}
+  .summ-cell.b .k{color:#1d4ed8;background:#e5ecff}
+  .summ-cell.p{border-color:#f6e5c6;background:#fffcf5}
+  .summ-cell.p .k{color:#b45309;background:#fdf0d5}
+  .summ-cell.s{border-color:#e1ddfb;background:#fbfaff}
+  .summ-cell.s .k{color:#4338ca;background:#e9e7ff}
+  .summ-cell.e{border-color:#cfeade;background:#fafefc}
+  .summ-cell.e .k{color:#047857;background:#d8f4e8}
+  .summ-sec{margin-top:11px;padding-top:10px;border-top:1px dashed #ecedf5}
+  .summ-sec h4{
+    margin:0 0 4px;font-size:12px;font-weight:800;color:#5b6478;letter-spacing:.5px;
+    display:flex;align-items:center;gap:6px;
+  }
+  .summ-sec h4::before{content:"";width:3px;height:11px;border-radius:2px;background:#c7d2fe;display:block}
+  .summ-sec p{margin:0;line-height:1.72;color:#3f4756}
+  .summ a{color:var(--brand-strong);font-weight:600;text-decoration:none}
+  .summ a:hover{text-decoration:underline}
+  .summ strong{color:#1f2740;font-weight:700}
+
+  .sk-chip{
+    display:inline-block;font-size:10px;font-weight:700;letter-spacing:.3px;vertical-align:1px;
+    color:#b45309;background:#fef3c7;border-radius:5px;padding:0 5px;margin-left:6px;
+  }
   .tags{display:flex;flex-wrap:wrap;gap:6px}
   .tag{
     border:1px solid #e0e7ff;background:#f4f6ff;color:#4338ca;border-radius:999px;
@@ -179,6 +231,9 @@
     .badge{grid-row:1;grid-column:1}
     .ibody{grid-column:2;grid-row:1 / span 2}
     .idx{grid-row:1;grid-column:1}
+    .summ-grid{grid-template-columns:1fr}
+    .summ-top{padding:8px 12px}
+    .summ-body{padding:11px 12px 12px}
   }
 </style>
 </head>
@@ -186,7 +241,7 @@
 
 <header class="hero">
   <h1>NeurIPS 2025 · Oral &amp; Spotlight 论文分类检索</h1>
-  <p class="sub">共 <b id="hTotal">–</b> 篇论文 ｜ <b id="hOral">–</b> Oral ｜ <b id="hSpot">–</b> Spotlight ｜ <b id="hTags">–</b> 个主题</p>
+  <p class="sub">共 <b id="hTotal">–</b> 篇论文 ｜ <b id="hOral">–</b> Oral ｜ <b id="hSpot">–</b> Spotlight ｜ <b id="hTags">–</b> 个主题 ｜ <b id="hSm">–</b> 篇附中文速读</p>
 </header>
 
 <main>
@@ -222,7 +277,7 @@
   </section>
 
   <section class="panel toolbar">
-    <input id="q" type="search" placeholder="搜索标题或主题，空格分隔多个关键词（需全部命中）…" autocomplete="off" spellcheck="false">
+    <input id="q" type="search" placeholder="搜索标题、主题或速读正文，空格分隔多个关键词（需全部命中）…" autocomplete="off" spellcheck="false">
     <div class="seg" id="groupSeg">
       <button data-g="all" class="on">全部</button>
       <button data-g="oral">Oral</button>
@@ -261,19 +316,56 @@ function hl(text, ws){
 }
 function words(){ return state.q.toLowerCase().split(/\s+/).filter(Boolean); }
 function cmpTitle(a, b){ return a.n.localeCompare(b.n, "en", { sensitivity: "base" }); }
+function smText(d){
+  const s = d.sm;
+  return [s.sum, s.bg, s.pain, s.sol, s.eff, s.exp, s.res, s.fut].join(" ");
+}
 
-function abstractHtml(d){
-  if(!d.a){
-    return '<div class="abstract" hidden><p class="none">暂无摘要（未在 arXiv / OpenReview 匹配到）</p></div>';
-  }
+// 速读正文里的行内标记：先转义，再处理 **加粗** 与裸 URL（已有链接不重复处理）
+function mdInline(text){
+  return esc(text)
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/(https?:\/\/[^\s，。；、）】)"'<>]+)/g, (m) => {
+      const url = m.replace(/[.,;:!?]+$/, "");
+      return '<a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>' + m.slice(url.length);
+    });
+}
+
+function srcLinks(d){
   const parts = [];
   if(d.u){
     parts.push('<a href="' + esc(d.u) + '" target="_blank" rel="noopener">arXiv'
       + (d.id ? ' · ' + esc(d.id) : '') + ' ↗</a>');
   }
   if(d.s === "openreview") parts.push('<span>来源：OpenReview</span>');
+  if(!parts.length) parts.push('<span class="none">未匹配到 arXiv / OpenReview</span>');
+  return parts.join("");
+}
+
+function summaryHtml(d){
+  const s = d.sm;
+  const cell = (cls, k, v) =>
+    '<div class="summ-cell ' + cls + '"><span class="k">' + k + '</span><p>' + mdInline(v) + '</p></div>';
+  const sec = (k, v) => '<div class="summ-sec"><h4>' + k + '</h4><p>' + mdInline(v) + '</p></div>';
+  return '<div class="abstract summ" hidden>'
+    + '<div class="summ-top"><span class="chip">中文速读</span><span class="src">' + srcLinks(d) + '</span></div>'
+    + '<div class="summ-body">'
+    + '<p class="summ-lead">' + mdInline(s.sum) + '</p>'
+    + '<div class="summ-grid">'
+    + cell("b", "背景", s.bg) + cell("p", "痛点", s.pain)
+    + cell("s", "方案", s.sol) + cell("e", "效果", s.eff)
+    + '</div>'
+    + sec("方案解释", s.exp) + sec("效果总结", s.res) + sec("未来方向", s.fut)
+    + '</div></div>';
+}
+
+function abstractHtml(d){
+  if(d.sm) return summaryHtml(d);
+  if(!d.a){
+    return '<div class="abstract" hidden><p class="none">暂无摘要（未在 arXiv / OpenReview 匹配到）</p></div>';
+  }
   return '<div class="abstract" hidden><p>' + esc(d.a) + '</p>'
-    + '<div class="src">' + parts.join('') + '</div></div>';
+    + '<div class="src">' + srcLinks(d) + '</div></div>';
 }
 
 function toggleAbstract(btn){
@@ -321,7 +413,8 @@ function renderList(){
     if(state.group !== "all" && d.g !== state.group) return false;
     if(state.tags.size && !d.t.some(t => state.tags.has(t))) return false;
     if(ws.length){
-      const hay = (d.n + " " + d.t.join(" ")).toLowerCase();
+      // 中文速读正文也纳入检索，便于按「扩散」「稀疏」这类中文关键词找论文
+      const hay = (d.n + " " + d.t.join(" ") + " " + (d.sm ? smText(d) : "")).toLowerCase();
       if(!ws.every(w => hay.includes(w))) return false;
     }
     return true;
@@ -343,8 +436,10 @@ function renderList(){
     + '<span class="idx">' + (i + 1) + '</span>'
     + '<span class="badge ' + (d.g === "oral" ? "oral" : "spot") + '">' + (d.g === "oral" ? "Oral" : "Spotlight") + '</span>'
     + '<div class="ibody"><h3 class="title">'
-    + '<button class="tbtn" type="button" aria-expanded="false" title="点击展开摘要">'
-    + hl(d.n, ws) + '<span class="chev">▸</span></button></h3>'
+    + '<button class="tbtn" type="button" aria-expanded="false" title="'
+    + (d.sm ? '点击展开中文速读' : '点击展开摘要') + '">'
+    + hl(d.n, ws) + '<span class="chev">▸</span>'
+    + (d.sm ? '<span class="sk-chip">速读</span>' : '') + '</button></h3>'
     + '<div class="tags">' + d.t.map(t =>
         '<button class="tag' + (state.tags.has(t) ? " on" : "") + '" data-tag="' + esc(t) + '">' + esc(t) + '</button>'
       ).join("") + '</div>'
@@ -377,12 +472,14 @@ function clearAll(){
   const total = DATA.length;
   const nOral = DATA.filter(d => d.g === "oral").length;
   const nSpot = total - nOral;
+  const nSm = DATA.filter(d => d.sm).length;
   const tags = new Set();
   DATA.forEach(d => d.t.forEach(t => tags.add(t)));
   $("#hTotal").textContent = total;
   $("#hOral").textContent = nOral;
   $("#hSpot").textContent = nSpot;
   $("#hTags").textContent = tags.size;
+  $("#hSm").textContent = nSm;
   $("#sTotal").textContent = total;
   $("#sOral").textContent = nOral;
   $("#sSpot").textContent = nSpot;

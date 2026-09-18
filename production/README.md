@@ -10,11 +10,15 @@
 ### COMP7404 — NeurIPS Research Showcase
 
 从 NeurIPS 2025 Oral / Spotlight 论文清单出发，抓取摘要、按摘要重判分类标签，
-再生成一个可检索的展示页。
+再生成一个可检索的展示页；全部 Oral 论文另附中文速读总结。
 
 - `abstracts/` — 抓取与重打标签的脚本
 - `build/` — 分类清单 CSV、构建脚本与模板
+- `oral.md` — Oral 论文中文速读总结
 - `neurips2025-oral-spotlight/index.html` — 生成的检索页
+- `index.html` — 生成的站点入口页
+
+重新生成（在 `NeurIPS Showcase/` 下）：`node build/_build.js`
 
 ### DASC7011 — Assignment 1
 
@@ -24,7 +28,10 @@
 
 ## 部署
 
-`.github/workflows/pages.yml` 在 `COMP7404/NeurIPS Showcase/**` 有变动时发布 GitHub Pages。
+`.github/workflows/pages.yml` 在 `COMP7404/NeurIPS Showcase/**` 有变动时发布 GitHub Pages：
+
+- 站点入口：https://jormungarr.github.io/HKU-TPG-DS/
+- 论文检索页：https://jormungarr.github.io/HKU-TPG-DS/neurips2025-oral-spotlight/
 
 ## 说明
 
